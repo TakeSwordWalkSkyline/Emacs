@@ -302,3 +302,6 @@
       (let ((k (format "%s%s-%s" prefix type n)))
         (define-key disable-mouse-mode-map
           (vector (intern k)) #'ignore)))))
+
+;;禁用光标闪烁
+(blink-cursor-mode 0)
