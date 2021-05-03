@@ -305,3 +305,26 @@
 
 ;;禁用光标闪烁
 (blink-cursor-mode 0)
+
+(use-package nov
+  :after
+  (visual-fill-column)
+  :init
+  (setq nov-text-width 80)
+  (setq nov-text-width t)
+  (defun my-nov-mode-hook ()
+    (setq buffer-display-table (make-display-table))
+    (set-display-table-slot buffer-display-table 'wrap ?\ ))
+  (add-hook 'nov-mode-hook 'visual-line-mode)
+  (add-hook 'nov-mode-hook 'visual-fill-column-mode)
+  (add-hook 'nov-mode-hook 'my-nov-mode-hook)
+  (add-to-list 'auto-mode-alist '("\\.epub\\'" . nov-mode)))
+
+(global-set-key (kbd "C-c y") 'youdao-dictionary-search-at-point)
+
+;;C/C++ completion
+;;添加emacs可执行文件的环境变量
+;;主要是为了在mac上让magit能先找到我自己编的git而不是用xcode commend line tools自带的git
+(add-to-list 'exec-path "/usr/local/bin/")
+;;彩虹猫
+(nyan-mode t)
