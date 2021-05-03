@@ -5,3 +5,7 @@
   ruby位于/usr/bin/目录下，此目录为隐藏目录，点击 "+" 后需要按下 shift + commend + . 将隐藏目录显示出来
   然后找到ruby添加进去
 - 然后Emacs就可以访问home下的目录了
+
+
+###M-x ielm ###
+- ielm(Interactive Emacs Lisp Mode) is a mode that gives you an interactive Emacs Lisp shell
