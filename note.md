@@ -9,3 +9,20 @@
 
 ###M-x ielm ###
 - ielm(Interactive Emacs Lisp Mode) is a mode that gives you an interactive Emacs Lisp shell
+
+###tab-nine binary 安装路径###
+Getting current version...
+Contacting host: update.tabnine.com:443
+Wrote /Users/wongyen/.TabNine/version
+Current version is 3.3.126
+Installing at ~/.TabNine/3.3.126/aarch64-apple-darwin/TabNine. Downloading https://update.tabnine.com/bundles/3.3.126/aarch64-apple-darwin/TabNine.zip ...
+Contacting host: update.tabnine.com:443
+Wrote /Users/wongyen/.TabNine/3.3.126/aarch64-apple-darwin.zip
+Archive:  /Users/wongyen/.TabNine/3.3.126/aarch64-apple-darwin.zip
+  inflating: /Users/wongyen/.TabNine/3.3.126/aarch64-apple-darwin/TabNine
+  inflating: /Users/wongyen/.TabNine/3.3.126/aarch64-apple-darwin/TabNine-deep-cloud
+  inflating: /Users/wongyen/.TabNine/3.3.126/aarch64-apple-darwin/TabNine-deep-local
+  inflating: /Users/wongyen/.TabNine/3.3.126/aarch64-apple-darwin/WD-TabNine
+TabNine installation complete.
+You can run the command ‘company-tabnine-install-binary’ with M-x c-bi RET
+TabNine installation complete.
