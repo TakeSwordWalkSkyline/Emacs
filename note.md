@@ -26,3 +26,10 @@ Archive:  /Users/wongyen/.TabNine/3.3.126/aarch64-apple-darwin.zip
 TabNine installation complete.
 You can run the command ‘company-tabnine-install-binary’ with M-x c-bi RET
 TabNine installation complete.
+
+###查看emacs的exec-path###
+- M-x ielm
+- exec-path
+
+###添加emacs exec-path###
+- 在配置文件init.el中: (add-to-list 'exec-path "/usr/local/bin/")
