@@ -28,8 +28,8 @@
   (setq package-archives (alist-get elpa package-elpa-sources)))
 (package-switch-elps-sources 'tsinghua)
 
-;;(load-theme 'atom-one-dark t)
-(load-theme 'solarized-dark t)
+(load-theme 'atom-one-dark t)
+;;(load-theme 'solarized-dark t)
 ;;(load-theme 'dracula t)
 ;;(require 'clang-format)
 ;;自动补全括号
@@ -42,6 +42,12 @@
 ;;显示匹配括号
 (show-paren-mode t)
 (setq show-paren-style 'parentheses)
+
+;;设置字体
+(add-to-list 'default-frame-alist
+             '(font . "DejaVu Sans Mono-10"))
+;;设置框架显示大小，会影响字体大小
+(set-face-attribute 'default (selected-frame) :height 120)
 
 ;;设置滚动页面不整页滚动
 ;;(setq
@@ -105,17 +111,18 @@
    [default default default italic underline success warning error])
  '(ansi-color-names-vector
    ["#21252B" "#E06C75" "#98C379" "#E5C07B" "#61AFEF" "#C678DD" "#56B6C2" "#ABB2BF"])
- '(auto-save-name-transforms (quote ((".*" . "~/.emacs.d/autosave/"))))
- '(backup-directory-alist (quote ((".*" . "~/.emacs.d/backups/"))))
+ '(auto-save-name-transforms '((".*" . "~/.emacs.d/autosave/")))
+ '(backup-directory-alist '((".*" . "~/.emacs.d/backups/")))
  '(custom-safe-themes
-   (quote
-    ("2809bcb77ad21312897b541134981282dc455ccd7c14d74cc333b6e549b824f3" "a41b81af6336bd822137d4341f7e16495a49b06c180d6a6417bf9fd1001b6d2b" "37ba833442e0c5155a46df21446cadbe623440ccb6bbd61382eb869a2b9e9bf9" "bf798e9e8ff00d4bf2512597f36e5a135ce48e477ce88a0764cfb5d8104e8163" "83ae405e25a0a81f2840bfe5daf481f74df0ddb687f317b5e005aa61261126e9" "fa2b58bb98b62c3b8cf3b6f02f058ef7827a8e497125de0254f56e373abee088" "bffa9739ce0752a37d9b1eee78fc00ba159748f50dc328af4be661484848e476" "63df625509cec7b2b7deba1d48ef07ffbee99c735a95d130ad9d1fc3df8b9a34" "36ca8f60565af20ef4f30783aa16a26d96c02df7b4e54e9900a5138fb33808da" "174502267725776b47bdd2d220f035cae2c00c818765b138fea376b2cdc15eb6" "669e02142a56f63861288cc585bee81643ded48a19e36bfdf02b66d745bcc626" "c9ddf33b383e74dac7690255dd2c3dfa1961a8e8a1d20e401c6572febef61045" default)))
+   '("171d1ae90e46978eb9c342be6658d937a83aaa45997b1d7af7657546cae5985b" "2809bcb77ad21312897b541134981282dc455ccd7c14d74cc333b6e549b824f3" "a41b81af6336bd822137d4341f7e16495a49b06c180d6a6417bf9fd1001b6d2b" "37ba833442e0c5155a46df21446cadbe623440ccb6bbd61382eb869a2b9e9bf9" "bf798e9e8ff00d4bf2512597f36e5a135ce48e477ce88a0764cfb5d8104e8163" "83ae405e25a0a81f2840bfe5daf481f74df0ddb687f317b5e005aa61261126e9" "fa2b58bb98b62c3b8cf3b6f02f058ef7827a8e497125de0254f56e373abee088" "bffa9739ce0752a37d9b1eee78fc00ba159748f50dc328af4be661484848e476" "63df625509cec7b2b7deba1d48ef07ffbee99c735a95d130ad9d1fc3df8b9a34" "36ca8f60565af20ef4f30783aa16a26d96c02df7b4e54e9900a5138fb33808da" "174502267725776b47bdd2d220f035cae2c00c818765b138fea376b2cdc15eb6" "669e02142a56f63861288cc585bee81643ded48a19e36bfdf02b66d745bcc626" "c9ddf33b383e74dac7690255dd2c3dfa1961a8e8a1d20e401c6572febef61045" default))
  '(dired-dwim-target t)
+ ;;'(disable-mouse-mode t)
  '(fci-rule-color "#3E4451")
+ ;;'(golden-ratio-mode t)
  '(ivy-mode t)
+ '(nyan-mode t)
  '(package-selected-packages
-   (quote
-    (solarized-theme doom-modeline cmake-mode trashed elpy indent-guide dracula-theme darkokai-theme company-tabnine clang-format racket-mode geiser counsel-projectile projectile ivy badwolf-theme atom-one-dark-theme ample-theme magit smooth-scrolling symbol-overlay company-ebdb company)))
+   '(company-tabnine iedit anzu comment-dwim-2 ws-butler dtrt-indent clean-aindent-mode undo-tree volatile-highlights zygospore nyan-mode golden-ratio 2048-game youdao-dictionary visual-fill use-package birds-of-paradise-plus-theme nov markdown-mode solarized-theme doom-modeline cmake-mode trashed elpy indent-guide dracula-theme darkokai-theme clang-format racket-mode geiser counsel-projectile projectile ivy badwolf-theme atom-one-dark-theme ample-theme magit smooth-scrolling symbol-overlay company-ebdb company))
  '(paradox-github-token t)
  '(tetris-x-colors
    [[229 192 123]
@@ -176,6 +183,7 @@
 
 ;;company
 (add-hook 'after-init-hook 'global-company-mode)
+(use-package company-tabnine :ensure t)
 ;;tab-nine
 (require 'company-tabnine)
 (add-to-list 'company-backends #'company-tabnine)
@@ -326,5 +334,7 @@
 ;;添加emacs可执行文件的环境变量
 ;;主要是为了在mac上让magit能先找到我自己编的git而不是用xcode commend line tools自带的git
 (add-to-list 'exec-path "/usr/local/bin/")
+;;racket 路径
+(add-to-list 'exec-path "/Applications/Racket v8.1/bin/")
 ;;彩虹猫
 (nyan-mode t)
