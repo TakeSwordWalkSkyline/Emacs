@@ -44,10 +44,10 @@
 (setq show-paren-style 'parentheses)
 
 ;;设置字体
-(add-to-list 'default-frame-alist
-             '(font . "DejaVu Sans Mono-10"))
+;;(add-to-list 'default-frame-alist
+;;             '(font . "DejaVu Sans Mono-10"))
 ;;设置框架显示大小，会影响字体大小
-(set-face-attribute 'default (selected-frame) :height 120)
+(set-face-attribute 'default (selected-frame) :height 130)
 
 ;;设置滚动页面不整页滚动
 ;;(setq
@@ -113,17 +113,46 @@
    ["#21252B" "#E06C75" "#98C379" "#E5C07B" "#61AFEF" "#C678DD" "#56B6C2" "#ABB2BF"])
  '(auto-save-name-transforms '((".*" . "~/.emacs.d/autosave/")))
  '(backup-directory-alist '((".*" . "~/.emacs.d/backups/")))
+ '(compilation-message-face 'default)
+ '(cua-global-mark-cursor-color "#3cafa5")
+ '(cua-normal-cursor-color "#8d9fa1")
+ '(cua-overwrite-cursor-color "#c49619")
+ '(cua-read-only-cursor-color "#93a61a")
  '(custom-safe-themes
-   '("171d1ae90e46978eb9c342be6658d937a83aaa45997b1d7af7657546cae5985b" "2809bcb77ad21312897b541134981282dc455ccd7c14d74cc333b6e549b824f3" "a41b81af6336bd822137d4341f7e16495a49b06c180d6a6417bf9fd1001b6d2b" "37ba833442e0c5155a46df21446cadbe623440ccb6bbd61382eb869a2b9e9bf9" "bf798e9e8ff00d4bf2512597f36e5a135ce48e477ce88a0764cfb5d8104e8163" "83ae405e25a0a81f2840bfe5daf481f74df0ddb687f317b5e005aa61261126e9" "fa2b58bb98b62c3b8cf3b6f02f058ef7827a8e497125de0254f56e373abee088" "bffa9739ce0752a37d9b1eee78fc00ba159748f50dc328af4be661484848e476" "63df625509cec7b2b7deba1d48ef07ffbee99c735a95d130ad9d1fc3df8b9a34" "36ca8f60565af20ef4f30783aa16a26d96c02df7b4e54e9900a5138fb33808da" "174502267725776b47bdd2d220f035cae2c00c818765b138fea376b2cdc15eb6" "669e02142a56f63861288cc585bee81643ded48a19e36bfdf02b66d745bcc626" "c9ddf33b383e74dac7690255dd2c3dfa1961a8e8a1d20e401c6572febef61045" default))
+   '("830877f4aab227556548dc0a28bf395d0abe0e3a0ab95455731c9ea5ab5fe4e1" "51ec7bfa54adf5fff5d466248ea6431097f5a18224788d0bd7eb1257a4f7b773" "13a8eaddb003fd0d561096e11e1a91b029d3c9d64554f8e897b2513dbf14b277" "285d1bf306091644fb49993341e0ad8bafe57130d9981b680c1dbd974475c5c7" "c433c87bd4b64b8ba9890e8ed64597ea0f8eb0396f4c9a9e01bd20a04d15d358" "00445e6f15d31e9afaa23ed0d765850e9cd5e929be5e8e63b114a3346236c44c" "7f1d414afda803f3244c6fb4c2c64bea44dac040ed3731ec9d75275b9e831fe5" "171d1ae90e46978eb9c342be6658d937a83aaa45997b1d7af7657546cae5985b" "2809bcb77ad21312897b541134981282dc455ccd7c14d74cc333b6e549b824f3" "a41b81af6336bd822137d4341f7e16495a49b06c180d6a6417bf9fd1001b6d2b" "37ba833442e0c5155a46df21446cadbe623440ccb6bbd61382eb869a2b9e9bf9" "bf798e9e8ff00d4bf2512597f36e5a135ce48e477ce88a0764cfb5d8104e8163" "83ae405e25a0a81f2840bfe5daf481f74df0ddb687f317b5e005aa61261126e9" "fa2b58bb98b62c3b8cf3b6f02f058ef7827a8e497125de0254f56e373abee088" "bffa9739ce0752a37d9b1eee78fc00ba159748f50dc328af4be661484848e476" "63df625509cec7b2b7deba1d48ef07ffbee99c735a95d130ad9d1fc3df8b9a34" "36ca8f60565af20ef4f30783aa16a26d96c02df7b4e54e9900a5138fb33808da" "174502267725776b47bdd2d220f035cae2c00c818765b138fea376b2cdc15eb6" "669e02142a56f63861288cc585bee81643ded48a19e36bfdf02b66d745bcc626" "c9ddf33b383e74dac7690255dd2c3dfa1961a8e8a1d20e401c6572febef61045" default))
  '(dired-dwim-target t)
- ;;'(disable-mouse-mode t)
  '(fci-rule-color "#3E4451")
- ;;'(golden-ratio-mode t)
+ '(highlight-changes-colors '("#e2468f" "#7a7ed2"))
+ '(highlight-symbol-colors
+   '("#3c6f408d329d" "#0c4a45f64ce3" "#486e33913532" "#1fac3bea568d" "#2ec943ac3324" "#449935a7314d" "#0b04411b5986"))
+ '(highlight-symbol-foreground-color "#9eacac")
+ '(highlight-tail-colors
+   '(("#01323d" . 0)
+     ("#687f00" . 20)
+     ("#008981" . 30)
+     ("#0069b0" . 50)
+     ("#936d00" . 60)
+     ("#a72e01" . 70)
+     ("#a81761" . 85)
+     ("#01323d" . 100)))
+ '(hl-bg-colors
+   '("#936d00" "#a72e01" "#ae1212" "#a81761" "#3548a2" "#0069b0" "#008981" "#687f00"))
+ '(hl-fg-colors
+   '("#002732" "#002732" "#002732" "#002732" "#002732" "#002732" "#002732" "#002732"))
+ '(hl-paren-colors '("#3cafa5" "#c49619" "#3c98e0" "#7a7ed2" "#93a61a"))
  '(ivy-mode t)
+ '(lsp-ui-doc-border "#9eacac")
+ '(nrepl-message-colors
+   '("#ec423a" "#db5823" "#c49619" "#687f00" "#c3d255" "#0069b0" "#3cafa5" "#e2468f" "#7a7ed2"))
  '(nyan-mode t)
  '(package-selected-packages
-   '(company-tabnine iedit anzu comment-dwim-2 ws-butler dtrt-indent clean-aindent-mode undo-tree volatile-highlights zygospore nyan-mode golden-ratio 2048-game youdao-dictionary visual-fill use-package birds-of-paradise-plus-theme nov markdown-mode solarized-theme doom-modeline cmake-mode trashed elpy indent-guide dracula-theme darkokai-theme clang-format racket-mode geiser counsel-projectile projectile ivy badwolf-theme atom-one-dark-theme ample-theme magit smooth-scrolling symbol-overlay company-ebdb company))
+   '(go-mode company-tabnine iedit anzu comment-dwim-2 ws-butler dtrt-indent clean-aindent-mode undo-tree volatile-highlights zygospore nyan-mode golden-ratio 2048-game youdao-dictionary visual-fill use-package birds-of-paradise-plus-theme nov markdown-mode solarized-theme doom-modeline cmake-mode trashed elpy indent-guide dracula-theme darkokai-theme clang-format racket-mode geiser counsel-projectile projectile ivy badwolf-theme atom-one-dark-theme ample-theme magit smooth-scrolling symbol-overlay company-ebdb company))
  '(paradox-github-token t)
+ '(pos-tip-background-color "#01323d")
+ '(pos-tip-foreground-color "#9eacac")
+ '(smartrep-mode-line-active-bg (solarized-color-blend "#93a61a" "#01323d" 0.2))
+ '(term-default-bg-color "#002732")
+ '(term-default-fg-color "#8d9fa1")
  '(tetris-x-colors
    [[229 192 123]
     [97 175 239]
@@ -131,7 +160,35 @@
     [224 108 117]
     [152 195 121]
     [198 120 221]
-    [86 182 194]]))
+    [86 182 194]])
+ '(vc-annotate-background nil)
+ '(vc-annotate-background-mode nil)
+ '(vc-annotate-color-map
+   '((20 . "#ec423a")
+     (40 . "#dace73be2daa")
+     (60 . "#d060861a2512")
+     (80 . "#c49619")
+     (100 . "#b55b9c82193e")
+     (120 . "#ad589f3e1963")
+     (140 . "#a513a1d61994")
+     (160 . "#9c81a44d19d1")
+     (180 . "#93a61a")
+     (200 . "#84b7a96352b1")
+     (220 . "#7a4daad96863")
+     (240 . "#6cbbac617d20")
+     (260 . "#5a04adfd9175")
+     (280 . "#3cafa5")
+     (300 . "#41c4a690bd74")
+     (320 . "#41d4a1f2c946")
+     (340 . "#40129d4ad514")
+     (360 . "#3c98e0")))
+ '(vc-annotate-very-old-color nil)
+ '(weechat-color-list
+   '(unspecified "#002732" "#01323d" "#ae1212" "#ec423a" "#687f00" "#93a61a" "#936d00" "#c49619" "#0069b0" "#3c98e0" "#a81761" "#e2468f" "#008981" "#3cafa5" "#8d9fa1" "#60767e"))
+ '(xterm-color-names
+   ["#01323d" "#ec423a" "#93a61a" "#c49619" "#3c98e0" "#e2468f" "#3cafa5" "#faf3e0"])
+ '(xterm-color-names-bright
+   ["#002732" "#db5823" "#62787f" "#60767e" "#8d9fa1" "#7a7ed2" "#9eacac" "#ffffee"]))
 
 ;;自动缩进的宽度为4
 (setq c-basic-offset 4)
@@ -278,6 +335,8 @@
 ;;emacs 回收站
 (setq delete-by-moving-to-trash t)
 
+(setq trash-directory "~/.Trash")
+
 ;;cmake-mode
 (setq load-path (cons (expand-file-name "/home/wangxin/.emacs.d/elpa/cmake-mode-20210104.1831") load-path))
 (require 'cmake-mode)
@@ -336,5 +395,9 @@
 (add-to-list 'exec-path "/usr/local/bin/")
 ;;racket 路径
 (add-to-list 'exec-path "/Applications/Racket v8.1/bin/")
+;;clang-format 路径
+(add-to-list 'exec-path "/opt/homebrew/Cellar/clang-format/12.0.1/bin/")
+;;cmake 路径
 ;;彩虹猫
 (nyan-mode t)
+(nyan-start-animation);开始舞动吧(会消耗cpu资源)
