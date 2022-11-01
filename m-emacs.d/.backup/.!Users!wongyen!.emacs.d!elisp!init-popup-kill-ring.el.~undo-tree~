@@ -1,0 +1,6 @@
+(undo-tree-save-format-version . 1)
+"01d787157c2592837e3954628b5d680dce629839"
+[nil nil nil nil (25439 42852 988825 0) 0 nil]
+([nil nil ((#("(provide 'init-popup-kill-ring)" 0 1 (fontified t) 1 8 (fontified t face font-lock-keyword-face) 8 10 (fontified t) 10 30 (fontified t face font-lock-constant-face) 30 31 (fontified t)) . 1451) (undo-tree-id0 . 31) (undo-tree-id1 . -1) (undo-tree-id2 . 1) (undo-tree-id3 . -31) (undo-tree-id4 . -31) (t 25439 37966 934210 986000)) nil (25439 42852 988824 0) 0 nil])
+([nil current ((nil rear-nonsticky nil 1481 . 1482) (nil fontified nil 1481 . 1482) (nil fontified nil 1461 . 1481) (nil fontified nil 1459 . 1461) (nil fontified nil 1452 . 1459) (nil fontified nil 1451 . 1452) (1451 . 1482)) nil (25439 42852 988801 0) 0 nil])
+nil

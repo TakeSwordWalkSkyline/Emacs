@@ -1,0 +1,41 @@
+
+;; ----- amx-history -----
+(
+ counsel-projectile-switch-project
+ projectile-discover-projects-in-directory
+ projectile-discover-projects-in-search-path
+ counsel-rg
+ projectile-cache-current-file
+ projectile-switch-project
+ toggle-debug-on-error
+)
+
+;; ----- amx-data -----
+(
+ (project-remember-projects-under . 1)
+ (disable-theme . 1)
+ (json-mode . 1)
+ (company-tabnine . 1)
+ (company-tabnine-restart-server . 1)
+ (emojify-mode . 3)
+ (package-install . 2)
+ (counsel-rg . 21)
+ (global-emojify-mode . 1)
+ (org-copy . 1)
+ (eval-buffer . 29)
+ (comment-region . 4)
+ (2048-game . 1)
+ (+custom/toggle-proxy . 1)
+ (emojify-download-emoji . 1)
+ (ivy-rich-mode . 1)
+ (cmake-mode . 1)
+ (undo . 1)
+ (global-disable-mouse-mode . 1)
+ (projectile-discover-projects-in-directory . 14)
+ (projectile-discover-projects-in-search-path . 4)
+ (projectile-mode . 2)
+ (toggle-debug-on-error . 1)
+ (counsel-projectile-switch-project . 3)
+ (projectile-switch-project . 1)
+ (projectile-cache-current-file . 2)
+)

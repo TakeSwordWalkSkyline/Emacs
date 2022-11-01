@@ -1,0 +1,7 @@
+(undo-tree-save-format-version . 1)
+"8ce34bd18b00229d05d875fa2df845d1d785c9b6"
+[nil nil nil nil (25439 42424 103200 0) 0 nil]
+([nil nil ((1328 . 1330) (t 25439 37966 931119 375000)) nil (25439 42424 103199 0) 0 nil])
+([nil nil ((nil rear-nonsticky nil 1589 . 1590) (nil fontified nil 1583 . 1590) (nil fontified nil 1574 . 1583) (nil fontified nil 1573 . 1574) (nil fontified nil 1562 . 1573) (nil fontified nil 1557 . 1562) (nil fontified nil 1550 . 1557) (nil fontified nil 1524 . 1550) (nil fontified nil 1516 . 1524) (nil fontified nil 1454 . 1516) (nil fontified nil 1449 . 1454) (nil fontified nil 1446 . 1449) (nil fontified nil 1390 . 1446) (nil fontified nil 1385 . 1390) (nil fontified nil 1381 . 1385) (nil fontified nil 1376 . 1381) (nil fontified nil 1371 . 1376) (nil fontified nil 1364 . 1371) (nil fontified nil 1361 . 1364) (nil fontified nil 1351 . 1361) (nil fontified nil 1350 . 1351) (nil fontified nil 1339 . 1350) (nil fontified nil 1338 . 1339) (nil fontified nil 1333 . 1338) (nil fontified nil 1330 . 1333) (1330 . 1590)) nil (25439 42424 103197 0) 0 nil])
+([nil current ((apply -12 1592 1695 undo--wrap-and-run-primitive-undo 1592 1695 ((1675 . 1678) (1638 . 1641) (1611 . 1614) (1592 . 1595)))) nil (25439 42424 103190 0) 0 nil])
+nil

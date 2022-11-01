@@ -1,0 +1,1 @@
+("~/.emacs.d/" "~/github/MyCPlusPlus/" "~/github/vim-one/" "~/github/sphinxbase/" "~/github/ptdocs/" "~/github/pt-baseline/" "~/github/mstch/" "~/github/jsgf_engine/" "~/github/craft-a-language/" "~/github/cJSON/" "~/github/SomeNote/" "~/github/OpenCC/" "~/github/EvanEmacs/" "~/github/Emacs/" "~/github/C-Plus-Plus/" "~/github/21mm-nlu-docs/")
