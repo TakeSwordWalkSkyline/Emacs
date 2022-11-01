@@ -1,0 +1,186 @@
+{
+  "code": 0,
+  "message": "success",
+  "data": {
+    "requestId": "",
+    "dialogId": "",
+    "answer": {
+      "skill": "NAVI",
+      "intention": "multi_search",
+      "slots": {
+        "originText": {
+          "value": ""
+        },
+        "keyword": {
+          "value": "四维图新"
+        },
+        "region": {
+          "value": "大连"
+        },
+        "destination": {
+          "value": "四维图新"
+        },
+        "distance": {
+          "value": "",
+          "type": ""
+        },
+        "route_title": {
+          "value": ""
+        },
+        "none_mark": {
+          "value": ""
+        },
+        "dest_raw_name": {
+          "value": "四维图新"
+        }
+      },
+      "tts": "没有找到四维图新的结果。告诉我您要去大连的哪里吧。",
+      "ssml": "没有找到四维图新的结果。告诉我您要去大连的哪里吧。",
+      "recommends": [],
+      "content": {
+        "request": {
+          "domain": "",
+          "kw": "",
+          "type": "",
+          "city": "大连",
+          "province": "",
+          "area": "",
+          "sort": "default|ASC",
+          "psize": "30",
+          "pnum": "1",
+          "language": ""
+        },
+        "index": -1,
+        "icon": "",
+        "pageAction": "",
+        "numAction": -1,
+        "routeResults": {
+          "data": []
+        },
+        "searchData": {
+          "pois": [],
+          "updated": 1
+        },
+        "nluIntention": "multi_search",
+        "nluSlots": {
+          "province": "",
+          "city": "",
+          "district": "",
+          "region": "",
+          "name": "四维图新",
+          "routes": {
+            "count": "",
+            "datas": []
+          }
+        },
+        "nluSlotsTwo": {
+          "province": "",
+          "city": "大连",
+          "district": "",
+          "region": "",
+          "name": "",
+          "routes": {
+            "count": "",
+            "datas": []
+          }
+        }
+      },
+      "_cp_required": 0,
+      "detail": {
+        "flag": 701,
+        "lastDialogState": ""
+      },
+      "_context": {
+        "skill": "NAVI",
+        "intention": "multi_search",
+        "slots": {
+          "originText": {
+            "value": ""
+          },
+          "keyword": {
+            "value": "四维图新"
+          },
+          "region": {
+            "value": "大连"
+          },
+          "destination": {
+            "value": "四维图新"
+          },
+          "distance": {
+            "value": "",
+            "type": ""
+          },
+          "route_title": {
+            "value": ""
+          },
+          "none_mark": {
+            "value": ""
+          },
+          "dest_raw_name": {
+            "value": "四维图新"
+          }
+        },
+        "tts": "",
+        "ssml": "",
+        "recommends": [],
+        "content": {
+          "request": {
+            "domain": "",
+            "kw": "",
+            "type": "",
+            "city": "大连",
+            "province": "",
+            "area": "",
+            "sort": "default|ASC",
+            "psize": "30",
+            "pnum": "1",
+            "language": ""
+          },
+          "index": -1,
+          "icon": "",
+          "pageAction": "",
+          "numAction": -1,
+          "routeResults": {
+            "data": []
+          },
+          "searchData": {
+            "pois": [],
+            "updated": 1
+          },
+          "nluIntention": "multi_search",
+          "nluSlots": {
+            "province": "",
+            "city": "",
+            "district": "",
+            "region": "",
+            "name": "四维图新",
+            "routes": {
+              "count": "",
+              "datas": []
+            }
+          },
+          "nluSlotsTwo": {
+            "province": "",
+            "city": "大连",
+            "district": "",
+            "region": "",
+            "name": "",
+            "routes": {
+              "count": "",
+              "datas": []
+            }
+          }
+        },
+        "id": 1421,
+        "_cp_required": 0,
+        "detail": {
+          "flag": 701,
+          "lastDialogState": ""
+        }
+      }
+    },
+    "text": ""
+  },
+  "conf": 1,
+  "parseScore": 1
+}

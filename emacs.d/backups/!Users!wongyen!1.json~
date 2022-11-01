@@ -1,0 +1,46 @@
+{
+  "code": 0,
+  "message": "success",
+  "data": {
+    "requestId": "",
+    "dialogId": "",
+    "answer": {
+      "skill": "CHAT",
+      "intention": "SmallTalk",
+      "slots": {
+      },
+      "tts": "Sorry I didn't understand what you said，can you say it again?",
+      "ssml": "Sorry I didn&apos;t understand what you said，can you say it again?",
+      "recommends": [],
+      "content": {
+        "count": 1
+      },
+      "_cp_required": 0,
+      "detail": {
+        "chatCount": 1,
+        "lastDialogState": "chat_ending"
+      },
+      "_context": {
+        "skill": "CHAT",
+        "intention": "SmallTalk",
+        "slots": {
+        },
+        "tts": "",
+        "ssml": "",
+        "recommends": [],
+        "content": {
+          "count": 1
+        },
+        "id": 2816,
+        "_cp_required": 0,
+        "detail": {
+          "chatCount": 1,
+          "lastDialogState": "chat_ending"
+        }
+      }
+    },
+    "text": "feixi"
+  },
+  "conf": 0,
+  "parseScore": 0
+}

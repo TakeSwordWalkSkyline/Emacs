@@ -1,0 +1,33 @@
+{
+  "eventId": [],
+  "extra": {
+    "searchData": {
+      "stationNames": {
+        "count": "5",
+        "datasCount": "4",
+        "datas": [
+          {
+            "index": "0",
+            "name": "电台1"
+          },
+          {
+            "index": "1",
+            "name": "电台2"
+          },
+          {
+            "index": "2",
+            "name": "电台3"
+          },
+          {
+            "index": "3",
+            "name": "网络电台4"
+          },
+          {
+            "index": "4",
+            "name": "网络电台5"
+          }
+        ]
+      }
+    }
+  }
+}

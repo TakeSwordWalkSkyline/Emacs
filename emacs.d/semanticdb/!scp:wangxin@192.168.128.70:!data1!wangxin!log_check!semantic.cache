@@ -1,0 +1,96 @@
+;; Object semanticdb-project-database-file-4b17ee68
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-4b17ee68"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-4b17ee08"
+      :major-mode json-mode
+      :tags nil
+      :file "waimai_history.json"
+      :pointmax 6608
+      :fsize 7376
+      :lastmodtime '(24871 16904 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-4b17ee28"
+      :major-mode json-mode
+      :tags nil
+      :file "waimai.json"
+      :pointmax 9873
+      :fsize 10595
+      :lastmodtime '(24686 62397 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-4b17ee48"
+      :major-mode json-mode
+      :tags nil
+      :file "app.json"
+      :pointmax 373
+      :fsize 196
+      :lastmodtime '(24991 25740 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-4b180d88"
+      :major-mode json-mode
+      :tags nil
+      :file "freetalk_phone.json"
+      :pointmax 89079
+      :fsize 92788
+      :lastmodtime '(25008 8300 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-4b093a46"
+      :major-mode json-mode
+      :tags nil
+      :file "1.txt"
+      :pointmax 40517
+      :fsize 75942
+      :lastmodtime '(25009 45300 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-a82aed8e"
+      :major-mode json-mode
+      :tags nil
+      :file "online_search_history.json"
+      :pointmax 46977
+      :fsize 49396
+      :lastmodtime '(25017 36541 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-42fbff46"
+      :major-mode json-mode
+      :tags nil
+      :file "call_first_embedded.json"
+      :pointmax 93532
+      :fsize 100167
+      :lastmodtime '(25018 55519 0 0)
+      :unmatched-syntax '((END_BLOCK 93434 . 93435) (COLON 93422 . 93423) (COMMA 93407 . 93408) (END_BLOCK 93406 . 93407) (COLON 93365 . 93366) (COLON 93334 . 93335) (COMMA 93318 . 93319) (COLON 93205 . 93206) (COLON 93147 . 93148) (COMMA 93126 . 93127)))
+    (semanticdb-table "semanticdb-table-42e9aed4"
+      :major-mode json-mode
+      :tags nil
+      :file "tmp1.json"
+      :pointmax 92147
+      :fsize 94534
+      :lastmodtime '(25017 40031 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-4b590934"
+      :major-mode json-mode
+      :tags nil
+      :file "call_1_embedded.json"
+      :pointmax 61493
+      :fsize 63928
+      :lastmodtime '(25018 44882 0 0)
+      :unmatched-syntax '(($EOI 61493 . 61493) (COLON 61490 . 61491) (COMMA 61483 . 61484)))
+    (semanticdb-table "semanticdb-table-56a0feb6"
+      :major-mode json-mode
+      :tags nil
+      :file "calling_in.json"
+      :pointmax 665
+      :fsize 676
+      :lastmodtime '(25017 43161 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-57262122"
+      :major-mode json-mode
+      :tags nil
+      :file "phone_zhangli.json"
+      :pointmax 127179
+      :fsize 130561
+      :lastmodtime '(25020 18310 0 0)
+      :unmatched-syntax nil))
+  :file "!scp:wangxin@192.168.128.70:!data1!wangxin!log_check!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

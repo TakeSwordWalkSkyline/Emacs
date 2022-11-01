@@ -1,0 +1,1728 @@
+{
+
+            "tts": "好的，请先确认目的地，找到30个相关地址，共10页，去第几个呢？",
+            "slots": {
+            },
+            "skill": "NAVI",
+            "ssml": "好的，请先确认目的地，找到30个相关地址，共10页，去第几个呢？",
+            "recording": 0,
+            "recommends": [
+                "第一个",
+                "最近的",
+                "第二页",
+                "下一页",
+                "距离排序",
+                "取消",
+                "播报出来"
+            ],
+            "detail": {
+                "flag": 0,
+                "lastDialogState": "map_zero"
+            },
+            "content": {
+                "poiResults": {
+                    "total": 30,
+                    "ftype": "0",
+                    "data": [
+                        {
+                            "address": "北京市海淀区颐和园路5号",
+                            "distance": "8483.7034",
+                            "pname": "北京市",
+                            "cityname": "北京市",
+                            "pid": "MAPITPJIXPTRJPTBCRTPC",
+                            "nlonlat": "116.30444,39.99454",
+                            "type": "大学院校",
+                            "photos": [
+                                {
+                                    "titile": "",
+                                    "url": ""
+                                }
+                            ],
+                            "typecode": "A20,A00",
+                            "extend": {
+                                "poi_index": 1,
+                                "taste_rating": "",
+                                "reco": "",
+                                "service_rating": "",
+                                "charging_station": {
+                                    "total": 0,
+                                    "ebnum": null,
+                                    "parknum": "",
+                                    "equipment_info": [
+                                    ],
+                                    "ptype": ""
+                                },
+                                "price": "",
+                                "environment_rating": "",
+                                "star_rating": "",
+                                "shop_hours": "",
+                                "payment": "",
+                                "overall_rating": "-1",
+                                "facility": "",
+                                "parking_lot": {
+                                    "total": 0,
+                                    "free": 0,
+                                    "type": ""
+                                },
+                                "status": -1
+                            },
+                            "adname": "海淀区",
+                            "phone": "010-62752114",
+                            "rinfo": "",
+                            "name": "北京大学",
+                            "location": "116.30965,39.99174",
+                            "tag": "",
+                            "brand": ""
+                        },
+                        {
+                            "address": "北京市海淀区学院路38号",
+                            "distance": "7856.9464",
+                            "pname": "北京市",
+                            "cityname": "北京市",
+                            "pid": "MAPIYPXOHNXBXBHNFBTMC",
+                            "nlonlat": "116.35391,39.98417",
+                            "type": "大学院校",
+                            "photos": [
+                                {
+                                    "titile": "",
+                                    "url": ""
+                                }
+                            ],
+                            "typecode": "A20,A00",
+                            "extend": {
+                                "poi_index": 2,
+                                "taste_rating": "",
+                                "reco": "",
+                                "service_rating": "",
+                                "charging_station": {
+                                    "total": 0,
+                                    "ebnum": null,
+                                    "parknum": "",
+                                    "equipment_info": [
+                                    ],
+                                    "ptype": ""
+                                },
+                                "price": "",
+                                "environment_rating": "",
+                                "star_rating": "",
+                                "shop_hours": "",
+                                "payment": "",
+                                "overall_rating": "-1",
+                                "facility": "",
+                                "parking_lot": {
+                                    "total": 0,
+                                    "free": 0,
+                                    "type": ""
+                                },
+                                "status": -1
+                            },
+                            "adname": "海淀区",
+                            "phone": "010-62091114",
+                            "rinfo": "",
+                            "name": "北京大学医学部",
+                            "location": "116.35717,39.98375",
+                            "tag": "",
+                            "brand": ""
+                        },
+                        {
+                            "address": "北京市海淀区成府路209",
+                            "distance": "8499.0184",
+                            "pname": "北京市",
+                            "cityname": "北京市",
+                            "pid": "MAPIZPJWQNHICNHWQRTAC",
+                            "nlonlat": "116.31682,39.99229",
+                            "type": "校内附属设施",
+                            "photos": [
+                                {
+                                    "titile": "",
+                                    "url": ""
+                                }
+                            ],
+                            "typecode": "A21,A00",
+                            "extend": {
+                                "poi_index": 3,
+                                "taste_rating": "",
+                                "reco": "",
+                                "service_rating": "",
+                                "charging_station": {
+                                    "total": 0,
+                                    "ebnum": null,
+                                    "parknum": "",
+                                    "equipment_info": [
+                                    ],
+                                    "ptype": ""
+                                },
+                                "price": "",
+                                "environment_rating": "",
+                                "star_rating": "",
+                                "shop_hours": "",
+                                "payment": "",
+                                "overall_rating": "-1",
+                                "facility": "",
+                                "parking_lot": {
+                                    "total": 0,
+                                    "free": 0,
+                                    "type": ""
+                                },
+                                "status": -1
+                            },
+                            "adname": "海淀区",
+                            "phone": "010-62751732",
+                            "rinfo": "",
+                            "name": "北京大学物理学院",
+                            "location": "116.317,39.99271",
+                            "tag": "院,系",
+                            "brand": ""
+                        }
+                    ],
+                    "pageIndex": 1,
+                    "pageSize": 10
+                },
+                "numAction": -1,
+                "request": {
+                    "psize": 30,
+                    "pnum": 1,
+                    "lonlats": "116.327661,39.916817;116.327661,39.916817;",
+                    "exinfo": 3,
+                    "domain": "keyword_search",
+                    "language": "cmn",
+                    "kw": "北京大学",
+                    "lonlat": "116.327661,39.916817"
+                },
+                "nluSlots": {
+                    "province": "",
+                    "city": "",
+                    "district": "",
+                    "name": "北京大学",
+                    "region": "",
+                    "multiNearType": ""
+                },
+                "nluIntention": "multi_search",
+                "nluSlotsTwo": {
+                    "province": "",
+                    "city": "",
+                    "district": "",
+                    "name": "西直门",
+                    "region": "",
+                    "multiNearType": ""
+                },
+                "pageAction": "",
+                "index": 0,
+                "searchData": {
+                    "updated": 1,
+                    "pois": [
+                        {
+                            "address": "北京市海淀区颐和园路5号",
+                            "distance": "8483.7034",
+                            "pname": "北京市",
+                            "cityname": "北京市",
+                            "pid": "MAPITPJIXPTRJPTBCRTPC",
+                            "nlonlat": "116.30444,39.99454",
+                            "type": "大学院校",
+                            "photos": [
+                                {
+                                    "titile": "",
+                                    "url": ""
+                                }
+                            ],
+                            "typecode": "A20,A00",
+                            "extend": {
+                                "poi_index": 1,
+                                "taste_rating": "",
+                                "reco": "",
+                                "service_rating": "",
+                                "charging_station": {
+                                    "total": 0,
+                                    "ebnum": null,
+                                    "parknum": "",
+                                    "equipment_info": [
+                                    ],
+                                    "ptype": ""
+                                },
+                                "price": "",
+                                "environment_rating": "",
+                                "star_rating": "",
+                                "shop_hours": "",
+                                "payment": "",
+                                "overall_rating": "-1",
+                                "facility": "",
+                                "parking_lot": {
+                                    "total": 0,
+                                    "free": 0,
+                                    "type": ""
+                                },
+                                "status": -1
+                            },
+                            "adname": "海淀区",
+                            "phone": "010-62752114",
+                            "rinfo": "",
+                            "name": "北京大学",
+                            "location": "116.30965,39.99174",
+                            "tag": "",
+                            "brand": ""
+                        },
+                        {
+                            "address": "北京市海淀区学院路38号",
+                            "distance": "7856.9464",
+                            "pname": "北京市",
+                            "cityname": "北京市",
+                            "pid": "MAPIYPXOHNXBXBHNFBTMC",
+                            "nlonlat": "116.35391,39.98417",
+                            "type": "大学院校",
+                            "photos": [
+                                {
+                                    "titile": "",
+                                    "url": ""
+                                }
+                            ],
+                            "typecode": "A20,A00",
+                            "extend": {
+                                "poi_index": 2,
+                                "taste_rating": "",
+                                "reco": "",
+                                "service_rating": "",
+                                "charging_station": {
+                                    "total": 0,
+                                    "ebnum": null,
+                                    "parknum": "",
+                                    "equipment_info": [
+                                    ],
+                                    "ptype": ""
+                                },
+                                "price": "",
+                                "environment_rating": "",
+                                "star_rating": "",
+                                "shop_hours": "",
+                                "payment": "",
+                                "overall_rating": "-1",
+                                "facility": "",
+                                "parking_lot": {
+                                    "total": 0,
+                                    "free": 0,
+                                    "type": ""
+                                },
+                                "status": -1
+                            },
+                            "adname": "海淀区",
+                            "phone": "010-62091114",
+                            "rinfo": "",
+                            "name": "北京大学医学部",
+                            "location": "116.35717,39.98375",
+                            "tag": "",
+                            "brand": ""
+                        },
+                        {
+                            "address": "北京市海淀区成府路209",
+                            "distance": "8499.0184",
+                            "pname": "北京市",
+                            "cityname": "北京市",
+                            "pid": "MAPIZPJWQNHICNHWQRTAC",
+                            "nlonlat": "116.31682,39.99229",
+                            "type": "校内附属设施",
+                            "photos": [
+                                {
+                                    "titile": "",
+                                    "url": ""
+                                }
+                            ],
+                            "typecode": "A21,A00",
+                            "extend": {
+                                "poi_index": 3,
+                                "taste_rating": "",
+                                "reco": "",
+                                "service_rating": "",
+                                "charging_station": {
+                                    "total": 0,
+                                    "ebnum": null,
+                                    "parknum": "",
+                                    "equipment_info": [
+                                    ],
+                                    "ptype": ""
+                                },
+                                "price": "",
+                                "environment_rating": "",
+                                "star_rating": "",
+                                "shop_hours": "",
+                                "payment": "",
+                                "overall_rating": "-1",
+                                "facility": "",
+                                "parking_lot": {
+                                    "total": 0,
+                                    "free": 0,
+                                    "type": ""
+                                },
+                                "status": -1
+                            },
+                            "adname": "海淀区",
+                            "phone": "010-62751732",
+                            "rinfo": "",
+                            "name": "北京大学物理学院",
+                            "location": "116.317,39.99271",
+                            "tag": "院,系",
+                            "brand": ""
+                        },
+                        {
+                            "address": "北京市海淀区颐和园路5北京大学",
+                            "distance": "8798.3166",
+                            "pname": "北京市",
+                            "cityname": "北京市",
+                            "pid": "MAPIYPHOZNSESEHAFNTMC",
+                            "nlonlat": "116.31368,39.99514",
+                            "type": "校内附属设施",
+                            "photos": [
+                                {
+                                    "titile": "",
+                                    "url": ""
+                                }
+                            ],
+                            "typecode": "A21,A00",
+                            "extend": {
+                                "poi_index": 4,
+                                "taste_rating": "",
+                                "reco": "",
+                                "service_rating": "",
+                                "charging_station": {
+                                    "total": 0,
+                                    "ebnum": null,
+                                    "parknum": "",
+                                    "equipment_info": [
+                                    ],
+                                    "ptype": ""
+                                },
+                                "price": "",
+                                "environment_rating": "",
+                                "star_rating": "",
+                                "shop_hours": "",
+                                "payment": "",
+                                "overall_rating": "-1",
+                                "facility": "",
+                                "parking_lot": {
+                                    "total": 0,
+                                    "free": 0,
+                                    "type": ""
+                                },
+                                "status": -1
+                            },
+                            "adname": "海淀区",
+                            "phone": "010-62754128",
+                            "rinfo": "",
+                            "name": "北京大学光华管理学院",
+                            "location": "116.31347,39.99508",
+                            "tag": "院\/系",
+                            "brand": ""
+                        },
+                        {
+                            "address": "北京市海淀区颐和园路5北京大学",
+                            "distance": "8821.5487",
+                            "pname": "北京市",
+                            "cityname": "北京市",
+                            "pid": "MAPRHBYMQASMYEZWYMXNJ",
+                            "nlonlat": "116.31364,39.99526",
+                            "type": "校内附属设施",
+                            "photos": [
+                                {
+                                    "titile": "",
+                                    "url": ""
+                                }
+                            ],
+                            "typecode": "A21,A00",
+                            "extend": {
+                                "poi_index": 5,
+                                "taste_rating": "",
+                                "reco": "",
+                                "service_rating": "",
+                                "charging_station": {
+                                    "total": 0,
+                                    "ebnum": null,
+                                    "parknum": "",
+                                    "equipment_info": [
+                                    ],
+                                    "ptype": ""
+                                },
+                                "price": "",
+                                "environment_rating": "",
+                                "star_rating": "",
+                                "shop_hours": "",
+                                "payment": "",
+                                "overall_rating": "-1",
+                                "facility": "",
+                                "parking_lot": {
+                                    "total": 0,
+                                    "free": 0,
+                                    "type": ""
+                                },
+                                "status": -1
+                            },
+                            "adname": "海淀区",
+                            "phone": "",
+                            "rinfo": "",
+                            "name": "北京大学法学院",
+                            "location": "116.31384,39.99533",
+                            "tag": "院\/系",
+                            "brand": ""
+                        },
+                        {
+                            "address": "北京市海淀区颐和园路5北京大学",
+                            "distance": "8566.9898",
+                            "pname": "北京市",
+                            "cityname": "北京市",
+                            "pid": "MAPIHMHPFOHWQNFOTNYNC",
+                            "nlonlat": "116.3064,39.99202",
+                            "type": "校内附属设施",
+                            "photos": [
+                                {
+                                    "titile": "",
+                                    "url": ""
+                                }
+                            ],
+                            "typecode": "A21,A00",
+                            "extend": {
+                                "poi_index": 6,
+                                "taste_rating": "",
+                                "reco": "",
+                                "service_rating": "",
+                                "charging_station": {
+                                    "total": 0,
+                                    "ebnum": null,
+                                    "parknum": "",
+                                    "equipment_info": [
+                                    ],
+                                    "ptype": ""
+                                },
+                                "price": "",
+                                "environment_rating": "",
+                                "star_rating": "",
+                                "shop_hours": "",
+                                "payment": "",
+                                "overall_rating": "-1",
+                                "facility": "",
+                                "parking_lot": {
+                                    "total": 0,
+                                    "free": 0,
+                                    "type": ""
+                                },
+                                "status": -1
+                            },
+                            "adname": "海淀区",
+                            "phone": "010-62751634",
+                            "rinfo": "",
+                            "name": "北京大学国际关系学院",
+                            "location": "116.30658,39.99203",
+                            "tag": "院\/系",
+                            "brand": ""
+                        },
+                        {
+                            "address": "北京市海淀区颐和园路5北京大学",
+                            "distance": "8411.989",
+                            "pname": "北京市",
+                            "cityname": "北京市",
+                            "pid": "MAPITMFPFOHWQNFOTOYPC",
+                            "nlonlat": "116.31184,39.99151",
+                            "type": "科研院所",
+                            "photos": [
+                                {
+                                    "titile": "",
+                                    "url": ""
+                                }
+                            ],
+                            "typecode": "A30,A00",
+                            "extend": {
+                                "poi_index": 7,
+                                "taste_rating": "",
+                                "reco": "",
+                                "service_rating": "",
+                                "charging_station": {
+                                    "total": 0,
+                                    "ebnum": null,
+                                    "parknum": "",
+                                    "equipment_info": [
+                                    ],
+                                    "ptype": ""
+                                },
+                                "price": "",
+                                "environment_rating": "",
+                                "star_rating": "",
+                                "shop_hours": "",
+                                "payment": "",
+                                "overall_rating": "-1",
+                                "facility": "",
+                                "parking_lot": {
+                                    "total": 0,
+                                    "free": 0,
+                                    "type": ""
+                                },
+                                "status": -1
+                            },
+                            "adname": "海淀区",
+                            "phone": "",
+                            "rinfo": "",
+                            "name": "北京大学汉语语言学研究中心",
+                            "location": "116.31184,39.99138",
+                            "tag": "",
+                            "brand": ""
+                        },
+                        {
+                            "address": "北京市海淀区成府路202号",
+                            "distance": "8329.8638",
+                            "pname": "北京市",
+                            "cityname": "北京市",
+                            "pid": "MAPIYPJMTPHICNTPYRTMC",
+                            "nlonlat": "116.31681,39.99195",
+                            "type": "校内附属设施",
+                            "photos": [
+                                {
+                                    "titile": "",
+                                    "url": ""
+                                }
+                            ],
+                            "typecode": "A21,A00",
+                            "extend": {
+                                "poi_index": 8,
+                                "taste_rating": "",
+                                "reco": "",
+                                "service_rating": "",
+                                "charging_station": {
+                                    "total": 0,
+                                    "ebnum": null,
+                                    "parknum": "",
+                                    "equipment_info": [
+                                    ],
+                                    "ptype": ""
+                                },
+                                "price": "",
+                                "environment_rating": "",
+                                "star_rating": "",
+                                "shop_hours": "",
+                                "payment": "",
+                                "overall_rating": "-1",
+                                "facility": "",
+                                "parking_lot": {
+                                    "total": 0,
+                                    "free": 0,
+                                    "type": ""
+                                },
+                                "status": -1
+                            },
+                            "adname": "海淀区",
+                            "phone": "010-62751710",
+                            "rinfo": "",
+                            "name": "北京大学化学与分子工程学院",
+                            "location": "116.3171,39.99119",
+                            "tag": "院,系",
+                            "brand": ""
+                        },
+                        {
+                            "address": "北京市海淀区颐和园路5北京大学",
+                            "distance": "8900.4384",
+                            "pname": "北京市",
+                            "cityname": "北京市",
+                            "pid": "MAPIHMHPYOFWQOFMTNYNC",
+                            "nlonlat": "116.30767,39.9951",
+                            "type": "校内附属设施",
+                            "photos": [
+                                {
+                                    "titile": "",
+                                    "url": ""
+                                }
+                            ],
+                            "typecode": "A21,A00",
+                            "extend": {
+                                "poi_index": 9,
+                                "taste_rating": "",
+                                "reco": "",
+                                "service_rating": "",
+                                "charging_station": {
+                                    "total": 0,
+                                    "ebnum": null,
+                                    "parknum": "",
+                                    "equipment_info": [
+                                    ],
+                                    "ptype": ""
+                                },
+                                "price": "",
+                                "environment_rating": "",
+                                "star_rating": "",
+                                "shop_hours": "",
+                                "payment": "",
+                                "overall_rating": "-1",
+                                "facility": "",
+                                "parking_lot": {
+                                    "total": 0,
+                                    "free": 0,
+                                    "type": ""
+                                },
+                                "status": -1
+                            },
+                            "adname": "海淀区",
+                            "phone": "",
+                            "rinfo": "",
+                            "name": "北京大学研究生院",
+                            "location": "116.30767,39.99526",
+                            "tag": "院\/系",
+                            "brand": ""
+                        },
+                        {
+                            "address": "北京市海淀区北京大学内",
+                            "distance": "8267.8639",
+                            "pname": "北京市",
+                            "cityname": "北京市",
+                            "pid": "MAPICMQPHOHWQNFNTWYIC",
+                            "nlonlat": "116.31076,39.98972",
+                            "type": "展览馆、会展中心",
+                            "photos": [
+                                {
+                                    "titile": "",
+                                    "url": ""
+                                }
+                            ],
+                            "typecode": "950,900",
+                            "extend": {
+                                "poi_index": 10,
+                                "taste_rating": "",
+                                "reco": "",
+                                "service_rating": "",
+                                "charging_station": {
+                                    "total": 0,
+                                    "ebnum": null,
+                                    "parknum": "",
+                                    "equipment_info": [
+                                    ],
+                                    "ptype": ""
+                                },
+                                "price": "",
+                                "environment_rating": "",
+                                "star_rating": "",
+                                "shop_hours": "",
+                                "payment": "",
+                                "overall_rating": "-1",
+                                "facility": "",
+                                "parking_lot": {
+                                    "total": 0,
+                                    "free": 0,
+                                    "type": ""
+                                },
+                                "status": -1
+                            },
+                            "adname": "海淀区",
+                            "phone": "010-62758452",
+                            "rinfo": "",
+                            "name": "北京大学百周年纪念讲堂",
+                            "location": "116.31058,39.9899",
+                            "tag": "",
+                            "brand": ""
+                        },
+                        {
+                            "address": "北京市海淀区中关村北大街47",
+                            "distance": "11016.4307",
+                            "pname": "北京市",
+                            "cityname": "北京市",
+                            "pid": "MAPIZMTBXATAZPZBXPYAC",
+                            "nlonlat": "116.317873,40.015002",
+                            "type": "大学院校",
+                            "photos": [
+                                {
+                                    "titile": "",
+                                    "url": ""
+                                }
+                            ],
+                            "typecode": "A20,A00",
+                            "extend": {
+                                "poi_index": 11,
+                                "taste_rating": "",
+                                "reco": "",
+                                "service_rating": "",
+                                "charging_station": {
+                                    "total": 0,
+                                    "ebnum": null,
+                                    "parknum": "",
+                                    "equipment_info": [
+                                    ],
+                                    "ptype": ""
+                                },
+                                "price": "",
+                                "environment_rating": "",
+                                "star_rating": "",
+                                "shop_hours": "",
+                                "payment": "",
+                                "overall_rating": "-1",
+                                "facility": "",
+                                "parking_lot": {
+                                    "total": 0,
+                                    "free": 0,
+                                    "type": ""
+                                },
+                                "status": -1
+                            },
+                            "adname": "海淀区",
+                            "phone": "",
+                            "rinfo": "",
+                            "name": "北京大学(圆明园校区)",
+                            "location": "116.31632,40.01538",
+                            "tag": "",
+                            "brand": ""
+                        },
+                        {
+                            "address": "北京市西城区西什库大街8号",
+                            "distance": "4535.1617",
+                            "pname": "北京市",
+                            "cityname": "北京市",
+                            "pid": "MAPIHPHMZPYNHMTAYNTNC",
+                            "nlonlat": "116.37973,39.92891",
+                            "type": "综合医院",
+                            "photos": [
+                                {
+                                    "titile": "",
+                                    "url": ""
+                                }
+                            ],
+                            "typecode": "D50,D00",
+                            "extend": {
+                                "poi_index": 12,
+                                "taste_rating": "",
+                                "reco": "",
+                                "service_rating": "",
+                                "charging_station": {
+                                    "total": 0,
+                                    "ebnum": null,
+                                    "parknum": "",
+                                    "equipment_info": [
+                                    ],
+                                    "ptype": ""
+                                },
+                                "price": "",
+                                "environment_rating": "",
+                                "star_rating": "",
+                                "shop_hours": "",
+                                "payment": "",
+                                "overall_rating": "-1",
+                                "facility": "",
+                                "parking_lot": {
+                                    "total": 0,
+                                    "free": 0,
+                                    "type": ""
+                                },
+                                "status": -1
+                            },
+                            "adname": "西城区",
+                            "phone": "010-83572211",
+                            "rinfo": "",
+                            "name": "北京大学第一医院",
+                            "location": "116.37855,39.928859",
+                            "tag": "三级甲等医院",
+                            "brand": ""
+                        },
+                        {
+                            "address": "北京市海淀区成府路",
+                            "distance": "8705.4257",
+                            "pname": "北京市",
+                            "cityname": "北京市",
+                            "pid": "MAPIFPSMTPHICNTPYETOC",
+                            "nlonlat": "116.31825,39.99397",
+                            "type": "大学院校",
+                            "photos": [
+                                {
+                                    "titile": "",
+                                    "url": ""
+                                }
+                            ],
+                            "typecode": "A20,A00",
+                            "extend": {
+                                "poi_index": 13,
+                                "taste_rating": "",
+                                "reco": "",
+                                "service_rating": "",
+                                "charging_station": {
+                                    "total": 0,
+                                    "ebnum": null,
+                                    "parknum": "",
+                                    "equipment_info": [
+                                    ],
+                                    "ptype": ""
+                                },
+                                "price": "",
+                                "environment_rating": "",
+                                "star_rating": "",
+                                "shop_hours": "",
+                                "payment": "",
+                                "overall_rating": "-1",
+                                "facility": "",
+                                "parking_lot": {
+                                    "total": 0,
+                                    "free": 0,
+                                    "type": ""
+                                },
+                                "status": -1
+                            },
+                            "adname": "海淀区",
+                            "phone": "010-62751812",
+                            "rinfo": "",
+                            "name": "北京大学工学院",
+                            "location": "116.31796,39.99465",
+                            "tag": "",
+                            "brand": ""
+                        },
+                        {
+                            "address": "北京市海淀区花园北路49号",
+                            "distance": "7820.9991",
+                            "pname": "北京市",
+                            "cityname": "北京市",
+                            "pid": "MAPIHPQMYPHICNTMYWTNC",
+                            "nlonlat": "116.36123,39.981813",
+                            "type": "综合医院",
+                            "photos": [
+                                {
+                                    "titile": "",
+                                    "url": ""
+                                }
+                            ],
+                            "typecode": "D50,D00",
+                            "extend": {
+                                "poi_index": 14,
+                                "taste_rating": "",
+                                "reco": "",
+                                "service_rating": "",
+                                "charging_station": {
+                                    "total": 0,
+                                    "ebnum": null,
+                                    "parknum": "",
+                                    "equipment_info": [
+                                    ],
+                                    "ptype": ""
+                                },
+                                "price": "",
+                                "environment_rating": "",
+                                "star_rating": "",
+                                "shop_hours": "",
+                                "payment": "",
+                                "overall_rating": "-1",
+                                "facility": "",
+                                "parking_lot": {
+                                    "total": 0,
+                                    "free": 0,
+                                    "type": ""
+                                },
+                                "status": -1
+                            },
+                            "adname": "海淀区",
+                            "phone": "010-82266699",
+                            "rinfo": "",
+                            "name": "北京大学第三医院",
+                            "location": "116.360787,39.982412",
+                            "tag": "三级甲等医院",
+                            "brand": ""
+                        },
+                        {
+                            "address": "北京市海淀区颐和园路5号",
+                            "distance": "8545.6124",
+                            "pname": "北京市",
+                            "cityname": "北京市",
+                            "pid": "MAPICPJRJNCRJIHRJRTIC",
+                            "nlonlat": "116.315417,39.99299",
+                            "type": "其他地名",
+                            "photos": [
+                                {
+                                    "titile": "",
+                                    "url": ""
+                                }
+                            ],
+                            "typecode": "FH0,F00",
+                            "extend": {
+                                "poi_index": 15,
+                                "taste_rating": "",
+                                "reco": "",
+                                "service_rating": "",
+                                "charging_station": {
+                                    "total": 0,
+                                    "ebnum": null,
+                                    "parknum": "",
+                                    "equipment_info": [
+                                    ],
+                                    "ptype": ""
+                                },
+                                "price": "",
+                                "environment_rating": "",
+                                "star_rating": "",
+                                "shop_hours": "",
+                                "payment": "",
+                                "overall_rating": "-1",
+                                "facility": "",
+                                "parking_lot": {
+                                    "total": 0,
+                                    "free": 0,
+                                    "type": ""
+                                },
+                                "status": -1
+                            },
+                            "adname": "海淀区",
+                            "phone": "010-62752114",
+                            "rinfo": "",
+                            "name": "北京大学东侧门",
+                            "location": "116.315417,39.992989",
+                            "tag": "其他出入口",
+                            "brand": ""
+                        },
+                        {
+                            "address": "北京市海淀区花园北路49号",
+                            "distance": "7750.3029",
+                            "pname": "北京市",
+                            "cityname": "北京市",
+                            "pid": "MAPIZPQMYPHICNTMYWTAC",
+                            "nlonlat": "116.360449,39.98183",
+                            "type": "大学院校",
+                            "photos": [
+                                {
+                                    "titile": "",
+                                    "url": ""
+                                }
+                            ],
+                            "typecode": "A20,A00",
+                            "extend": {
+                                "poi_index": 16,
+                                "taste_rating": "",
+                                "reco": "",
+                                "service_rating": "",
+                                "charging_station": {
+                                    "total": 0,
+                                    "ebnum": null,
+                                    "parknum": "",
+                                    "equipment_info": [
+                                    ],
+                                    "ptype": ""
+                                },
+                                "price": "",
+                                "environment_rating": "",
+                                "star_rating": "",
+                                "shop_hours": "",
+                                "payment": "",
+                                "overall_rating": "-1",
+                                "facility": "",
+                                "parking_lot": {
+                                    "total": 0,
+                                    "free": 0,
+                                    "type": ""
+                                },
+                                "status": -1
+                            },
+                            "adname": "海淀区",
+                            "phone": "010-82264567",
+                            "rinfo": "",
+                            "name": "北京大学第三临床医学院",
+                            "location": "116.360447,39.98183",
+                            "tag": "",
+                            "brand": ""
+                        },
+                        {
+                            "address": "北京市西城区西直门南大街11",
+                            "distance": "3194.6629",
+                            "pname": "北京市",
+                            "cityname": "北京市",
+                            "pid": "MAPITPSOTMTWQPYPFETPC",
+                            "nlonlat": "116.354391,39.937626",
+                            "type": "综合医院",
+                            "photos": [
+                                {
+                                    "titile": "",
+                                    "url": ""
+                                }
+                            ],
+                            "typecode": "D50,D00",
+                            "extend": {
+                                "poi_index": 17,
+                                "taste_rating": "",
+                                "reco": "",
+                                "service_rating": "",
+                                "charging_station": {
+                                    "total": 0,
+                                    "ebnum": null,
+                                    "parknum": "",
+                                    "equipment_info": [
+                                    ],
+                                    "ptype": ""
+                                },
+                                "price": "",
+                                "environment_rating": "",
+                                "star_rating": "",
+                                "shop_hours": "",
+                                "payment": "",
+                                "overall_rating": "-1",
+                                "facility": "",
+                                "parking_lot": {
+                                    "total": 0,
+                                    "free": 0,
+                                    "type": ""
+                                },
+                                "status": -1
+                            },
+                            "adname": "西城区",
+                            "phone": "010-88326666",
+                            "rinfo": "",
+                            "name": "北京大学人民医院",
+                            "location": "116.354449,39.936956",
+                            "tag": "三级甲等医院",
+                            "brand": ""
+                        },
+                        {
+                            "address": "北京市西城区西安门大街1旁门",
+                            "distance": "4726.3114",
+                            "pname": "北京市",
+                            "cityname": "北京市",
+                            "pid": "MAPITPHMZPYNHMTAYNTPC",
+                            "nlonlat": "116.382589,39.92282",
+                            "type": "专科医院",
+                            "photos": [
+                                {
+                                    "titile": "",
+                                    "url": ""
+                                }
+                            ],
+                            "typecode": "D60,D00",
+                            "extend": {
+                                "poi_index": 18,
+                                "taste_rating": "",
+                                "reco": "",
+                                "service_rating": "",
+                                "charging_station": {
+                                    "total": 0,
+                                    "ebnum": null,
+                                    "parknum": "",
+                                    "equipment_info": [
+                                    ],
+                                    "ptype": ""
+                                },
+                                "price": "",
+                                "environment_rating": "",
+                                "star_rating": "",
+                                "shop_hours": "",
+                                "payment": "",
+                                "overall_rating": "-1",
+                                "facility": "",
+                                "parking_lot": {
+                                    "total": 0,
+                                    "free": 0,
+                                    "type": ""
+                                },
+                                "status": -1
+                            },
+                            "adname": "西城区",
+                            "phone": "010-66551122",
+                            "rinfo": "",
+                            "name": "北京大学第一医院(妇产儿童医院)",
+                            "location": "116.38259,39.92282",
+                            "tag": "",
+                            "brand": ""
+                        },
+                        {
+                            "address": "北京市海淀区中关村南大街22",
+                            "distance": "3975.1587",
+                            "pname": "北京市",
+                            "cityname": "北京市",
+                            "pid": "MAPITPYWJETESPSRQMTPC",
+                            "nlonlat": "116.3242,39.95195",
+                            "type": "专科医院",
+                            "photos": [
+                                {
+                                    "titile": "",
+                                    "url": ""
+                                }
+                            ],
+                            "typecode": "D60,D00",
+                            "extend": {
+                                "poi_index": 19,
+                                "taste_rating": "",
+                                "reco": "",
+                                "service_rating": "",
+                                "charging_station": {
+                                    "total": 0,
+                                    "ebnum": null,
+                                    "parknum": "",
+                                    "equipment_info": [
+                                    ],
+                                    "ptype": ""
+                                },
+                                "price": "",
+                                "environment_rating": "",
+                                "star_rating": "",
+                                "shop_hours": "",
+                                "payment": "",
+                                "overall_rating": "-1",
+                                "facility": "",
+                                "parking_lot": {
+                                    "total": 0,
+                                    "free": 0,
+                                    "type": ""
+                                },
+                                "status": -1
+                            },
+                            "adname": "海淀区",
+                            "phone": "010-62179977",
+                            "rinfo": "",
+                            "name": "北京大学口腔医院",
+                            "location": "116.32471,39.95245",
+                            "tag": "三级甲等医院",
+                            "brand": ""
+                        },
+                        {
+                            "address": "北京市海淀区中关村北大街",
+                            "distance": "8995.793",
+                            "pname": "北京市",
+                            "cityname": "北京市",
+                            "pid": "MAPNCAJPXNTESPHBTRZIH",
+                            "nlonlat": "116.31484,39.99699",
+                            "type": "综合医院",
+                            "photos": [
+                                {
+                                    "titile": "",
+                                    "url": ""
+                                }
+                            ],
+                            "typecode": "D50,D00",
+                            "extend": {
+                                "poi_index": 20,
+                                "taste_rating": "",
+                                "reco": "",
+                                "service_rating": "",
+                                "charging_station": {
+                                    "total": 0,
+                                    "ebnum": null,
+                                    "parknum": "",
+                                    "equipment_info": [
+                                    ],
+                                    "ptype": ""
+                                },
+                                "price": "",
+                                "environment_rating": "",
+                                "star_rating": "",
+                                "shop_hours": "",
+                                "payment": "",
+                                "overall_rating": "-1",
+                                "facility": "",
+                                "parking_lot": {
+                                    "total": 0,
+                                    "free": 0,
+                                    "type": ""
+                                },
+                                "status": -1
+                            },
+                            "adname": "海淀区",
+                            "phone": "010-62765531",
+                            "rinfo": "",
+                            "name": "北京大学医院",
+                            "location": "116.31465,39.99699",
+                            "tag": "二级医院",
+                            "brand": ""
+                        },
+                        {
+                            "address": "北京市海淀区花园北路51号院1",
+                            "distance": "7689.61",
+                            "pname": "北京市",
+                            "cityname": "北京市",
+                            "pid": "MAPIYPQMYPHICNTMYWTMC",
+                            "nlonlat": "116.357433,39.981718",
+                            "type": "专科医院",
+                            "photos": [
+                                {
+                                    "titile": "",
+                                    "url": ""
+                                }
+                            ],
+                            "typecode": "D60,D00",
+                            "extend": {
+                                "poi_index": 21,
+                                "taste_rating": "",
+                                "reco": "",
+                                "service_rating": "",
+                                "charging_station": {
+                                    "total": 0,
+                                    "ebnum": null,
+                                    "parknum": "",
+                                    "equipment_info": [
+                                    ],
+                                    "ptype": ""
+                                },
+                                "price": "",
+                                "environment_rating": "",
+                                "star_rating": "",
+                                "shop_hours": "",
+                                "payment": "",
+                                "overall_rating": "-1",
+                                "facility": "",
+                                "parking_lot": {
+                                    "total": 0,
+                                    "free": 0,
+                                    "type": ""
+                                },
+                                "status": -1
+                            },
+                            "adname": "海淀区",
+                            "phone": "010-62091984",
+                            "rinfo": "",
+                            "name": "北京大学第六医院",
+                            "location": "116.357457,39.982086",
+                            "tag": "三级甲等医院",
+                            "brand": ""
+                        },
+                        {
+                            "address": "北京市东城区五四大街29",
+                            "distance": "6676.3834",
+                            "pname": "北京市",
+                            "cityname": "北京市",
+                            "pid": "MAPIJPHMXPYNHMTBYNTRC",
+                            "nlonlat": "116.40537,39.92435",
+                            "type": "风景区",
+                            "photos": [
+                                {
+                                    "titile": "",
+                                    "url": ""
+                                }
+                            ],
+                            "typecode": "980,900",
+                            "extend": {
+                                "poi_index": 22,
+                                "taste_rating": "",
+                                "reco": "",
+                                "service_rating": "",
+                                "charging_station": {
+                                    "total": 0,
+                                    "ebnum": null,
+                                    "parknum": "",
+                                    "equipment_info": [
+                                    ],
+                                    "ptype": ""
+                                },
+                                "price": "",
+                                "environment_rating": "",
+                                "star_rating": "",
+                                "shop_hours": "",
+                                "payment": "",
+                                "overall_rating": "-1",
+                                "facility": "",
+                                "parking_lot": {
+                                    "total": 0,
+                                    "free": 0,
+                                    "type": ""
+                                },
+                                "status": -1
+                            },
+                            "adname": "东城区",
+                            "phone": "010-51313177",
+                            "rinfo": "",
+                            "name": "北京大学红楼",
+                            "location": "116.40537,39.92444",
+                            "tag": "景区内景点",
+                            "brand": ""
+                        },
+                        {
+                            "address": "北京市昌平区中关村生命科学园生命园路1号",
+                            "distance": "21232.0148",
+                            "pname": "北京市",
+                            "cityname": "北京市",
+                            "pid": "MAPILBQRCMXBYIJWXVC",
+                            "nlonlat": "116.26597,40.10195",
+                            "type": "综合医院",
+                            "photos": [
+                                {
+                                    "titile": "",
+                                    "url": ""
+                                }
+                            ],
+                            "typecode": "D50,D00",
+                            "extend": {
+                                "poi_index": 23,
+                                "taste_rating": "",
+                                "reco": "",
+                                "service_rating": "",
+                                "charging_station": {
+                                    "total": 0,
+                                    "ebnum": null,
+                                    "parknum": "",
+                                    "equipment_info": [
+                                    ],
+                                    "ptype": ""
+                                },
+                                "price": "",
+                                "environment_rating": "",
+                                "star_rating": "",
+                                "shop_hours": "",
+                                "payment": "",
+                                "overall_rating": "-1",
+                                "facility": "",
+                                "parking_lot": {
+                                    "total": 0,
+                                    "free": 0,
+                                    "type": ""
+                                },
+                                "status": -1
+                            },
+                            "adname": "昌平区",
+                            "phone": "010-69006666",
+                            "rinfo": "",
+                            "name": "北京大学国际医院",
+                            "location": "116.2648,40.10131",
+                            "tag": "三级医院",
+                            "brand": ""
+                        },
+                        {
+                            "address": "北京市石景山区晋元庄路9",
+                            "distance": "10666.0245",
+                            "pname": "北京市",
+                            "cityname": "北京市",
+                            "pid": "MAPIYMQBQWCWQIQWXWYMC",
+                            "nlonlat": "116.20355,39.92781",
+                            "type": "综合医院",
+                            "photos": [
+                                {
+                                    "titile": "",
+                                    "url": ""
+                                }
+                            ],
+                            "typecode": "D50,D00",
+                            "extend": {
+                                "poi_index": 24,
+                                "taste_rating": "",
+                                "reco": "",
+                                "service_rating": "",
+                                "charging_station": {
+                                    "total": 0,
+                                    "ebnum": null,
+                                    "parknum": "",
+                                    "equipment_info": [
+                                    ],
+                                    "ptype": ""
+                                },
+                                "price": "",
+                                "environment_rating": "",
+                                "star_rating": "",
+                                "shop_hours": "",
+                                "payment": "",
+                                "overall_rating": "-1",
+                                "facility": "",
+                                "parking_lot": {
+                                    "total": 0,
+                                    "free": 0,
+                                    "type": ""
+                                },
+                                "status": -1
+                            },
+                            "adname": "石景山区",
+                            "phone": "010-57830000",
+                            "rinfo": "",
+                            "name": "北京大学首钢医院",
+                            "location": "116.20355,39.92781",
+                            "tag": "三级医院",
+                            "brand": ""
+                        },
+                        {
+                            "address": "北京市西城区西直门南大街11",
+                            "distance": "3195.8058",
+                            "pname": "北京市",
+                            "cityname": "北京市",
+                            "pid": "MAPISPJIJWJESRQRCRTEC",
+                            "nlonlat": "116.354854,39.936703",
+                            "type": "门诊、急诊部",
+                            "photos": [
+                                {
+                                    "titile": "",
+                                    "url": ""
+                                }
+                            ],
+                            "typecode": "DD0,D00",
+                            "extend": {
+                                "poi_index": 25,
+                                "taste_rating": "",
+                                "reco": "",
+                                "service_rating": "",
+                                "charging_station": {
+                                    "total": 0,
+                                    "ebnum": null,
+                                    "parknum": "",
+                                    "equipment_info": [
+                                    ],
+                                    "ptype": ""
+                                },
+                                "price": "",
+                                "environment_rating": "",
+                                "star_rating": "",
+                                "shop_hours": "",
+                                "payment": "",
+                                "overall_rating": "-1",
+                                "facility": "",
+                                "parking_lot": {
+                                    "total": 0,
+                                    "free": 0,
+                                    "type": ""
+                                },
+                                "status": -1
+                            },
+                            "adname": "西城区",
+                            "phone": "010-88326666",
+                            "rinfo": "",
+                            "name": "北京大学人民医院-门诊",
+                            "location": "116.35478,39.93671",
+                            "tag": "医院内部设施",
+                            "brand": ""
+                        },
+                        {
+                            "address": "北京市海淀区阜成路52号",
+                            "distance": "3263.9393",
+                            "pname": "北京市",
+                            "cityname": "北京市",
+                            "pid": "MAPIXPZICWYESMQICATBC",
+                            "nlonlat": "116.29046,39.923539",
+                            "type": "门诊、急诊部",
+                            "photos": [
+                                {
+                                    "titile": "",
+                                    "url": ""
+                                }
+                            ],
+                            "typecode": "DD0,D00",
+                            "extend": {
+                                "poi_index": 26,
+                                "taste_rating": "",
+                                "reco": "",
+                                "service_rating": "",
+                                "charging_station": {
+                                    "total": 0,
+                                    "ebnum": null,
+                                    "parknum": "",
+                                    "equipment_info": [
+                                    ],
+                                    "ptype": ""
+                                },
+                                "price": "",
+                                "environment_rating": "",
+                                "star_rating": "",
+                                "shop_hours": "",
+                                "payment": "",
+                                "overall_rating": "-1",
+                                "facility": "",
+                                "parking_lot": {
+                                    "total": 0,
+                                    "free": 0,
+                                    "type": ""
+                                },
+                                "status": -1
+                            },
+                            "adname": "海淀区",
+                            "phone": "",
+                            "rinfo": "",
+                            "name": "北京大学肿瘤医院-门诊",
+                            "location": "116.2904,39.92354",
+                            "tag": "医院内部设施",
+                            "brand": ""
+                        },
+                        {
+                            "address": "北京市海淀区成府路205",
+                            "distance": "8467.7154",
+                            "pname": "北京市",
+                            "cityname": "北京市",
+                            "pid": "MAPIHPTMZBCPTIXAYPTNC",
+                            "nlonlat": "116.31836,39.99254",
+                            "type": "出版社",
+                            "photos": [
+                                {
+                                    "titile": "",
+                                    "url": ""
+                                }
+                            ],
+                            "typecode": "B50,B00",
+                            "extend": {
+                                "poi_index": 27,
+                                "taste_rating": "",
+                                "reco": "",
+                                "service_rating": "",
+                                "charging_station": {
+                                    "total": 0,
+                                    "ebnum": null,
+                                    "parknum": "",
+                                    "equipment_info": [
+                                    ],
+                                    "ptype": ""
+                                },
+                                "price": "",
+                                "environment_rating": "",
+                                "star_rating": "",
+                                "shop_hours": "",
+                                "payment": "",
+                                "overall_rating": "-1",
+                                "facility": "",
+                                "parking_lot": {
+                                    "total": 0,
+                                    "free": 0,
+                                    "type": ""
+                                },
+                                "status": -1
+                            },
+                            "adname": "海淀区",
+                            "phone": "010-62752033",
+                            "rinfo": "",
+                            "name": "北京大学出版社",
+                            "location": "116.31857,39.99255",
+                            "tag": "",
+                            "brand": ""
+                        },
+                        {
+                            "address": "北京市海淀区北京大学院内",
+                            "distance": "8486.9004",
+                            "pname": "北京市",
+                            "cityname": "北京市",
+                            "pid": "MAPICPXMYPHICNTMYBTIC",
+                            "nlonlat": "116.31074,39.99187",
+                            "type": "图书馆",
+                            "photos": [
+                                {
+                                    "titile": "",
+                                    "url": ""
+                                }
+                            ],
+                            "typecode": "A60,A00",
+                            "extend": {
+                                "poi_index": 28,
+                                "taste_rating": "",
+                                "reco": "",
+                                "service_rating": "",
+                                "charging_station": {
+                                    "total": 0,
+                                    "ebnum": null,
+                                    "parknum": "",
+                                    "equipment_info": [
+                                    ],
+                                    "ptype": ""
+                                },
+                                "price": "",
+                                "environment_rating": "",
+                                "star_rating": "",
+                                "shop_hours": "",
+                                "payment": "",
+                                "overall_rating": "-1",
+                                "facility": "",
+                                "parking_lot": {
+                                    "total": 0,
+                                    "free": 0,
+                                    "type": ""
+                                },
+                                "status": -1
+                            },
+                            "adname": "海淀区",
+                            "phone": "010-62751051",
+                            "rinfo": "",
+                            "name": "北京大学图书馆",
+                            "location": "116.31052,39.99189",
+                            "tag": "",
+                            "brand": ""
+                        },
+                        {
+                            "address": "北京市海淀区中关村北大街附近",
+                            "distance": "8689.6115",
+                            "pname": "北京市",
+                            "cityname": "北京市",
+                            "pid": "MAPITVHBSNQWHEXNLPC",
+                            "nlonlat": "116.315978,39.994344",
+                            "type": "开发区、产业园区",
+                            "photos": [
+                                {
+                                    "titile": "",
+                                    "url": ""
+                                }
+                            ],
+                            "typecode": "F40,F00",
+                            "extend": {
+                                "poi_index": 29,
+                                "taste_rating": "",
+                                "reco": "",
+                                "service_rating": "",
+                                "charging_station": {
+                                    "total": 0,
+                                    "ebnum": null,
+                                    "parknum": "",
+                                    "equipment_info": [
+                                    ],
+                                    "ptype": ""
+                                },
+                                "price": "",
+                                "environment_rating": "",
+                                "star_rating": "",
+                                "shop_hours": "",
+                                "payment": "",
+                                "overall_rating": "-1",
+                                "facility": "",
+                                "parking_lot": {
+                                    "total": 0,
+                                    "free": 0,
+                                    "type": ""
+                                },
+                                "status": -1
+                            },
+                            "adname": "海淀区",
+                            "phone": "",
+                            "rinfo": "",
+                            "name": "北京大学科技园",
+                            "location": "116.315978,39.994344",
+                            "tag": "",
+                            "brand": ""
+                        },
+                        {
+                            "address": "北京市西城区阜成门内大街133",
+                            "distance": "3372.9855",
+                            "pname": "北京市",
+                            "cityname": "北京市",
+                            "pid": "MAPRQWSEXACESIZBSEQWJ",
+                            "nlonlat": "116.36613,39.92397",
+                            "type": "综合医院",
+                            "photos": [
+                                {
+                                    "titile": "",
+                                    "url": ""
+                                }
+                            ],
+                            "typecode": "D50,D00",
+                            "extend": {
+                                "poi_index": 30,
+                                "taste_rating": "",
+                                "reco": "",
+                                "service_rating": "",
+                                "charging_station": {
+                                    "total": 0,
+                                    "ebnum": null,
+                                    "parknum": "",
+                                    "equipment_info": [
+                                    ],
+                                    "ptype": ""
+                                },
+                                "price": "",
+                                "environment_rating": "",
+                                "star_rating": "",
+                                "shop_hours": "",
+                                "payment": "",
+                                "overall_rating": "-1",
+                                "facility": "",
+                                "parking_lot": {
+                                    "total": 0,
+                                    "free": 0,
+                                    "type": ""
+                                },
+                                "status": -1
+                            },
+                            "adname": "西城区",
+                            "phone": "010-66583666",
+                            "rinfo": "",
+                            "name": "北京大学人民医院(白塔寺院区)",
+                            "location": "116.366031,39.924365",
+                            "tag": "",
+                            "brand": ""
+                        }
+                    ],
+                    "routeResults": [
+                    ]
+                },
+                "routeResults": {
+                    "total": 0,
+                    "data": [
+                    ],
+                    "pageIndex": 0,
+                    "pageSize": 0
+                }
+            },
+            "intention": "multi_search"
+        }
+}

@@ -1,0 +1,32 @@
+;; Object semanticdb-project-database-file-51907364
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-51907364"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-519075fe"
+      :major-mode c++-mode
+      :tags 
+        '( ("__need_ptrdiff_t" variable (:constant-flag t) nil [908 924])
+            ("__need_size_t" variable (:constant-flag t) nil [933 946])
+            ("__need_wchar_t" variable (:constant-flag t) nil [955 969])
+            ("__need_NULL" variable (:constant-flag t) nil [978 989])
+            ("__need_STDDEF_H_misc" variable (:constant-flag t) nil [998 1018])
+            ("NULL" variable (:constant-flag t) nil [2590 2594])
+            ("offsetof" variable (:constant-flag t) nil [3051 3059]))          
+      :file "stddef.h"
+      :pointmax 3590
+      :fsize 3589
+      :lastmodtime '(24538 12079 0 0)
+      :unmatched-syntax '((semantic-list 761 . 776) (symbol 754 . 761) (punctuation 753 . 754) (punctuation 723 . 724) (punctuation 722 . 723) (semantic-list 708 . 721) (symbol 701 . 708) (punctuation 700 . 701) (punctuation 698 . 699) (punctuation 697 . 698) (semantic-list 680 . 696) (symbol 673 . 680) (punctuation 672 . 673) (semantic-list 570 . 585) (symbol 563 . 570) (punctuation 561 . 562) (punctuation 560 . 561) (semantic-list 546 . 559) (symbol 539 . 546) (punctuation 509 . 510) (punctuation 508 . 509) (semantic-list 491 . 507) (symbol 484 . 491) (punctuation 482 . 483) (punctuation 481 . 482) (semantic-list 465 . 480) (symbol 458 . 465))
+      :lexical-table 
+        '(("offsetof" (spp-arg-list ("t" "d") 3059 . 3065) . ((symbol "__builtin_offsetof" 3066 . 3084) (semantic-list "(t, d)" 3084 . 3090)))
+          ("NULL" . ((symbol "__null" 2595 . 2601)))
+          )
+)
+    (semanticdb-table "semanticdb-table-5137ce84"
+      :file "stdint.h"
+      :fsize 22754
+      :lastmodtime '(24538 12079 0 0)))
+  :file "!Library!Developer!CommandLineTools!usr!lib!clang!12.0.5!include!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

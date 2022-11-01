@@ -1,0 +1,34 @@
+{
+    "code":0,
+    "data":{
+        "answer":{
+            "tts":"",
+            "slots":{
+
+            },
+            "skill":"AIPUSH",
+            "ssml":"",
+            "recording":0,
+            "recommends":[
+
+            ],
+            "detail":{
+                "flag":1,
+                "lastDialogState":"confirm_ending"
+            },
+            "content":{
+
+            },
+            "intention":"oil_alarm_filling"
+        },
+        "requestId":"e54c15f0c6c14471817ec7846342d9c9",
+        "confidence":{
+            "nluScore":10,
+            "contentScore":0,
+            "taskScore":6
+        },
+        "text":"今天天气怎么样",
+        "dialogId":"9d37cb478a2b417086c5c06b00298a35"
+    },
+    "message":"success"
+}

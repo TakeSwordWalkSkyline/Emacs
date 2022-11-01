@@ -1,0 +1,1049 @@
+{
+  "code": 0,
+  "message": "success",
+  "data": {
+    "requestId": "",
+    "dialogId": "",
+    "answer": {
+      "skill": "TRAIN",
+      "intention": "query",
+      "slots": {
+        "date": {
+          "value": ""
+        },
+        "depart": {
+          "value": ""
+        },
+        "dest": {
+          "value": ""
+        }
+      },
+      "tts": "第1个，G105次列车，2021-08-12 07:17:00由北京南出发，2021-08-12 13:03:00到达上海虹桥，二等座价格553元。第2个，G115次列车，2021-08-12 09:10:00由北京南出发，2021-08-12 14:48:00到达上海虹桥，二等座价格553元。第3个，G117次列车，2021-08-12 09:20:00由北京南出发，2021-08-12 15:02:00到达上海虹桥，二等座价格576元。",
+      "ssml": "第1个，G105次列车，2021-08-12 07:17:00由北京南出发，2021-08-12 13:03:00到达上海虹桥，二等座价格553元。第2个，G115次列车，2021-08-12 09:10:00由北京南出发，2021-08-12 14:48:00到达上海虹桥，二等座价格553元。第3个，G117次列车，2021-08-12 09:20:00由北京南出发，2021-08-12 15:02:00到达上海虹桥，二等座价格576元。",
+      "recommends": [],
+      "content": {
+        "trainInfo": [
+          {
+            "priceList": [
+              {
+                "price": "553",
+                "yuPiao": "有票",
+                "seatType": "二等座"
+              },
+              {
+                "price": "930",
+                "yuPiao": "有票",
+                "seatType": "一等座"
+              },
+              {
+                "price": "1873",
+                "yuPiao": "10",
+                "seatType": "商务座"
+              }
+            ],
+            "departStation": "北京南",
+            "trainNo": "G105",
+            "departTime": "2021-08-12 07:17:00",
+            "arriveStation": "上海虹桥",
+            "trainTime": "5时46分",
+            "arriveTime": "2021-08-12 13:03:00"
+          },
+          {
+            "priceList": [
+              {
+                "price": "553",
+                "yuPiao": "有票",
+                "seatType": "二等座"
+              },
+              {
+                "price": "969",
+                "yuPiao": "18",
+                "seatType": "一等座"
+              },
+              {
+                "price": "1998",
+                "yuPiao": "0",
+                "seatType": "商务座"
+              }
+            ],
+            "departStation": "北京南",
+            "trainNo": "G115",
+            "departTime": "2021-08-12 09:10:00",
+            "arriveStation": "上海虹桥",
+            "trainTime": "5时38分",
+            "arriveTime": "2021-08-12 14:48:00"
+          },
+          {
+            "priceList": [
+              {
+                "price": "576",
+                "yuPiao": "有票",
+                "seatType": "二等座"
+              },
+              {
+                "price": "969",
+                "yuPiao": "有票",
+                "seatType": "一等座"
+              },
+              {
+                "price": "1873",
+                "yuPiao": "4",
+                "seatType": "商务座"
+              }
+            ],
+            "departStation": "北京南",
+            "trainNo": "G117",
+            "departTime": "2021-08-12 09:20:00",
+            "arriveStation": "上海虹桥",
+            "trainTime": "5时42分",
+            "arriveTime": "2021-08-12 15:02:00"
+          }
+        ],
+        "searchData": {
+          "updated": 0,
+          "allTrainInfo": [
+            {
+              "priceList": [
+                {
+                  "price": "553",
+                  "yuPiao": "有票",
+                  "seatType": "二等座"
+                },
+                {
+                  "price": "930",
+                  "yuPiao": "有票",
+                  "seatType": "一等座"
+                },
+                {
+                  "price": "1873",
+                  "yuPiao": "10",
+                  "seatType": "商务座"
+                }
+              ],
+              "departStation": "北京南",
+              "trainNo": "G105",
+              "departTime": "2021-08-12 07:17:00",
+              "arriveStation": "上海虹桥",
+              "trainTime": "5时46分",
+              "arriveTime": "2021-08-12 13:03:00"
+            },
+            {
+              "priceList": [
+                {
+                  "price": "553",
+                  "yuPiao": "有票",
+                  "seatType": "二等座"
+                },
+                {
+                  "price": "969",
+                  "yuPiao": "18",
+                  "seatType": "一等座"
+                },
+                {
+                  "price": "1998",
+                  "yuPiao": "0",
+                  "seatType": "商务座"
+                }
+              ],
+              "departStation": "北京南",
+              "trainNo": "G115",
+              "departTime": "2021-08-12 09:10:00",
+              "arriveStation": "上海虹桥",
+              "trainTime": "5时38分",
+              "arriveTime": "2021-08-12 14:48:00"
+            },
+            {
+              "priceList": [
+                {
+                  "price": "576",
+                  "yuPiao": "有票",
+                  "seatType": "二等座"
+                },
+                {
+                  "price": "969",
+                  "yuPiao": "有票",
+                  "seatType": "一等座"
+                },
+                {
+                  "price": "1873",
+                  "yuPiao": "4",
+                  "seatType": "商务座"
+                }
+              ],
+              "departStation": "北京南",
+              "trainNo": "G117",
+              "departTime": "2021-08-12 09:20:00",
+              "arriveStation": "上海虹桥",
+              "trainTime": "5时42分",
+              "arriveTime": "2021-08-12 15:02:00"
+            },
+            {
+              "priceList": [
+                {
+                  "price": "598",
+                  "yuPiao": "有票",
+                  "seatType": "二等座"
+                },
+                {
+                  "price": "1006",
+                  "yuPiao": "有票",
+                  "seatType": "一等座"
+                },
+                {
+                  "price": "2158",
+                  "yuPiao": "19",
+                  "seatType": "商务座"
+                }
+              ],
+              "departStation": "北京南",
+              "trainNo": "G121",
+              "departTime": "2021-08-12 10:05:00",
+              "arriveStation": "上海虹桥",
+              "trainTime": "5时37分",
+              "arriveTime": "2021-08-12 15:42:00"
+            },
+            {
+              "priceList": [
+                {
+                  "price": "576",
+                  "yuPiao": "有票",
+                  "seatType": "二等座"
+                },
+                {
+                  "price": "969",
+                  "yuPiao": "17",
+                  "seatType": "一等座"
+                },
+                {
+                  "price": "1873",
+                  "yuPiao": "0",
+                  "seatType": "商务座"
+                }
+              ],
+              "departStation": "北京南",
+              "trainNo": "G129",
+              "departTime": "2021-08-12 11:18:00",
+              "arriveStation": "上海虹桥",
+              "trainTime": "6时09分",
+              "arriveTime": "2021-08-12 17:27:00"
+            },
+            {
+              "priceList": [
+                {
+                  "price": "604",
+                  "yuPiao": "有票",
+                  "seatType": "二等座"
+                },
+                {
+                  "price": "1012.5",
+                  "yuPiao": "20",
+                  "seatType": "一等座"
+                },
+                {
+                  "price": "2172",
+                  "yuPiao": "0",
+                  "seatType": "商务座"
+                }
+              ],
+              "departStation": "北京南",
+              "trainNo": "G133",
+              "departTime": "2021-08-12 11:49:00",
+              "arriveStation": "上海",
+              "trainTime": "6时18分",
+              "arriveTime": "2021-08-12 18:07:00"
+            },
+            {
+              "priceList": [
+                {
+                  "price": "156.5",
+                  "yuPiao": "有票",
+                  "seatType": "硬座"
+                },
+                {
+                  "price": "156.5",
+                  "yuPiao": "0",
+                  "seatType": "无座"
+                },
+                {
+                  "price": "283.5",
+                  "yuPiao": "有票",
+                  "seatType": "硬卧"
+                },
+                {
+                  "price": "455.5",
+                  "yuPiao": "12",
+                  "seatType": "软卧"
+                }
+              ],
+              "departStation": "北京",
+              "trainNo": "1461",
+              "departTime": "2021-08-12 11:55:00",
+              "arriveStation": "上海",
+              "trainTime": "19时02分",
+              "arriveTime": "2021-08-13 06:57:00"
+            },
+            {
+              "priceList": [
+                {
+                  "price": "576",
+                  "yuPiao": "有票",
+                  "seatType": "二等座"
+                },
+                {
+                  "price": "969",
+                  "yuPiao": "有票",
+                  "seatType": "一等座"
+                },
+                {
+                  "price": "1998",
+                  "yuPiao": "0",
+                  "seatType": "商务座"
+                }
+              ],
+              "departStation": "北京南",
+              "trainNo": "G135",
+              "departTime": "2021-08-12 12:12:00",
+              "arriveStation": "上海虹桥",
+              "trainTime": "6时09分",
+              "arriveTime": "2021-08-12 18:21:00"
+            },
+            {
+              "priceList": [
+                {
+                  "price": "631",
+                  "yuPiao": "有票",
+                  "seatType": "二等座"
+                },
+                {
+                  "price": "1041.5",
+                  "yuPiao": "有票",
+                  "seatType": "一等座"
+                },
+                {
+                  "price": "2331",
+                  "yuPiao": "0",
+                  "seatType": "商务座"
+                }
+              ],
+              "departStation": "北京南",
+              "trainNo": "G13",
+              "departTime": "2021-08-12 13:00:00",
+              "arriveStation": "上海",
+              "trainTime": "4时35分",
+              "arriveTime": "2021-08-12 17:35:00"
+            },
+            {
+              "priceList": [
+                {
+                  "price": "553",
+                  "yuPiao": "有票",
+                  "seatType": "二等座"
+                },
+                {
+                  "price": "930",
+                  "yuPiao": "有票",
+                  "seatType": "一等座"
+                },
+                {
+                  "price": "1998",
+                  "yuPiao": "13",
+                  "seatType": "商务座"
+                }
+              ],
+              "departStation": "北京南",
+              "trainNo": "G139",
+              "departTime": "2021-08-12 13:04:00",
+              "arriveStation": "上海虹桥",
+              "trainTime": "6时02分",
+              "arriveTime": "2021-08-12 19:06:00"
+            },
+            {
+              "priceList": [
+                {
+                  "price": "626",
+                  "yuPiao": "有票",
+                  "seatType": "二等座"
+                },
+                {
+                  "price": "1035",
+                  "yuPiao": "有票",
+                  "seatType": "一等座"
+                },
+                {
+                  "price": "2318",
+                  "yuPiao": "8",
+                  "seatType": "商务座"
+                }
+              ],
+              "departStation": "北京南",
+              "trainNo": "G15",
+              "departTime": "2021-08-12 14:00:00",
+              "arriveStation": "上海虹桥",
+              "trainTime": "4时33分",
+              "arriveTime": "2021-08-12 18:33:00"
+            },
+            {
+              "priceList": [
+                {
+                  "price": "553",
+                  "yuPiao": "有票",
+                  "seatType": "二等座"
+                },
+                {
+                  "price": "930",
+                  "yuPiao": "有票",
+                  "seatType": "一等座"
+                },
+                {
+                  "price": "1873",
+                  "yuPiao": "14",
+                  "seatType": "商务座"
+                }
+              ],
+              "departStation": "北京南",
+              "trainNo": "G147",
+              "departTime": "2021-08-12 14:27:00",
+              "arriveStation": "上海虹桥",
+              "trainTime": "6时16分",
+              "arriveTime": "2021-08-12 20:43:00"
+            },
+            {
+              "priceList": [
+                {
+                  "price": "553",
+                  "yuPiao": "有票",
+                  "seatType": "二等座"
+                },
+                {
+                  "price": "930",
+                  "yuPiao": "有票",
+                  "seatType": "一等座"
+                },
+                {
+                  "price": "1748",
+                  "yuPiao": "4",
+                  "seatType": "商务座"
+                }
+              ],
+              "departStation": "北京南",
+              "trainNo": "G153",
+              "departTime": "2021-08-12 16:30:00",
+              "arriveStation": "上海虹桥",
+              "trainTime": "5时57分",
+              "arriveTime": "2021-08-12 22:27:00"
+            },
+            {
+              "priceList": [
+                {
+                  "price": "526",
+                  "yuPiao": "有票",
+                  "seatType": "二等座"
+                },
+                {
+                  "price": "884",
+                  "yuPiao": "有票",
+                  "seatType": "一等座"
+                },
+                {
+                  "price": "1748",
+                  "yuPiao": "14",
+                  "seatType": "商务座"
+                }
+              ],
+              "departStation": "北京南",
+              "trainNo": "G159",
+              "departTime": "2021-08-12 17:19:00",
+              "arriveStation": "上海虹桥",
+              "trainTime": "5时59分",
+              "arriveTime": "2021-08-12 23:18:00"
+            },
+            {
+              "priceList": [
+                {
+                  "price": "626",
+                  "yuPiao": "有票",
+                  "seatType": "二等座"
+                },
+                {
+                  "price": "1035",
+                  "yuPiao": "有票",
+                  "seatType": "一等座"
+                },
+                {
+                  "price": "2318",
+                  "yuPiao": "0",
+                  "seatType": "商务座"
+                }
+              ],
+              "departStation": "北京南",
+              "trainNo": "G25",
+              "departTime": "2021-08-12 18:04:00",
+              "arriveStation": "上海虹桥",
+              "trainTime": "4时45分",
+              "arriveTime": "2021-08-12 22:49:00"
+            },
+            {
+              "priceList": [
+                {
+                  "price": "177.5",
+                  "yuPiao": "有票",
+                  "seatType": "硬座"
+                },
+                {
+                  "price": "177.5",
+                  "yuPiao": "0",
+                  "seatType": "无座"
+                },
+                {
+                  "price": "304.5",
+                  "yuPiao": "有票",
+                  "seatType": "硬卧"
+                },
+                {
+                  "price": "476.5",
+                  "yuPiao": "有票",
+                  "seatType": "软卧"
+                }
+              ],
+              "departStation": "北京",
+              "trainNo": "T109",
+              "departTime": "2021-08-12 20:05:00",
+              "arriveStation": "上海",
+              "trainTime": "14时55分",
+              "arriveTime": "2021-08-13 11:00:00"
+            }
+          ]
+        },
+        "pageAction": "",
+        "numAction": -1,
+        "total": 16,
+        "pageIndex": 1,
+        "pageSize": 6,
+        "code": 0
+      },
+      "_cp_required": 0,
+      "detail": {
+        "flag": 1,
+        "lastDialogState": "train_display_multiple_page"
+      },
+      "_context": {
+        "skill": "TRAIN",
+        "intention": "query",
+        "slots": {
+        },
+        "tts": "",
+        "ssml": "",
+        "recommends": [],
+        "content": {
+          "trainInfo": [
+            {
+              "priceList": [
+                {
+                  "price": "553",
+                  "yuPiao": "有票",
+                  "seatType": "二等座"
+                },
+                {
+                  "price": "930",
+                  "yuPiao": "有票",
+                  "seatType": "一等座"
+                },
+                {
+                  "price": "1873",
+                  "yuPiao": "10",
+                  "seatType": "商务座"
+                }
+              ],
+              "departStation": "北京南",
+              "trainNo": "G105",
+              "departTime": "2021-08-12 07:17:00",
+              "arriveStation": "上海虹桥",
+              "trainTime": "5时46分",
+              "arriveTime": "2021-08-12 13:03:00"
+            },
+            {
+              "priceList": [
+                {
+                  "price": "553",
+                  "yuPiao": "有票",
+                  "seatType": "二等座"
+                },
+                {
+                  "price": "969",
+                  "yuPiao": "18",
+                  "seatType": "一等座"
+                },
+                {
+                  "price": "1998",
+                  "yuPiao": "0",
+                  "seatType": "商务座"
+                }
+              ],
+              "departStation": "北京南",
+              "trainNo": "G115",
+              "departTime": "2021-08-12 09:10:00",
+              "arriveStation": "上海虹桥",
+              "trainTime": "5时38分",
+              "arriveTime": "2021-08-12 14:48:00"
+            },
+            {
+              "priceList": [
+                {
+                  "price": "576",
+                  "yuPiao": "有票",
+                  "seatType": "二等座"
+                },
+                {
+                  "price": "969",
+                  "yuPiao": "有票",
+                  "seatType": "一等座"
+                },
+                {
+                  "price": "1873",
+                  "yuPiao": "4",
+                  "seatType": "商务座"
+                }
+              ],
+              "departStation": "北京南",
+              "trainNo": "G117",
+              "departTime": "2021-08-12 09:20:00",
+              "arriveStation": "上海虹桥",
+              "trainTime": "5时42分",
+              "arriveTime": "2021-08-12 15:02:00"
+            }
+          ],
+          "searchData": {
+            "updated": 0,
+            "allTrainInfo": [
+              {
+                "priceList": [
+                  {
+                    "price": "553",
+                    "yuPiao": "有票",
+                    "seatType": "二等座"
+                  },
+                  {
+                    "price": "930",
+                    "yuPiao": "有票",
+                    "seatType": "一等座"
+                  },
+                  {
+                    "price": "1873",
+                    "yuPiao": "10",
+                    "seatType": "商务座"
+                  }
+                ],
+                "departStation": "北京南",
+                "trainNo": "G105",
+                "departTime": "2021-08-12 07:17:00",
+                "arriveStation": "上海虹桥",
+                "trainTime": "5时46分",
+                "arriveTime": "2021-08-12 13:03:00"
+              },
+              {
+                "priceList": [
+                  {
+                    "price": "553",
+                    "yuPiao": "有票",
+                    "seatType": "二等座"
+                  },
+                  {
+                    "price": "969",
+                    "yuPiao": "18",
+                    "seatType": "一等座"
+                  },
+                  {
+                    "price": "1998",
+                    "yuPiao": "0",
+                    "seatType": "商务座"
+                  }
+                ],
+                "departStation": "北京南",
+                "trainNo": "G115",
+                "departTime": "2021-08-12 09:10:00",
+                "arriveStation": "上海虹桥",
+                "trainTime": "5时38分",
+                "arriveTime": "2021-08-12 14:48:00"
+              },
+              {
+                "priceList": [
+                  {
+                    "price": "576",
+                    "yuPiao": "有票",
+                    "seatType": "二等座"
+                  },
+                  {
+                    "price": "969",
+                    "yuPiao": "有票",
+                    "seatType": "一等座"
+                  },
+                  {
+                    "price": "1873",
+                    "yuPiao": "4",
+                    "seatType": "商务座"
+                  }
+                ],
+                "departStation": "北京南",
+                "trainNo": "G117",
+                "departTime": "2021-08-12 09:20:00",
+                "arriveStation": "上海虹桥",
+                "trainTime": "5时42分",
+                "arriveTime": "2021-08-12 15:02:00"
+              },
+              {
+                "priceList": [
+                  {
+                    "price": "598",
+                    "yuPiao": "有票",
+                    "seatType": "二等座"
+                  },
+                  {
+                    "price": "1006",
+                    "yuPiao": "有票",
+                    "seatType": "一等座"
+                  },
+                  {
+                    "price": "2158",
+                    "yuPiao": "19",
+                    "seatType": "商务座"
+                  }
+                ],
+                "departStation": "北京南",
+                "trainNo": "G121",
+                "departTime": "2021-08-12 10:05:00",
+                "arriveStation": "上海虹桥",
+                "trainTime": "5时37分",
+                "arriveTime": "2021-08-12 15:42:00"
+              },
+              {
+                "priceList": [
+                  {
+                    "price": "576",
+                    "yuPiao": "有票",
+                    "seatType": "二等座"
+                  },
+                  {
+                    "price": "969",
+                    "yuPiao": "17",
+                    "seatType": "一等座"
+                  },
+                  {
+                    "price": "1873",
+                    "yuPiao": "0",
+                    "seatType": "商务座"
+                  }
+                ],
+                "departStation": "北京南",
+                "trainNo": "G129",
+                "departTime": "2021-08-12 11:18:00",
+                "arriveStation": "上海虹桥",
+                "trainTime": "6时09分",
+                "arriveTime": "2021-08-12 17:27:00"
+              },
+              {
+                "priceList": [
+                  {
+                    "price": "604",
+                    "yuPiao": "有票",
+                    "seatType": "二等座"
+                  },
+                  {
+                    "price": "1012.5",
+                    "yuPiao": "20",
+                    "seatType": "一等座"
+                  },
+                  {
+                    "price": "2172",
+                    "yuPiao": "0",
+                    "seatType": "商务座"
+                  }
+                ],
+                "departStation": "北京南",
+                "trainNo": "G133",
+                "departTime": "2021-08-12 11:49:00",
+                "arriveStation": "上海",
+                "trainTime": "6时18分",
+                "arriveTime": "2021-08-12 18:07:00"
+              },
+              {
+                "priceList": [
+                  {
+                    "price": "156.5",
+                    "yuPiao": "有票",
+                    "seatType": "硬座"
+                  },
+                  {
+                    "price": "156.5",
+                    "yuPiao": "0",
+                    "seatType": "无座"
+                  },
+                  {
+                    "price": "283.5",
+                    "yuPiao": "有票",
+                    "seatType": "硬卧"
+                  },
+                  {
+                    "price": "455.5",
+                    "yuPiao": "12",
+                    "seatType": "软卧"
+                  }
+                ],
+                "departStation": "北京",
+                "trainNo": "1461",
+                "departTime": "2021-08-12 11:55:00",
+                "arriveStation": "上海",
+                "trainTime": "19时02分",
+                "arriveTime": "2021-08-13 06:57:00"
+              },
+              {
+                "priceList": [
+                  {
+                    "price": "576",
+                    "yuPiao": "有票",
+                    "seatType": "二等座"
+                  },
+                  {
+                    "price": "969",
+                    "yuPiao": "有票",
+                    "seatType": "一等座"
+                  },
+                  {
+                    "price": "1998",
+                    "yuPiao": "0",
+                    "seatType": "商务座"
+                  }
+                ],
+                "departStation": "北京南",
+                "trainNo": "G135",
+                "departTime": "2021-08-12 12:12:00",
+                "arriveStation": "上海虹桥",
+                "trainTime": "6时09分",
+                "arriveTime": "2021-08-12 18:21:00"
+              },
+              {
+                "priceList": [
+                  {
+                    "price": "631",
+                    "yuPiao": "有票",
+                    "seatType": "二等座"
+                  },
+                  {
+                    "price": "1041.5",
+                    "yuPiao": "有票",
+                    "seatType": "一等座"
+                  },
+                  {
+                    "price": "2331",
+                    "yuPiao": "0",
+                    "seatType": "商务座"
+                  }
+                ],
+                "departStation": "北京南",
+                "trainNo": "G13",
+                "departTime": "2021-08-12 13:00:00",
+                "arriveStation": "上海",
+                "trainTime": "4时35分",
+                "arriveTime": "2021-08-12 17:35:00"
+              },
+              {
+                "priceList": [
+                  {
+                    "price": "553",
+                    "yuPiao": "有票",
+                    "seatType": "二等座"
+                  },
+                  {
+                    "price": "930",
+                    "yuPiao": "有票",
+                    "seatType": "一等座"
+                  },
+                  {
+                    "price": "1998",
+                    "yuPiao": "13",
+                    "seatType": "商务座"
+                  }
+                ],
+                "departStation": "北京南",
+                "trainNo": "G139",
+                "departTime": "2021-08-12 13:04:00",
+                "arriveStation": "上海虹桥",
+                "trainTime": "6时02分",
+                "arriveTime": "2021-08-12 19:06:00"
+              },
+              {
+                "priceList": [
+                  {
+                    "price": "626",
+                    "yuPiao": "有票",
+                    "seatType": "二等座"
+                  },
+                  {
+                    "price": "1035",
+                    "yuPiao": "有票",
+                    "seatType": "一等座"
+                  },
+                  {
+                    "price": "2318",
+                    "yuPiao": "8",
+                    "seatType": "商务座"
+                  }
+                ],
+                "departStation": "北京南",
+                "trainNo": "G15",
+                "departTime": "2021-08-12 14:00:00",
+                "arriveStation": "上海虹桥",
+                "trainTime": "4时33分",
+                "arriveTime": "2021-08-12 18:33:00"
+              },
+              {
+                "priceList": [
+                  {
+                    "price": "553",
+                    "yuPiao": "有票",
+                    "seatType": "二等座"
+                  },
+                  {
+                    "price": "930",
+                    "yuPiao": "有票",
+                    "seatType": "一等座"
+                  },
+                  {
+                    "price": "1873",
+                    "yuPiao": "14",
+                    "seatType": "商务座"
+                  }
+                ],
+                "departStation": "北京南",
+                "trainNo": "G147",
+                "departTime": "2021-08-12 14:27:00",
+                "arriveStation": "上海虹桥",
+                "trainTime": "6时16分",
+                "arriveTime": "2021-08-12 20:43:00"
+              },
+              {
+                "priceList": [
+                  {
+                    "price": "553",
+                    "yuPiao": "有票",
+                    "seatType": "二等座"
+                  },
+                  {
+                    "price": "930",
+                    "yuPiao": "有票",
+                    "seatType": "一等座"
+                  },
+                  {
+                    "price": "1748",
+                    "yuPiao": "4",
+                    "seatType": "商务座"
+                  }
+                ],
+                "departStation": "北京南",
+                "trainNo": "G153",
+                "departTime": "2021-08-12 16:30:00",
+                "arriveStation": "上海虹桥",
+                "trainTime": "5时57分",
+                "arriveTime": "2021-08-12 22:27:00"
+              },
+              {
+                "priceList": [
+                  {
+                    "price": "526",
+                    "yuPiao": "有票",
+                    "seatType": "二等座"
+                  },
+                  {
+                    "price": "884",
+                    "yuPiao": "有票",
+                    "seatType": "一等座"
+                  },
+                  {
+                    "price": "1748",
+                    "yuPiao": "14",
+                    "seatType": "商务座"
+                  }
+                ],
+                "departStation": "北京南",
+                "trainNo": "G159",
+                "departTime": "2021-08-12 17:19:00",
+                "arriveStation": "上海虹桥",
+                "trainTime": "5时59分",
+                "arriveTime": "2021-08-12 23:18:00"
+              },
+              {
+                "priceList": [
+                  {
+                    "price": "626",
+                    "yuPiao": "有票",
+                    "seatType": "二等座"
+                  },
+                  {
+                    "price": "1035",
+                    "yuPiao": "有票",
+                    "seatType": "一等座"
+                  },
+                  {
+                    "price": "2318",
+                    "yuPiao": "0",
+                    "seatType": "商务座"
+                  }
+                ],
+                "departStation": "北京南",
+                "trainNo": "G25",
+                "departTime": "2021-08-12 18:04:00",
+                "arriveStation": "上海虹桥",
+                "trainTime": "4时45分",
+                "arriveTime": "2021-08-12 22:49:00"
+              },
+              {
+                "priceList": [
+                  {
+                    "price": "177.5",
+                    "yuPiao": "有票",
+                    "seatType": "硬座"
+                  },
+                  {
+                    "price": "177.5",
+                    "yuPiao": "0",
+                    "seatType": "无座"
+                  },
+                  {
+                    "price": "304.5",
+                    "yuPiao": "有票",
+                    "seatType": "硬卧"
+                  },
+                  {
+                    "price": "476.5",
+                    "yuPiao": "有票",
+                    "seatType": "软卧"
+                  }
+                ],
+                "departStation": "北京",
+                "trainNo": "T109",
+                "departTime": "2021-08-12 20:05:00",
+                "arriveStation": "上海",
+                "trainTime": "14时55分",
+                "arriveTime": "2021-08-13 11:00:00"
+              }
+            ]
+          },
+          "pageAction": "",
+          "numAction": -1,
+          "total": 16,
+          "pageIndex": 1,
+          "pageSize": 6,
+          "code": 0
+        },
+        "id": 4620,
+        "_cp_required": 0,
+        "detail": {
+          "flag": 1,
+          "lastDialogState": "train_display_multiple_page"
+        }
+      }
+    },
+    "text": "播报出来"
+  },
+  "conf": 1,
+  "parseScore": 1
+}

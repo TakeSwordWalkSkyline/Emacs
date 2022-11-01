@@ -1,0 +1,46 @@
+{
+  "code": 0,
+  "data": {
+    "answer": {
+      "tts": "如需了解更多“车家互联”使用说明，请点击“详情”。",
+      "slots": null,
+      "skill": "OMA",
+      "ssml": "如需了解更多“车家互联”使用说明，请点击“详情”。",
+      "recording": 0,
+      "recommends": [
+        "停止播报"
+      ],
+      "detail": {
+        "flag": 0,
+        "expectIntentions": [
+          {
+            "score": 1.1,
+            "slots": null,
+            "skill": "PLAYER",
+            "intention": "show_detail"
+          }
+        ],
+        "lastDialogState": "oma_continue"
+      },
+      "content": {
+        "code": 0,
+        "data": {
+          "menu1Id": 121,
+          "menu2Id": 11,
+          "manualContentTts": "如需了解更多“车家互联”使用说明，请点击“详情”。"
+        },
+        "text": "智能家居设置"
+      },
+      "intention": "app_smarthome"
+    },
+    "requestId": "9f177fe797784fdea22040105fcb1711",
+    "confidence": {
+      "nluScore": 5.3054909706,
+      "contentScore": 0.0,
+      "taskScore": 6.0
+    },
+    "text": "智能家居设置",
+    "dialogId": "b8a6155cafef4e3c9717fce28684848c"
+  },
+  "message": "success"
+}

@@ -1,0 +1,475 @@
+{
+      "skill": "NAVI",
+      "intention": "multi_search",
+      "slots": {
+        "originText": {
+          "value": ""
+        },
+        "keyword": {
+          "value": "普强"
+        },
+        "region": {
+          "value": "建政路"
+        },
+        "destination": {
+          "value": "建政路普强"
+        },
+        "distance": {
+          "value": "",
+          "type": ""
+        },
+        "route_title": {
+          "value": ""
+        },
+        "none_mark": {
+          "value": ""
+        }
+      },
+      "tts": "",
+      "ssml": "",
+      "recommends": [],
+      "content": {
+        "request": {
+          "domain": "keyword_search",
+          "kw": "建政路 普强",
+          "type": "",
+          "city": "",
+          "province": "",
+          "area": "",
+          "sort": "default|ASC",
+          "psize": "30",
+          "pnum": "1",
+          "language": ""
+        },
+        "index": -1,
+        "icon": "",
+        "pageAction": "",
+        "numAction": -1,
+        "poiResults": {
+          "data": [
+            {
+              "poi_index": 0,
+              "index": -1,
+              "pid": "MAPIJPHILWJRQVCNTRA",
+              "name": "西二旗地铁站",
+              "location": "116,40",
+              "nlonlat": "116.301399,40.053131",
+              "address": "北京市海淀区西二旗站B1南出口对面正北方向70米",
+              "pname": "北京市",
+              "cityname": "",
+              "adname": "海淀区",
+              "phone": "182325562652",
+              "type": "城市轨道交通出入口",
+              "typecode": "",
+              "distance": "1063535.3446",
+              "brand": "",
+              "tag": "",
+              "rinfo": "",
+              "photos": [
+                {
+                  "title": "",
+                  "url": ""
+                }
+              ],
+              "extend": {
+                "price": "",
+                "taste_rating": "",
+                "service_rating": "",
+                "environment_rating": "",
+                "star_rating": "",
+                "overall_rating": "",
+                "reco": "",
+                "stop_hours": "",
+                "facility": "",
+                "payment": "",
+                "parking_lot": {
+                  "total": 0,
+                  "free": 0,
+                  "type": ""
+                },
+                "charging_station": {
+                  "total": 0,
+                  "ebnum": 0,
+                  "ptype": "",
+                  "parknum": ""
+                }
+              }
+            }
+          ],
+          "pageIndex": 1,
+          "pageSize": 1,
+          "total": 1,
+          "ftype": "0",
+          "destination": {
+            "poi_index": 0,
+            "index": -1,
+            "pid": "MAPIJPHILWJRQVCNTRA",
+            "name": "西二旗地铁站",
+            "location": "116,40",
+            "nlonlat": "116.301399,40.053131",
+            "address": "北京市海淀区西二旗站B1南出口对面正北方向70米",
+            "pname": "北京市",
+            "cityname": "",
+            "adname": "海淀区",
+            "phone": "182325562652",
+            "type": "城市轨道交通出入口",
+            "typecode": "",
+            "distance": "1063535.3446",
+            "brand": "",
+            "tag": "",
+            "rinfo": "",
+            "photos": [
+              {
+                "title": "",
+                "url": ""
+              }
+            ],
+            "extend": {
+              "price": "",
+              "taste_rating": "",
+              "service_rating": "",
+              "environment_rating": "",
+              "star_rating": "",
+              "overall_rating": "",
+              "reco": "",
+              "stop_hours": "",
+              "facility": "",
+              "payment": "",
+              "parking_lot": {
+                "total": 0,
+                "free": 0,
+                "type": ""
+              },
+              "charging_station": {
+                "total": 0,
+                "ebnum": 0,
+                "ptype": "",
+                "parknum": ""
+              }
+            }
+          }
+        },
+        "routeResults": {
+          "data": []
+        },
+        "searchData": {
+          "pois": [
+            {
+              "poi_index": 0,
+              "index": -1,
+              "pid": "MAPIJPHILWJRQVCNTRA",
+              "name": "西二旗地铁站",
+              "location": "116,40",
+              "nlonlat": "116.301399,40.053131",
+              "address": "北京市海淀区西二旗站B1南出口对面正北方向70米",
+              "pname": "北京市",
+              "cityname": "",
+              "adname": "海淀区",
+              "phone": "182325562652",
+              "type": "城市轨道交通出入口",
+              "typecode": "",
+              "distance": "1063535.3446",
+              "brand": "",
+              "tag": "",
+              "rinfo": "",
+              "photos": [
+                {
+                  "title": "",
+                  "url": ""
+                }
+              ],
+              "extend": {
+                "price": "",
+                "taste_rating": "",
+                "service_rating": "",
+                "environment_rating": "",
+                "star_rating": "",
+                "overall_rating": "",
+                "reco": "",
+                "stop_hours": "",
+                "facility": "",
+                "payment": "",
+                "parking_lot": {
+                  "total": 0,
+                  "free": 0,
+                  "type": ""
+                },
+                "charging_station": {
+                  "total": 0,
+                  "ebnum": 0,
+                  "ptype": "",
+                  "parknum": ""
+                }
+              }
+            }
+          ],
+          "updated": 0
+        },
+        "nluIntention": "multi_search",
+        "nluSlots": {
+          "province": "",
+          "city": "",
+          "district": "",
+          "region": "",
+          "name": "辣风芹",
+          "routes": {
+            "count": "",
+            "datas": []
+          }
+        },
+        "nluSlotsTwo": {
+          "province": "",
+          "city": "",
+          "district": "",
+          "region": "建政路",
+          "name": "建政路 普强",
+          "routes": {
+            "count": "",
+            "datas": []
+          }
+        }
+      },
+      "_cp_required": 0,
+      "detail": {
+        "flag": -26,
+        "lastDialogState": "map_negative_two_six"
+      },
+      "_context": {
+        "skill": "NAVI",
+        "intention": "multi_search",
+        "slots": {
+          "originText": {
+            "value": ""
+          },
+          "keyword": {
+            "value": "普强"
+          },
+          "region": {
+            "value": "建政路"
+          },
+          "destination": {
+            "value": "建政路普强"
+          },
+          "distance": {
+            "value": "",
+            "type": ""
+          },
+          "route_title": {
+            "value": ""
+          },
+          "none_mark": {
+            "value": ""
+          }
+        },
+        "tts": "",
+        "ssml": "",
+        "recommends": [],
+        "content": {
+          "request": {
+            "domain": "keyword_search",
+            "kw": "建政路 普强",
+            "type": "",
+            "city": "",
+            "province": "",
+            "area": "",
+            "sort": "default|ASC",
+            "psize": "30",
+            "pnum": "1",
+            "language": ""
+          },
+          "index": -1,
+          "icon": "",
+          "pageAction": "",
+          "numAction": -1,
+          "poiResults": {
+            "data": [
+              {
+                "poi_index": 0,
+                "index": -1,
+                "pid": "MAPIJPHILWJRQVCNTRA",
+                "name": "西二旗地铁站",
+                "location": "116,40",
+                "nlonlat": "116.301399,40.053131",
+                "address": "北京市海淀区西二旗站B1南出口对面正北方向70米",
+                "pname": "北京市",
+                "cityname": "",
+                "adname": "海淀区",
+                "phone": "182325562652",
+                "type": "城市轨道交通出入口",
+                "typecode": "",
+                "distance": "1063535.3446",
+                "brand": "",
+                "tag": "",
+                "rinfo": "",
+                "photos": [
+                  {
+                    "title": "",
+                    "url": ""
+                  }
+                ],
+                "extend": {
+                  "price": "",
+                  "taste_rating": "",
+                  "service_rating": "",
+                  "environment_rating": "",
+                  "star_rating": "",
+                  "overall_rating": "",
+                  "reco": "",
+                  "stop_hours": "",
+                  "facility": "",
+                  "payment": "",
+                  "parking_lot": {
+                    "total": 0,
+                    "free": 0,
+                    "type": ""
+                  },
+                  "charging_station": {
+                    "total": 0,
+                    "ebnum": 0,
+                    "ptype": "",
+                    "parknum": ""
+                  }
+                }
+              }
+            ],
+            "pageIndex": 1,
+            "pageSize": 1,
+            "total": 1,
+            "ftype": "0",
+            "destination": {
+              "poi_index": 0,
+              "index": -1,
+              "pid": "MAPIJPHILWJRQVCNTRA",
+              "name": "西二旗地铁站",
+              "location": "116,40",
+              "nlonlat": "116.301399,40.053131",
+              "address": "北京市海淀区西二旗站B1南出口对面正北方向70米",
+              "pname": "北京市",
+              "cityname": "",
+              "adname": "海淀区",
+              "phone": "182325562652",
+              "type": "城市轨道交通出入口",
+              "typecode": "",
+              "distance": "1063535.3446",
+              "brand": "",
+              "tag": "",
+              "rinfo": "",
+              "photos": [
+                {
+                  "title": "",
+                  "url": ""
+                }
+              ],
+              "extend": {
+                "price": "",
+                "taste_rating": "",
+                "service_rating": "",
+                "environment_rating": "",
+                "star_rating": "",
+                "overall_rating": "",
+                "reco": "",
+                "stop_hours": "",
+                "facility": "",
+                "payment": "",
+                "parking_lot": {
+                  "total": 0,
+                  "free": 0,
+                  "type": ""
+                },
+                "charging_station": {
+                  "total": 0,
+                  "ebnum": 0,
+                  "ptype": "",
+                  "parknum": ""
+                }
+              }
+            }
+          },
+          "routeResults": {
+            "data": []
+          },
+          "searchData": {
+            "pois": [
+              {
+                "poi_index": 0,
+                "index": -1,
+                "pid": "MAPIJPHILWJRQVCNTRA",
+                "name": "西二旗地铁站",
+                "location": "116,40",
+                "nlonlat": "116.301399,40.053131",
+                "address": "北京市海淀区西二旗站B1南出口对面正北方向70米",
+                "pname": "北京市",
+                "cityname": "",
+                "adname": "海淀区",
+                "phone": "182325562652",
+                "type": "城市轨道交通出入口",
+                "typecode": "",
+                "distance": "1063535.3446",
+                "brand": "",
+                "tag": "",
+                "rinfo": "",
+                "photos": [
+                  {
+                    "title": "",
+                    "url": ""
+                  }
+                ],
+                "extend": {
+                  "price": "",
+                  "taste_rating": "",
+                  "service_rating": "",
+                  "environment_rating": "",
+                  "star_rating": "",
+                  "overall_rating": "",
+                  "reco": "",
+                  "stop_hours": "",
+                  "facility": "",
+                  "payment": "",
+                  "parking_lot": {
+                    "total": 0,
+                    "free": 0,
+                    "type": ""
+                  },
+                  "charging_station": {
+                    "total": 0,
+                    "ebnum": 0,
+                    "ptype": "",
+                    "parknum": ""
+                  }
+                }
+              }
+            ],
+            "updated": 0
+          },
+          "nluIntention": "multi_search",
+          "nluSlots": {
+            "province": "",
+            "city": "",
+            "district": "",
+            "region": "",
+            "name": "辣风芹",
+            "routes": {
+              "count": "",
+              "datas": []
+            }
+          },
+          "nluSlotsTwo": {
+            "province": "",
+            "city": "",
+            "district": "",
+            "region": "建政路",
+            "name": "建政路 普强",
+            "routes": {
+              "count": "",
+              "datas": []
+            }
+          }
+        },
+        "id": 1402,
+        "_cp_required": 0,
+        "detail": {
+          "flag": -26,
+          "lastDialogState": "map_negative_two_six"
+        }
+      }
+    }

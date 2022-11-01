@@ -1,0 +1,24 @@
+;; Object semanticdb-project-database-file-43cc5784
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-43cc5784"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-b0e62898"
+      :major-mode json-mode
+      :tags nil
+      :file "hist.json"
+      :pointmax 52399
+      :fsize 55804
+      :lastmodtime '(24982 5590 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-b117400e"
+      :major-mode json-mode
+      :tags nil
+      :file "hist_2.json"
+      :pointmax 55423
+      :fsize 59422
+      :lastmodtime '(24982 5702 0 0)
+      :unmatched-syntax '((VARIABLE 54 . 61) (VARIABLE 62 . 69) (COLON 70 . 71) (BRACK_BLOCK 35 . 48) (BRACK_BLOCK 25 . 31) (COLON 17 . 18) (NUMBER 12 . 14) (COLON 14 . 15))))
+  :file "!scp:wangxin@192.168.128.70:!data1!wangxin!gitlab!TSPDecoder!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

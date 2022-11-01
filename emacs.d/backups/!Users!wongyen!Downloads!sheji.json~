@@ -1,0 +1,44 @@
+{
+  "code": 0,
+  "message": "success",
+  "data": {
+    "requestId": "",
+    "dialogId": "",
+    "answer": {
+      "skill": "CALL_PHONE",
+      "intention": "open_recording",
+      "slots": {
+      },
+      "tts": "最近通话已打开。",
+      "ssml": "最近通话已打开。",
+      "recommends": [],
+      "content": {
+      },
+      "_cp_required": 0,
+      "detail": {
+        "flag": 1,
+        "lastDialogState": "calling_ending"
+      },
+      "_context": {
+        "skill": "CALL_PHONE",
+        "intention": "open_recording",
+        "slots": {
+        },
+        "tts": "",
+        "ssml": "",
+        "recommends": [],
+        "content": {
+        },
+        "id": 29,
+        "_cp_required": 0,
+        "detail": {
+          "flag": 1,
+          "lastDialogState": "calling_ending"
+        }
+      }
+    },
+    "text": "打开通话记录"
+  },
+  "conf": 1,
+  "parseScore": 1
+}

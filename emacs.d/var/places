@@ -1,0 +1,31 @@
+;;; -*- coding: utf-8 -*-
+(("/Users/wongyen/.emacs.d/etc/config/init-basic.el" . 5595)
+ ("/Users/wongyen/.emacs.d/init.el" . 13)
+ ("/Users/wongyen/github/EvanEmacs/etc/init-config.el" . 2)
+ ("/Users/wongyen/github/EvanEmacs/etc/extensions/"
+  (dired-filename . "/Users/wongyen/github/EvanEmacs/etc/extensions/.."))
+ ("/Users/wongyen/github/EvanEmacs/etc/snippets/"
+  (dired-filename . "/Users/wongyen/github/EvanEmacs/etc/snippets/.."))
+ ("/Users/wongyen/github/EvanEmacs/script/"
+  (dired-filename . "/Users/wongyen/github/EvanEmacs/script/.."))
+ ("/Users/wongyen/github/EvanEmacs/var/banner/"
+  (dired-filename . "/Users/wongyen/github/EvanEmacs/var/banner/.."))
+ ("/Users/wongyen/github/EvanEmacs/var/girl-say/"
+  (dired-filename . "/Users/wongyen/github/EvanEmacs/var/girl-say/.."))
+ ("/Users/wongyen/github/EvanEmacs/var/"
+  (dired-filename . "/Users/wongyen/github/EvanEmacs/var/.."))
+ ("/Users/wongyen/github/EvanEmacs/themes/"
+  (dired-filename . "/Users/wongyen/github/EvanEmacs/themes/.."))
+ ("/Users/wongyen/github/EvanEmacs/"
+  (dired-filename . "/Users/wongyen/github/EvanEmacs/etc"))
+ ("/Users/wongyen/github/EvanEmacs/etc/"
+  (dired-filename . "/Users/wongyen/github/EvanEmacs/etc/config"))
+ ("/Users/wongyen/github/EvanEmacs/etc/config/"
+  (dired-filename . "/Users/wongyen/github/EvanEmacs/etc/config/init-basic.el"))
+ ("/Users/wongyen/.emacs.d/var/amx-items" . 97)
+ ("/Users/wongyen/github/EvanEmacs/etc/config/init-basic.el" . 1531)
+ ("/Users/wongyen/.emacs.d/etc/"
+  (dired-filename . "/Users/wongyen/.emacs.d/etc/config"))
+ ("/Users/wongyen/.emacs.d/etc/config/"
+  (dired-filename . "/Users/wongyen/.emacs.d/etc/config/init-basic.el"))
+ ("/Users/wongyen/.emacs.d/var/recentf" . 1224))

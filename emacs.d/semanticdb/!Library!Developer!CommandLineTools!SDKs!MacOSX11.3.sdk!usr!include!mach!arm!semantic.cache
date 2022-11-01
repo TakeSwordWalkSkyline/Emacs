@@ -1,0 +1,234 @@
+;; Object semanticdb-project-database-file-43cd96e6
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-43cd96e6"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-51d55670"
+      :major-mode c-mode
+      :tags 
+        '( ("_MACH_ARM__STRUCTS_H_" variable (:constant-flag t) nil [1390 1411])
+            ("sys/cdefs.h" include (:system-flag t) nil [1413 1435])
+            ("machine/types.h" include (:system-flag t) nil [1458 1484])
+            ("_STRUCT_ARM_EXCEPTION_STATE" variable (:constant-flag t) nil [1531 1558])
+            ("__darwin_arm_exception_state" type
+               (:members 
+                  ( ("__exception" variable (:type ("__uint32_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1626 1649])
+                    ("__fsr" variable (:type ("__uint32_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1687 1704])
+                    ("__far" variable (:type ("__uint32_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1731 1748]))                  
+                :type "struct")
+                nil [1595 1785])
+            ("_STRUCT_ARM_EXCEPTION_STATE64" variable (:constant-flag t) nil [2127 2156])
+            ("__darwin_arm_exception_state64" type
+               (:members 
+                  ( ("__far" variable (:type ("__uint64_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2228 2245])
+                    ("__esr" variable (:type ("__uint32_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2281 2298])
+                    ("__exception" variable (:type ("__uint32_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2331 2354]))                  
+                :type "struct")
+                nil [2195 2393])
+            ("_STRUCT_ARM_THREAD_STATE" variable (:constant-flag t) nil [2747 2771])
+            ("__darwin_arm_thread_state" type
+               (:members 
+                  ( ("__r" variable
+                       (:dereference 1
+                        :type ("__uint32_t" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [2833 2852])
+                    ("__sp" variable (:type ("__uint32_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2892 2908])
+                    ("__lr" variable (:type ("__uint32_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2937 2953])
+                    ("__pc" variable (:type ("__uint32_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2982 2998])
+                    ("__cpsr" variable (:type ("__uint32_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3029 3047]))                  
+                :type "struct")
+                nil [2805 3089])
+            ("__DARWIN_OPAQUE_ARM_THREAD_STATE64" variable (:constant-flag t) nil [4034 4068])
+            ("_STRUCT_ARM_THREAD_STATE64" variable (:constant-flag t) nil [4302 4328])
+            ("__darwin_arm_thread_state64" type
+               (:members 
+                  ( ("__x" variable
+                       (:dereference 1
+                        :type ("__uint64_t" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [4901 4920])
+                    ("__fp" variable (:type ("__uint64_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [4961 4977])
+                    ("__lr" variable (:type ("__uint64_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [5006 5022])
+                    ("__sp" variable (:type ("__uint64_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [5051 5067])
+                    ("__pc" variable (:type ("__uint64_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [5096 5112])
+                    ("__cpsr" variable (:type ("__uint32_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [5139 5157])
+                    ("__pad" variable (:type ("__uint32_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [5198 5215]))                  
+                :type "struct")
+                nil [4871 5265])
+            ("__darwin_arm_thread_state64_get_pc" variable (:constant-flag t) nil [16230 16264])
+            ("__darwin_arm_thread_state64_get_pc_fptr" variable (:constant-flag t) nil [16360 16399])
+            ("__darwin_arm_thread_state64_set_pc_fptr" variable (:constant-flag t) nil [16512 16551])
+            ("__darwin_arm_thread_state64_get_lr" variable (:constant-flag t) nil [16675 16709])
+            ("__darwin_arm_thread_state64_get_lr_fptr" variable (:constant-flag t) nil [16805 16844])
+            ("__darwin_arm_thread_state64_set_lr_fptr" variable (:constant-flag t) nil [16957 16996])
+            ("__darwin_arm_thread_state64_get_sp" variable (:constant-flag t) nil [17120 17154])
+            ("__darwin_arm_thread_state64_set_sp" variable (:constant-flag t) nil [17249 17283])
+            ("__darwin_arm_thread_state64_get_fp" variable (:constant-flag t) nil [17405 17439])
+            ("__darwin_arm_thread_state64_set_fp" variable (:constant-flag t) nil [17534 17568])
+            ("__darwin_arm_thread_state64_ptrauth_strip" variable (:constant-flag t) nil [17699 17740])
+            ("_STRUCT_ARM_VFP_STATE" variable (:constant-flag t) nil [19618 19639])
+            ("__darwin_arm_vfp_state" type
+               (:members 
+                  ( ("__r" variable
+                       (:dereference 1
+                        :type ("__uint32_t" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [19695 19714])
+                    ("__fpscr" variable (:type ("__uint32_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [19716 19735]))                  
+                :type "struct")
+                nil [19670 19738])
+            ("_STRUCT_ARM_NEON_STATE64" variable (:constant-flag t) nil [19942 19966])
+            ("_STRUCT_ARM_NEON_STATE" variable (:constant-flag t) nil [20008 20030])
+            ("__darwin_arm_neon_state64" type
+               (:members 
+                  ( ("__v" variable
+                       (:dereference 1
+                        :type ("__uint128_t" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [20116 20136])
+                    ("__fpsr" variable (:type ("__uint32_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [20138 20157])
+                    ("__fpcr" variable (:type ("__uint32_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [20159 20178]))                  
+                :type "struct")
+                nil [20088 20181])
+            ("__darwin_arm_neon_state" type
+               (:members 
+                  ( ("__v" variable
+                       (:dereference 1
+                        :type ("__uint128_t" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [20209 20229])
+                    ("__fpsr" variable (:type ("__uint32_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [20231 20250])
+                    ("__fpcr" variable (:type ("__uint32_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [20252 20271]))                  
+                :type "struct")
+                nil [20183 20274])
+            ("_STRUCT_ARM_AMX_STATE_V1" variable (:constant-flag t) nil [21377 21401])
+            ("__darwin_arm_amx_state_v1" type
+               (:members 
+                  ( ("__x" variable
+                       (:dereference 2
+                        :type ("__uint8_t" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [21463 21485])
+                    ("__y" variable
+                       (:dereference 2
+                        :type ("__uint8_t" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [21520 21542])
+                    ("__z" variable
+                       (:dereference 2
+                        :type ("__uint8_t" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [21577 21600])
+                    ("__amx_state_t_el1" variable (:type ("__uint64_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [21655 21684]))                  
+                :type "struct")
+                nil [21435 21744])
+            ("_STRUCT_ARM_PAGEIN_STATE" variable (:constant-flag t) nil [22172 22196])
+            ("__arm_pagein_state" type
+               (:members 
+                  ( ("__pagein_error" variable (:type "int") (reparse-symbol classsubparts) [22251 22270]))                  
+                :type "struct")
+                nil [22223 22273])
+            ("_STRUCT_ARM_LEGACY_DEBUG_STATE" variable (:constant-flag t) nil [22916 22946])
+            ("__arm_legacy_debug_state" type
+               (:members 
+                  ( ("__bvr" variable
+                       (:dereference 1
+                        :type ("__uint32_t" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [23013 23034])
+                    ("__bcr" variable
+                       (:dereference 1
+                        :type ("__uint32_t" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [23036 23057])
+                    ("__wvr" variable
+                       (:dereference 1
+                        :type ("__uint32_t" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [23059 23080])
+                    ("__wcr" variable
+                       (:dereference 1
+                        :type ("__uint32_t" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [23082 23103]))                  
+                :type "struct")
+                nil [22979 23106])
+            ("_STRUCT_ARM_DEBUG_STATE32" variable (:constant-flag t) nil [23423 23448])
+            ("__darwin_arm_debug_state32" type
+               (:members 
+                  ( ("__bvr" variable
+                       (:dereference 1
+                        :type ("__uint32_t" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [23512 23533])
+                    ("__bcr" variable
+                       (:dereference 1
+                        :type ("__uint32_t" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [23535 23556])
+                    ("__wvr" variable
+                       (:dereference 1
+                        :type ("__uint32_t" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [23558 23579])
+                    ("__wcr" variable
+                       (:dereference 1
+                        :type ("__uint32_t" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [23581 23602])
+                    ("__mdscr_el1" variable (:type ("__uint64_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [23604 23627]))                  
+                :type "struct")
+                nil [23483 23671])
+            ("_STRUCT_ARM_DEBUG_STATE64" variable (:constant-flag t) nil [23681 23706])
+            ("__darwin_arm_debug_state64" type
+               (:members 
+                  ( ("__bvr" variable
+                       (:dereference 1
+                        :type ("__uint64_t" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [23770 23791])
+                    ("__bcr" variable
+                       (:dereference 1
+                        :type ("__uint64_t" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [23793 23814])
+                    ("__wvr" variable
+                       (:dereference 1
+                        :type ("__uint64_t" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [23816 23837])
+                    ("__wcr" variable
+                       (:dereference 1
+                        :type ("__uint64_t" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [23839 23860])
+                    ("__mdscr_el1" variable (:type ("__uint64_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [23862 23885]))                  
+                :type "struct")
+                nil [23741 23929])
+            ("_STRUCT_ARM_CPMU_STATE64" variable (:constant-flag t) nil [24494 24518])
+            ("__darwin_arm_cpmu_state64" type
+               (:members 
+                  ( ("__ctrs" variable
+                       (:dereference 1
+                        :type ("__uint64_t" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [24580 24602]))                  
+                :type "struct")
+                nil [24552 24605]))          
+      :file "_structs.h"
+      :pointmax 24809
+      :fsize 24808
+      :lastmodtime '(24656 28654 0 0)
+      :unmatched-syntax '((punctuation 20618 . 20619) (symbol 20606 . 20618) (symbol 20598 . 20605) (symbol 20592 . 20597) (punctuation 20591 . 20592))
+      :lexical-table 
+        '(("_STRUCT_ARM_EXCEPTION_STATE" . ((STRUCT "struct" 1559 . 1565) (symbol "__darwin_arm_exception_state" 1566 . 1594)))
+          ("__darwin_arm_thread_state64_get_lr_fptr" (spp-arg-list ("ts") 16844 . 16848) . ((semantic-list "((void*)(uintptr_t)((ts).__lr))" 16852 . 16883)))
+          ("_STRUCT_ARM_NEON_STATE" . ((STRUCT "struct" 20033 . 20039) (symbol "__darwin_arm_neon_state" 20040 . 20063)))
+          ("_STRUCT_ARM_DEBUG_STATE32" . ((STRUCT "struct" 23449 . 23455) (symbol "__darwin_arm_debug_state32" 23456 . 23482)))
+          ("_STRUCT_ARM_CPMU_STATE64" . ((STRUCT "struct" 24519 . 24525) (symbol "__darwin_arm_cpmu_state64" 24526 . 24551)))
+          ("_STRUCT_ARM_THREAD_STATE64" . ((STRUCT "struct" 4329 . 4335) (symbol "__darwin_arm_thread_state64" 4336 . 4363)))
+          ("__darwin_arm_thread_state64_get_pc" (spp-arg-list ("ts") 16264 . 16268) . ((semantic-list "((ts).__pc)" 16272 . 16283)))
+          ("__darwin_arm_thread_state64_set_sp" (spp-arg-list ("ts" "ptr") 17283 . 17292) . ((semantic-list "((ts).__sp = (uintptr_t)(ptr))" 17296 . 17326)))
+          ("__darwin_arm_thread_state64_set_fp" (spp-arg-list ("ts" "ptr") 17568 . 17577) . ((semantic-list "((ts).__fp = (uintptr_t)(ptr))" 17581 . 17611)))
+          ("__darwin_arm_thread_state64_ptrauth_strip" (spp-arg-list ("ts") 17740 . 17744) . ((semantic-list "(void)" 17748 . 17754) (semantic-list "(ts)" 17754 . 17758)))
+          ("_STRUCT_ARM_AMX_STATE_V1" . ((STRUCT "struct" 21402 . 21408) (symbol "__darwin_arm_amx_state_v1" 21409 . 21434)))
+          ("_STRUCT_ARM_LEGACY_DEBUG_STATE" . ((STRUCT "struct" 22947 . 22953) (symbol "__arm_legacy_debug_state" 22954 . 22978)))
+          ("__DARWIN_OPAQUE_ARM_THREAD_STATE64" . ((number "0" 4069 . 4070)))
+          ("__darwin_arm_thread_state64_get_lr" (spp-arg-list ("ts") 16709 . 16713) . ((semantic-list "((ts).__lr)" 16717 . 16728)))
+          ("_STRUCT_ARM_VFP_STATE" . ((STRUCT "struct" 19640 . 19646) (symbol "__darwin_arm_vfp_state" 19647 . 19669)))
+          ("_STRUCT_ARM_THREAD_STATE" . ((STRUCT "struct" 2772 . 2778) (symbol "__darwin_arm_thread_state" 2779 . 2804)))
+          ("_STRUCT_ARM_NEON_STATE64" . ((STRUCT "struct" 19967 . 19973) (symbol "__darwin_arm_neon_state64" 19974 . 19999)))
+          ("_STRUCT_ARM_EXCEPTION_STATE64" . ((STRUCT "struct" 2157 . 2163) (symbol "__darwin_arm_exception_state64" 2164 . 2194)))
+          ("_MACH_ARM__STRUCTS_H_")
+          ("__darwin_arm_thread_state64_set_pc_fptr" (spp-arg-list ("ts" "fptr") 16551 . 16561) . ((semantic-list "((ts).__pc = (uintptr_t)(fptr))" 16565 . 16596)))
+          ("__darwin_arm_thread_state64_set_lr_fptr" (spp-arg-list ("ts" "fptr") 16996 . 17006) . ((semantic-list "((ts).__lr = (uintptr_t)(fptr))" 17010 . 17041)))
+          ("__darwin_arm_thread_state64_get_sp" (spp-arg-list ("ts") 17154 . 17158) . ((semantic-list "((ts).__sp)" 17162 . 17173)))
+          ("__darwin_arm_thread_state64_get_fp" (spp-arg-list ("ts") 17439 . 17443) . ((semantic-list "((ts).__fp)" 17447 . 17458)))
+          ("_STRUCT_ARM_PAGEIN_STATE" . ((STRUCT "struct" 22197 . 22203) (symbol "__arm_pagein_state" 22204 . 22222)))
+          ("_STRUCT_ARM_DEBUG_STATE64" . ((STRUCT "struct" 23707 . 23713) (symbol "__darwin_arm_debug_state64" 23714 . 23740)))
+          ("__darwin_arm_thread_state64_get_pc_fptr" (spp-arg-list ("ts") 16399 . 16403) . ((semantic-list "((void*)(uintptr_t)((ts).__pc))" 16407 . 16438)))
+          )
+))
+  :file "!Library!Developer!CommandLineTools!SDKs!MacOSX11.3.sdk!usr!include!mach!arm!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

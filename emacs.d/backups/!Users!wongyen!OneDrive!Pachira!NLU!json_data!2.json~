@@ -1,0 +1,14 @@
+{
+      "tts": "要查到哪里的航班？",
+      "slots": {},
+      "skill": "FLIGHT",
+      "ssml": "要查到哪里的航班？",
+      "recording": 0,
+      "recommends": [],
+      "detail": {
+        "flag": 0,
+        "lastDialogState": "flight_query"
+      },
+      "content": {},
+      "intention": "query"
+}

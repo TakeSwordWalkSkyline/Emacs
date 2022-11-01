@@ -1,0 +1,8 @@
+#include <string>
+#include <vector>
+
+using namespace std;
+
+int main(int argc, char **argv) {
+    vector<string> v = {"str1", "str2", "str3", "str4", "str5"}
+}

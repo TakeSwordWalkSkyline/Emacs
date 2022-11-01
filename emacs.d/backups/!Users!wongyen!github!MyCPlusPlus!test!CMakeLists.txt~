@@ -1,0 +1,10 @@
+SET (SOURCES
+  test_cjson.cpp)
+
+SET (LIBCJSON
+  /Users/wongyen/github/MyCPlusPlus/test/libcjson.a)
+string(REPLACE ".cpp" "" name ${SOURCES})
+
+add_executable(${name} ${SOURCES})
+
+target_link_libraries(${name} ${LIBCJSON})

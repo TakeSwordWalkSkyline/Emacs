@@ -1,0 +1,16 @@
+;; Object semanticdb-project-database-file-52d05818
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-52d05818"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-52d05842"
+      :major-mode makefile-bsdmake-mode
+      :tags nil
+      :file "Makefile"
+      :pointmax 11524
+      :fsize 11523
+      :lastmodtime '(24981 12109 930171 537000)
+      :unmatched-syntax nil))
+  :file "!Users!wongyen!github!MyCPlusPlus!build!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

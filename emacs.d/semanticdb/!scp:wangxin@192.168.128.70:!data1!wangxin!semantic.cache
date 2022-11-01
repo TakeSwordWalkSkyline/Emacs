@@ -1,0 +1,22 @@
+;; Object semanticdb-project-database-file-4b4fc934
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-4b4fc934"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-4b5524a8"
+      :major-mode json-mode
+      :tags nil
+      :file "searchData_freetalk"
+      :pointmax 36813
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-5ac28842"
+      :major-mode json-mode
+      :tags nil
+      :file "tmp.json"
+      :pointmax 36796
+      :fsize 38953
+      :lastmodtime '(25009 41935 0 0)
+      :unmatched-syntax nil))
+  :file "!scp:wangxin@192.168.128.70:!data1!wangxin!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

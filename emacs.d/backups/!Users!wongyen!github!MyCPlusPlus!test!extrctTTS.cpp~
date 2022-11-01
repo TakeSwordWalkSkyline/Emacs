@@ -1,0 +1,79 @@
+#include "cJSON.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <string>
+
+int extractTtsPerDomain(FILE *out_fp, cJSON *answer_array) {
+    int array_size = cJSON_GetArraySize(answer_array);
+    for (int i = 0; i < array_size; ++i) {
+        cJSON *answer = cJSON_GetArrayItem(answer_array, i);
+        if (answer && answer->type == cJSON_Object) {
+            cJSON *tts = cJSON_GetObjectItem(answer, "tts");
+            cJSON *id = cJSON_GetObjectItem(answer, "id");
+            if (tts && tts->type == cJSON_Array) {
+                int _array_size = cJSON_GetArraySize(tts);
+                if (_array_size == 1) {
+                    cJSON *tts_content = cJSON_GetArrayItem(tts, 0);
+                    fprintf(out_fp, "id:%d;%s\n", id->valueint, tts_content->valuestring);
+                } else {
+                    std::string buffer = "";
+                    for (int j = 0; j < _array_size; ++j) {
+                        cJSON *tts_content = cJSON_GetArrayItem(tts, j);
+                        if (tts_content && tts_content->type == cJSON_String) {
+                            buffer += tts_content->valuestring;
+                        } else {
+                            buffer += "*";
+                        }
+                    }
+                    fprintf(out_fp, "id:%d;%s\n", id->valueint, buffer.c_str());
+                }
+            }
+        }
+    }
+    return 0;
+}
+
+int main(int argc, char **argv) {
+    printf("%s\n", argv[0]);
+    printf("%s\n", argv[1]);
+    FILE *fp = fopen(argv[1], "r");
+    if (fp) {
+        fseek(fp, 0, SEEK_END);
+        long size = ftell(fp);
+        fseek(fp, 0, SEEK_SET);
+        char *content = (char *) malloc((size + 1) * sizeof(char));
+        if (content) {
+            size_t n = fread(content, 1, size, fp);
+            if (n != size) {
+                printf("failed to read file [%s]\n", argv[1]);
+                return 0;
+            }
+            cJSON *json = cJSON_Parse(content);
+            if (json) {
+                cJSON *domain_array = cJSON_GetObjectItem(json, "data");
+                if (domain_array && domain_array->type == cJSON_Array) {
+                    FILE *out_fp = fopen("./output.txt", "w");
+                    int domain_size = cJSON_GetArraySize(domain_array);
+                    for (int i = 0; i < domain_size; ++i) {
+                        cJSON *domain = cJSON_GetArrayItem(domain_array, i);
+                        if (domain && domain->type == cJSON_Object) {
+                            cJSON *answer_array = cJSON_GetObjectItem(domain, "answer");
+                            if (answer_array && answer_array->type == cJSON_Array) {
+                                int res = extractTtsPerDomain(out_fp, answer_array);
+                            }
+                        }
+                    }
+                    extractTtsPerDomain(out_fp, domain_array);
+                    fclose(out_fp);
+                }
+            }
+            cJSON_Delete(json);
+        }
+        fclose(fp);
+        free(content);
+        content = NULL;
+    } else {
+        printf("failed to open file [%s]\n", argv[1]);
+        return 0;
+    }
+}

@@ -1,0 +1,274 @@
+{
+  "code": 0,
+  "message": "success",
+  "data": {
+    "requestId": "",
+    "dialogId": "",
+    "answer": {
+      "skill": "NAVI",
+      "intention": "multi_search",
+      "slots": {
+        "originText": {
+          "value": ""
+        },
+        "keyword": {
+          "value": "中关村"
+        },
+        "region": {
+          "value": ""
+        },
+        "destination": {
+          "value": "中关村"
+        },
+        "distance": {
+          "value": "",
+          "type": ""
+        },
+        "route_title": {
+          "value": ""
+        }
+      },
+      "tts": "没有找到相关地址，是否导航到四维图新大厦？",
+      "ssml": "没有找到相关地址，是否导航到四维图新大厦？",
+      "recommends": [],
+      "content": {
+        "request": {
+          "domain": "keyword_search",
+          "kw": "中关村",
+          "type": "",
+          "city": "",
+          "province": "",
+          "area": "",
+          "sort": "default|ASC",
+          "psize": "30",
+          "pnum": "1",
+          "language": ""
+        },
+        "index": -1,
+        "icon": "",
+        "pageAction": "",
+        "numAction": -1,
+        "poiResults": {
+          "data": [
+            {
+              "poi_index": 0,
+              "index": -1,
+              "pid": "MAPIJPHILWJRQVCNTRC",
+              "name": "四维图新大厦",
+              "location": "116.30614,40.05284",
+              "nlonlat": "116.30537,40.05356",
+              "address": "",
+              "pname": "",
+              "cityname": "北京市",
+              "adname": "海淀区",
+              "phone": "12345678",
+              "type": "",
+              "typecode": "G11,G00",
+              "distance": "1900.5045",
+              "brand": "",
+              "tag": "",
+              "rinfo": "",
+              "extend": {
+                "price": "16",
+                "taste_rating": "",
+                "service_rating": "",
+                "environment_rating": "",
+                "star_rating": "",
+                "overall_rating": "",
+                "reco": "",
+                "stop_hours": "",
+                "facility": "",
+                "payment": "",
+                "parking_lot": {
+                  "total": 0,
+                  "free": 0,
+                  "type": ""
+                },
+                "charging_station": {
+                  "total": 0,
+                  "ebnum": 0,
+                  "ptype": "",
+                  "parknum": ""
+                }
+              }
+            }
+          ],
+          "pageIndex": 1,
+          "pageSize": 0,
+          "total": 0,
+          "ftype": "10"
+        },
+        "routeResults": {
+          "data": []
+        },
+        "searchData": {
+          "pois": [],
+          "updated": 1
+        },
+        "nluIntention": "multi_search",
+        "nluSlots": {
+          "province": "",
+          "city": "",
+          "district": "",
+          "region": "",
+          "name": "中关村",
+          "routes": {
+            "count": "",
+            "datas": []
+          }
+        },
+        "nluSlotsTwo": {
+          "province": "",
+          "city": "",
+          "district": "",
+          "region": "",
+          "name": "四维图新",
+          "routes": {
+            "count": "",
+            "datas": []
+          }
+        }
+      },
+      "_cp_required": 0,
+      "detail": {
+        "flag": 610,
+        "lastDialogState": "map_six_one_zero"
+      },
+      "_context": {
+        "skill": "NAVI",
+        "intention": "multi_search",
+        "slots": {
+          "originText": {
+            "value": ""
+          },
+          "keyword": {
+            "value": "中关村"
+          },
+          "region": {
+            "value": ""
+          },
+          "destination": {
+            "value": "中关村"
+          },
+          "distance": {
+            "value": "",
+            "type": ""
+          },
+          "route_title": {
+            "value": ""
+          }
+        },
+        "tts": "",
+        "ssml": "",
+        "recommends": [],
+        "content": {
+          "request": {
+            "domain": "keyword_search",
+            "kw": "中关村",
+            "type": "",
+            "city": "",
+            "province": "",
+            "area": "",
+            "sort": "default|ASC",
+            "psize": "30",
+            "pnum": "1",
+            "language": ""
+          },
+          "index": -1,
+          "icon": "",
+          "pageAction": "",
+          "numAction": -1,
+          "poiResults": {
+            "data": [
+              {
+                "poi_index": 0,
+                "index": -1,
+                "pid": "MAPIJPHILWJRQVCNTRC",
+                "name": "四维图新大厦",
+                "location": "116.30614,40.05284",
+                "nlonlat": "116.30537,40.05356",
+                "address": "",
+                "pname": "",
+                "cityname": "北京市",
+                "adname": "海淀区",
+                "phone": "12345678",
+                "type": "",
+                "typecode": "G11,G00",
+                "distance": "1900.5045",
+                "brand": "",
+                "tag": "",
+                "rinfo": "",
+                "extend": {
+                  "price": "16",
+                  "taste_rating": "",
+                  "service_rating": "",
+                  "environment_rating": "",
+                  "star_rating": "",
+                  "overall_rating": "",
+                  "reco": "",
+                  "stop_hours": "",
+                  "facility": "",
+                  "payment": "",
+                  "parking_lot": {
+                    "total": 0,
+                    "free": 0,
+                    "type": ""
+                  },
+                  "charging_station": {
+                    "total": 0,
+                    "ebnum": 0,
+                    "ptype": "",
+                    "parknum": ""
+                  }
+                }
+              }
+            ],
+            "pageIndex": 1,
+            "pageSize": 0,
+            "total": 0,
+            "ftype": "10"
+          },
+          "routeResults": {
+            "data": []
+          },
+          "searchData": {
+            "pois": [],
+            "updated": 1
+          },
+          "nluIntention": "multi_search",
+          "nluSlots": {
+            "province": "",
+            "city": "",
+            "district": "",
+            "region": "",
+            "name": "中关村",
+            "routes": {
+              "count": "",
+              "datas": []
+            }
+          },
+          "nluSlotsTwo": {
+            "province": "",
+            "city": "",
+            "district": "",
+            "region": "",
+            "name": "四维图新",
+            "routes": {
+              "count": "",
+              "datas": []
+            }
+          }
+        },
+        "id": 1404,
+        "_cp_required": 0,
+        "detail": {
+          "flag": 610,
+          "lastDialogState": "map_six_one_zero"
+        }
+      }
+    },
+    "text": ""
+  },
+  "conf": 1,
+  "parseScore": 1
+}

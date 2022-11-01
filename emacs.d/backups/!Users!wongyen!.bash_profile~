@@ -1,0 +1,9 @@
+alias rm="rm -i"
+
+#terminal color setting
+#export LS_OPTIONS='--color=auto'
+export CLICOLOR='Yes'
+export LSCOLORS='ExGxFxdaCxDaDahbadacec'
+
+#PATH setting
+export PATH="$PATH:/opt/homebrew/Cellar/smartmontools/7.2/bin/"

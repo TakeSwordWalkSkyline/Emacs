@@ -1,0 +1,80 @@
+;; Object semanticdb-project-database-file-51cec5ec
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-51cec5ec"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-4d56ca06"
+      :major-mode c-mode
+      :tags 
+        '( ("_MALLOC_UNDERSCORE_MALLOC_H_" variable (:constant-flag t) nil [1023 1051])
+            ("Availability.h" include (:system-flag t) nil [1262 1287])
+            ("sys/cdefs.h" include (:system-flag t) nil [1288 1310])
+            ("_types.h" include (:system-flag t) nil [1311 1330])
+            ("sys/_types/_size_t.h" include (:system-flag t) nil [1331 1362])
+            ("__OSX_AVAILABLE_STARTING" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type ("__MAC_10_6" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2301 2312])
+                    ("" variable (:type ("__IPHONE_3_0" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2313 2326]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [2276 2327])
+            ("valloc" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1723 1730]))                  
+                :pointer 1
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [1710 1747])
+            ("realloc" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("__ptr" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [1559 1571])
+                    ("__size" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1572 1586]))                  
+                :pointer 1
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [1545 1622])
+            ("free" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [1536 1543]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [1525 1544])
+            ("calloc" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("__count" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1456 1471])
+                    ("__size" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1472 1486]))                  
+                :pointer 1
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [1443 1524])
+            ("malloc" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("__size" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1392 1406]))                  
+                :pointer 1
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [1379 1442]))          
+      :file "_malloc.h"
+      :pointmax 2384
+      :fsize 2383
+      :lastmodtime '(24656 47130 0 0)
+      :unmatched-syntax '((semantic-list 2223 . 2275) (symbol 2209 . 2223) (INT 2203 . 2206))
+      :lexical-table 
+        '(("_MALLOC_UNDERSCORE_MALLOC_H_")
+          )
+))
+  :file "!Library!Developer!CommandLineTools!SDKs!MacOSX11.3.sdk!usr!include!malloc!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

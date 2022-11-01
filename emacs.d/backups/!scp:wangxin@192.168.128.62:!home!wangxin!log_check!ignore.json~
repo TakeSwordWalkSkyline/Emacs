@@ -1,0 +1,33 @@
+{
+    "data": {
+        "confidence": {
+            "taskScore": 6.0,
+            "contentScore": 0.0,
+            "nluScore": 3.2151274681
+        },
+        "answer": {
+            "_embedded": {
+                "nluResult": {
+                    "intention": "mute"
+                }
+            },
+            "recording": 0,
+            "detail": {
+            },
+            "content": {
+            },
+            "recomm    ends": [],
+            "slots": {
+            },
+            "ssml": "",
+            "tts": "",
+            "intention": "mute",
+            "skill": "CALL_PHONE"
+        },
+        "text": "ignore",
+        "dialogId": "fd8a67c4ca574aa6a20d8e649850f989",
+        "requestId": "47749f7774784e4f9ef7dab3aad9817a"
+    },
+    "message": "success",
+    "code": 0
+}

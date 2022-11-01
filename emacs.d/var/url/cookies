@@ -1,0 +1,21 @@
+;; Emacs-W3 HTTP cookies file
+;; Automatically generated file!!! DO NOT EDIT!!!
+
+(setq url-cookie-storage
+ '((".google.com"
+  [url-cookie "NID" "511=u23qAtujiBZ-5w_KMoqI2KDqauW5isvyS679IVVRYKRLUMs9EcKxgMnRU1ymmVFqeSBMy685utkzHu8928KPyGJ56RbPUpl5bp4h6pRRlQ4Vr8AfFTamDmHk6KltSNW2IDvM38liQA7nN_ueuGvZn2nUIGaZK4fgnXupbrwRZ8A" "Fri, 04-Nov-2022 09:15:12 GMT" "/" ".google.com" nil])
+ (".baidu.com"
+  [url-cookie "BAIDUID" "87A1B5168F5AE3B86D3F6EC6E35888CC:FG=1" "Fri May 05 09:02:41 2023 GMT" "/" ".baidu.com" nil]
+  [url-cookie "BIDUPSID" "87A1B5168F5AE3B820F33A741214AAE8" "Tue May 23 12:16:48 2090 GMT" "/" ".baidu.com" nil]
+  [url-cookie "PSTM" "1651741361" "Tue May 23 12:16:48 2090 GMT" "/" ".baidu.com" nil]))
+)
+(setq url-cookie-secure-storage
+ '((".google.com"
+  [url-cookie "1P_JAR" "2022-05-05-09" "Sat, 04-Jun-2022 09:16:38 GMT" "/" ".google.com" t]
+  [url-cookie "AEC" "AakniGNFFxpFGlrhzlv0SMU4sbomWohqnyQ7xVmUc4ji2RBBsvZ7Ra2DZA" "Tue, 01-Nov-2022 09:13:31 GMT" "/" ".google.com" t]))
+)
+
+;; Local Variables:
+;; version-control: never
+;; no-byte-compile: t
+;; End:

@@ -1,0 +1,321 @@
+;; Object semanticdb-project-database-file-b107ab76
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-b107ab76"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-43dbaf5a"
+      :major-mode c-mode
+      :tags 
+        '( ("_MACHTYPES_H_" variable (:constant-flag t) nil [3294 3307])
+            ("i386/_types.h" include (:system-flag t) nil [3331 3355])
+            ("sys/cdefs.h" include (:system-flag t) nil [3356 3378])
+            ("sys/_types/_int8_t.h" include (:system-flag t) nil [3484 3515])
+            ("sys/_types/_int16_t.h" include (:system-flag t) nil [3516 3548])
+            ("sys/_types/_int32_t.h" include (:system-flag t) nil [3549 3581])
+            ("sys/_types/_int64_t.h" include (:system-flag t) nil [3582 3614])
+            ("sys/_types/_u_int8_t.h" include (:system-flag t) nil [3616 3649])
+            ("sys/_types/_u_int16_t.h" include (:system-flag t) nil [3650 3684])
+            ("sys/_types/_u_int32_t.h" include (:system-flag t) nil [3685 3719])
+            ("sys/_types/_u_int64_t.h" include (:system-flag t) nil [3720 3754])
+            ("register_t" type
+               (:typedef ("int64_t" type (:type "class") nil nil)
+                :type "typedef")
+                nil [3769 3812])
+            ("sys/_types/_intptr_t.h" include (:system-flag t) nil [3871 3904])
+            ("sys/_types/_uintptr_t.h" include (:system-flag t) nil [3905 3939])
+            ("user_addr_t" type
+               (:typedef ("u_int64_t" type (:type "class") nil nil)
+                :type "typedef")
+                nil [4096 4140])
+            ("user_size_t" type
+               (:typedef ("u_int64_t" type (:type "class") nil nil)
+                :type "typedef")
+                nil [4141 4185])
+            ("user_ssize_t" type
+               (:typedef ("int64_t" type (:type "class") nil nil)
+                :type "typedef")
+                nil [4186 4231])
+            ("user_long_t" type
+               (:typedef ("int64_t" type (:type "class") nil nil)
+                :type "typedef")
+                nil [4232 4276])
+            ("user_ulong_t" type
+               (:typedef ("u_int64_t" type (:type "class") nil nil)
+                :type "typedef")
+                nil [4277 4322])
+            ("user_time_t" type
+               (:typedef ("int64_t" type (:type "class") nil nil)
+                :type "typedef")
+                nil [4323 4367])
+            ("user_off_t" type
+               (:typedef ("int64_t" type (:type "class") nil nil)
+                :type "typedef")
+                nil [4368 4411])
+            ("USER_ADDR_NULL" variable (:constant-flag t) nil [4420 4434])
+            ("CAST_USER_ADDR_T" variable (:constant-flag t) nil [4462 4478])
+            ("syscall_arg_t" type
+               (:typedef ("u_int64_t" type (:type "class") nil nil)
+                :type "typedef")
+                nil [4676 4722]))          
+      :file "types.h"
+      :pointmax 4779
+      :fsize 4778
+      :lastmodtime '(24656 28654 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("CAST_USER_ADDR_T" (spp-arg-list ("a_ptr") 4478 . 4485) . ((semantic-list "((user_addr_t)((uintptr_t)(a_ptr)))" 4488 . 4523)))
+          ("_MACHTYPES_H_")
+          ("USER_ADDR_NULL" . ((semantic-list "((user_addr_t) 0)" 4436 . 4453)))
+          )
+)
+    (semanticdb-table "semanticdb-table-51f085da"
+      :major-mode c-mode
+      :tags 
+        '( ("_BSD_I386__TYPES_H_" variable (:constant-flag t) nil [1372 1391])
+            ("__int8_t" type
+               (:typedef ("signed char")
+                :type "typedef")
+                nil [1556 1597])
+            ("__uint8_t" type
+               (:typedef ("unsigned char")
+                :type "typedef")
+                nil [1688 1730])
+            ("__int16_t" type
+               (:typedef ("short")
+                :type "typedef")
+                nil [1731 1773])
+            ("__uint16_t" type
+               (:typedef ("unsigned short")
+                :type "typedef")
+                nil [1774 1817])
+            ("__int32_t" type
+               (:typedef ("int")
+                :type "typedef")
+                nil [1818 1860])
+            ("__uint32_t" type
+               (:typedef ("unsigned int")
+                :type "typedef")
+                nil [1861 1904])
+            ("__int64_t" type
+               (:typedef ("long long")
+                :type "typedef")
+                nil [1905 1947])
+            ("__uint64_t" type
+               (:typedef ("unsigned long long")
+                :type "typedef")
+                nil [1948 1991])
+            ("__darwin_intptr_t" type
+               (:typedef ("long")
+                :type "typedef")
+                nil [1993 2043])
+            ("__darwin_natural_t" type
+               (:typedef ("unsigned int")
+                :type "typedef")
+                nil [2044 2095])
+            ("__darwin_ct_rune_t" type
+               (:typedef ("int")
+                :type "typedef")
+                nil [3098 3149])
+            ("__mbstate_t" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("__mbstate8" variable
+                             (:dereference 1
+                              :type "char")
+                              (reparse-symbol classsubparts) [3348 3380])
+                          ("_mbstateL" variable (:type "long long") (reparse-symbol classsubparts) [3382 3408]))                        
+                      :type "union")
+                      nil nil)
+                :type "typedef")
+                nil [3331 3464])
+            ("__darwin_mbstate_t" type
+               (:typedef ("__mbstate_t" type (:type "class") nil nil)
+                :type "typedef")
+                nil [3466 3517])
+            ("__darwin_ptrdiff_t" type
+               (:typedef ("long")
+                :type "typedef")
+                nil [3667 3718])
+            ("__darwin_size_t" type
+               (:typedef ("unsigned long")
+                :type "typedef")
+                nil [3948 3996])
+            ("__darwin_va_list" type
+               (:typedef ("__builtin_va_list" type (:type "class") nil nil)
+                :type "typedef")
+                nil [4046 4095])
+            ("__darwin_wchar_t" type
+               (:typedef ("int")
+                :type "typedef")
+                nil [4228 4277])
+            ("__darwin_rune_t" type
+               (:typedef ("__darwin_wchar_t" type (:type "class") nil nil)
+                :type "typedef")
+                nil [4382 4430])
+            ("__darwin_wint_t" type
+               (:typedef ("int")
+                :type "typedef")
+                nil [4479 4527])
+            ("__darwin_clock_t" type
+               (:typedef ("unsigned long")
+                :type "typedef")
+                nil [4631 4680])
+            ("__darwin_socklen_t" type
+               (:typedef ("__uint32_t" type (:type "class") nil nil)
+                :type "typedef")
+                nil [4701 4752])
+            ("__darwin_ssize_t" type
+               (:typedef ("long")
+                :type "typedef")
+                nil [4779 4828])
+            ("__darwin_time_t" type
+               (:typedef ("long")
+                :type "typedef")
+                nil [4861 4909]))          
+      :file "_types.h"
+      :pointmax 4965
+      :fsize 4964
+      :lastmodtime '(24656 28654 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("_BSD_I386__TYPES_H_")
+          )
+)
+    (semanticdb-table "semanticdb-table-43dbeb5a"
+      :major-mode c-mode
+      :tags 
+        '( ("_I386__ENDIAN_H_" variable (:constant-flag t) nil [3315 3331])
+            ("sys/cdefs.h" include (:system-flag t) nil [3333 3355])
+            ("_QUAD_HIGHWORD" variable (:constant-flag t) nil [3522 3536])
+            ("_QUAD_LOWWORD" variable (:constant-flag t) nil [3547 3560])
+            ("__DARWIN_LITTLE_ENDIAN" variable (:constant-flag t) nil [3670 3692])
+            ("__DARWIN_BIG_ENDIAN" variable (:constant-flag t) nil [3737 3756])
+            ("__DARWIN_PDP_ENDIAN" variable (:constant-flag t) nil [3810 3829])
+            ("__DARWIN_BYTE_ORDER" variable (:constant-flag t) nil [3894 3913])
+            ("LITTLE_ENDIAN" variable (:constant-flag t) nil [4035 4048])
+            ("BIG_ENDIAN" variable (:constant-flag t) nil [4082 4092])
+            ("PDP_ENDIAN" variable (:constant-flag t) nil [4126 4136])
+            ("BYTE_ORDER" variable (:constant-flag t) nil [4171 4181])
+            ("sys/_endian.h" include (:system-flag t) nil [4208 4232]))          
+      :file "endian.h"
+      :pointmax 4354
+      :fsize 4353
+      :lastmodtime '(24656 28654 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BYTE_ORDER" . ((symbol "__DARWIN_BYTE_ORDER" 4187 . 4206)))
+          ("__DARWIN_LITTLE_ENDIAN" . ((number "1234" 3694 . 3698)))
+          ("_QUAD_LOWWORD" . ((number "0" 3561 . 3562)))
+          ("__DARWIN_PDP_ENDIAN" . ((number "3412" 3834 . 3838)))
+          ("_QUAD_HIGHWORD" . ((number "1" 3537 . 3538)))
+          ("__DARWIN_BIG_ENDIAN" . ((number "4321" 3761 . 3765)))
+          ("PDP_ENDIAN" . ((symbol "__DARWIN_PDP_ENDIAN" 4142 . 4161)))
+          ("LITTLE_ENDIAN" . ((symbol "__DARWIN_LITTLE_ENDIAN" 4051 . 4073)))
+          ("__DARWIN_BYTE_ORDER" . ((symbol "__DARWIN_LITTLE_ENDIAN" 3918 . 3940)))
+          ("_I386__ENDIAN_H_")
+          ("BIG_ENDIAN" . ((symbol "__DARWIN_BIG_ENDIAN" 4098 . 4117)))
+          )
+)
+    (semanticdb-table "semanticdb-table-4de9a010"
+      :major-mode c-mode
+      :tags 
+        '( ("_I386_SIGNAL_H_" variable (:constant-flag t) nil [1421 1436])
+            ("sys/cdefs.h" include (:system-flag t) nil [1440 1462])
+            ("sig_atomic_t" type
+               (:typedef ("int")
+                :type "typedef")
+                nil [1485 1510]))          
+      :file "signal.h"
+      :pointmax 1571
+      :fsize 1570
+      :lastmodtime '(24656 28654 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("_I386_SIGNAL_H_" . ((number "1" 1437 . 1438)))
+          )
+)
+    (semanticdb-table "semanticdb-table-4de89e8e"
+      :major-mode c-mode
+      :tags 
+        '( ("__I386_MCONTEXT_H_" variable (:constant-flag t) nil [1362 1380])
+            ("sys/cdefs.h" include (:system-flag t) nil [1382 1404])
+            ("sys/appleapiopts.h" include (:system-flag t) nil [1427 1456])
+            ("mach/machine/_structs.h" include (:system-flag t) nil [1457 1491])
+            ("_STRUCT_MCONTEXT32" variable (:constant-flag t) nil [1548 1566])
+            ("__darwin_mcontext32" type
+               (:members 
+                  ( ("__es" variable (:type ("_STRUCT_X86_EXCEPTION_STATE32" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1621 1658])
+                    ("__ss" variable (:type ("_STRUCT_X86_THREAD_STATE32" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1660 1697])
+                    ("__fs" variable (:type ("_STRUCT_X86_FLOAT_STATE32" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1699 1736]))                  
+                :type "struct")
+                nil [1599 1739])
+            ("_STRUCT_MCONTEXT_AVX32" variable (:constant-flag t) nil [1749 1771])
+            ("__darwin_mcontext_avx32" type
+               (:members 
+                  ( ("__es" variable (:type ("_STRUCT_X86_EXCEPTION_STATE32" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1830 1867])
+                    ("__ss" variable (:type ("_STRUCT_X86_THREAD_STATE32" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1869 1906])
+                    ("__fs" variable (:type ("_STRUCT_X86_AVX_STATE32" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1908 1945]))                  
+                :type "struct")
+                nil [1804 1948])
+            ("_STRUCT_MCONTEXT64" variable (:constant-flag t) nil [3071 3089])
+            ("__darwin_mcontext64" type
+               (:members 
+                  ( ("__es" variable (:type ("_STRUCT_X86_EXCEPTION_STATE64" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3144 3181])
+                    ("__ss" variable (:type ("_STRUCT_X86_THREAD_STATE64" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3183 3220])
+                    ("__fs" variable (:type ("_STRUCT_X86_FLOAT_STATE64" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3222 3259]))                  
+                :type "struct")
+                nil [3122 3262])
+            ("_STRUCT_MCONTEXT64_FULL" variable (:constant-flag t) nil [3272 3295])
+            ("__darwin_mcontext64_full" type
+               (:members 
+                  ( ("__es" variable (:type ("_STRUCT_X86_EXCEPTION_STATE64" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3360 3397])
+                    ("__ss" variable (:type ("_STRUCT_X86_THREAD_FULL_STATE64" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3399 3436])
+                    ("__fs" variable (:type ("_STRUCT_X86_FLOAT_STATE64" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3438 3475]))                  
+                :type "struct")
+                nil [3333 3478])
+            ("_STRUCT_MCONTEXT_AVX64" variable (:constant-flag t) nil [3488 3510])
+            ("__darwin_mcontext_avx64" type
+               (:members 
+                  ( ("__es" variable (:type ("_STRUCT_X86_EXCEPTION_STATE64" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3569 3606])
+                    ("__ss" variable (:type ("_STRUCT_X86_THREAD_STATE64" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3608 3645])
+                    ("__fs" variable (:type ("_STRUCT_X86_AVX_STATE64" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3647 3684]))                  
+                :type "struct")
+                nil [3543 3687])
+            ("_STRUCT_MCONTEXT_AVX64_FULL" variable (:constant-flag t) nil [3697 3724])
+            ("__darwin_mcontext_avx64_full" type
+               (:members 
+                  ( ("__es" variable (:type ("_STRUCT_X86_EXCEPTION_STATE64" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3793 3830])
+                    ("__ss" variable (:type ("_STRUCT_X86_THREAD_FULL_STATE64" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3832 3869])
+                    ("__fs" variable (:type ("_STRUCT_X86_AVX_STATE64" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3871 3908]))                  
+                :type "struct")
+                nil [3762 3911])
+            ("_MCONTEXT_T" variable (:constant-flag t) nil [5883 5894])
+            ("mcontext_t" type
+               (:typedef ("__darwin_mcontext64" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil)
+                :pointer 1
+                :type "typedef")
+                nil [5917 5961])
+            ("_STRUCT_MCONTEXT" variable (:constant-flag t) nil [5970 5986]))          
+      :file "_mcontext.h"
+      :pointmax 6173
+      :fsize 6172
+      :lastmodtime '(24656 28654 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("_STRUCT_MCONTEXT64_FULL" . ((STRUCT "struct" 3301 . 3307) (symbol "__darwin_mcontext64_full" 3308 . 3332)))
+          ("_STRUCT_MCONTEXT_AVX64_FULL" . ((STRUCT "struct" 3726 . 3732) (symbol "__darwin_mcontext_avx64_full" 3733 . 3761)))
+          ("_STRUCT_MCONTEXT64" . ((STRUCT "struct" 3095 . 3101) (symbol "__darwin_mcontext64" 3102 . 3121)))
+          ("__I386_MCONTEXT_H_")
+          ("_STRUCT_MCONTEXT" . ((symbol "_STRUCT_MCONTEXT64" 5987 . 6005)))
+          ("_STRUCT_MCONTEXT32" . ((STRUCT "struct" 1572 . 1578) (symbol "__darwin_mcontext32" 1579 . 1598)))
+          ("_STRUCT_MCONTEXT_AVX64" . ((STRUCT "struct" 3512 . 3518) (symbol "__darwin_mcontext_avx64" 3519 . 3542)))
+          ("_MCONTEXT_T")
+          ("_STRUCT_MCONTEXT_AVX32" . ((STRUCT "struct" 1773 . 1779) (symbol "__darwin_mcontext_avx32" 1780 . 1803)))
+          )
+))
+  :file "!Library!Developer!CommandLineTools!SDKs!MacOSX11.3.sdk!usr!include!i386!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,164 @@
+{
+  "code": 0,
+  "message": "success",
+  "data": {
+    "requestId": "",
+    "dialogId": "",
+    "answer": {
+      "skill": "NAVI",
+      "intention": "add_waypoint",
+      "slots": {
+        "originText": {
+          "value": ""
+        },
+        "keyword": {
+          "value": "星巴克"
+        },
+        "region": {
+          "value": "点为海淀区嘅解放路"
+        },
+        "destination": {
+          "value": "点为海淀区嘅解放路星巴克"
+        },
+        "distance": {
+          "value": "",
+          "type": ""
+        },
+        "route_title": {
+          "value": ""
+        },
+        "none_mark": {
+          "value": ""
+        },
+        "dest_raw_name": {
+          "value": ""
+        }
+      },
+      "tts": "途经点已满，要替换下一个途经点吗？您可以讲替换或取消。",
+      "ssml": "途经点已满，要替换下一个途经点吗？您可以讲替换或取消。",
+      "recommends": [],
+      "content": {
+        "request": {
+          "domain": "keyword_search",
+          "kw": "点为海淀区嘅解放路 星巴克",
+          "type": "",
+          "city": "",
+          "province": "",
+          "area": "",
+          "sort": "default|ASC",
+          "psize": "30",
+          "pnum": "1",
+          "language": "cmn"
+        },
+        "index": -1,
+        "icon": "",
+        "pageAction": "",
+        "numAction": -1,
+        "routeResults": {
+          "data": []
+        },
+        "searchData": {
+          "pois": [],
+          "updated": 0
+        },
+        "nluIntention": "add_waypoint",
+        "nluSlots": {
+          "province": "",
+          "city": "",
+          "district": "",
+          "region": "点为海淀区嘅解放路",
+          "name": "星巴克",
+          "routes": {
+            "count": "",
+            "datas": []
+          }
+        }
+      },
+      "_cp_required": 0,
+      "detail": {
+        "flag": 401,
+        "lastDialogState": "addwp_full_with_dest_repla_cel"
+      },
+      "_context": {
+        "skill": "NAVI",
+        "intention": "add_waypoint",
+        "slots": {
+          "originText": {
+            "value": ""
+          },
+          "keyword": {
+            "value": "星巴克"
+          },
+          "region": {
+            "value": "点为海淀区嘅解放路"
+          },
+          "destination": {
+            "value": "点为海淀区嘅解放路星巴克"
+          },
+          "distance": {
+            "value": "",
+            "type": ""
+          },
+          "route_title": {
+            "value": ""
+          },
+          "none_mark": {
+            "value": ""
+          },
+          "dest_raw_name": {
+            "value": ""
+          }
+        },
+        "tts": "",
+        "ssml": "",
+        "recommends": [],
+        "content": {
+          "request": {
+            "domain": "keyword_search",
+            "kw": "点为海淀区嘅解放路 星巴克",
+            "type": "",
+            "city": "",
+            "province": "",
+            "area": "",
+            "sort": "default|ASC",
+            "psize": "30",
+            "pnum": "1",
+            "language": "cmn"
+          },
+          "index": -1,
+          "icon": "",
+          "pageAction": "",
+          "numAction": -1,
+          "routeResults": {
+            "data": []
+          },
+          "searchData": {
+            "pois": [],
+            "updated": 0
+          },
+          "nluIntention": "add_waypoint",
+          "nluSlots": {
+            "province": "",
+            "city": "",
+            "district": "",
+            "region": "点为海淀区嘅解放路",
+            "name": "星巴克",
+            "routes": {
+              "count": "",
+              "datas": []
+            }
+          }
+        },
+        "id": 1385,
+        "_cp_required": 0,
+        "detail": {
+          "flag": 401,
+          "lastDialogState": "addwp_full_with_dest_repla_cel"
+        }
+      }
+    },
+    "text": "置途经点为海淀区嘅解放路嘅星巴克"
+  },
+  "conf": 1,
+  "parseScore": 0.9375
+}

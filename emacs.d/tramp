@@ -1,0 +1,5 @@
+;; -*- emacs-lisp -*- <22/10/31 10:21:28 /Users/wongyen/.emacs.d/tramp>
+;; Tramp connection history.  Don't change this file.
+;; Run `M-x tramp-cleanup-all-connections' instead.
+
+(nil)

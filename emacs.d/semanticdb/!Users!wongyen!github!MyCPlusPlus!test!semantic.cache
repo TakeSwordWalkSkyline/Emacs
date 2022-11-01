@@ -1,0 +1,68 @@
+;; Object semanticdb-project-database-file-456b3148
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-456b3148"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-456ad57c"
+      :major-mode c++-mode
+      :tags 
+        '( ("cJSON.h" include nil nil [1 19])
+            ("stdio.h" include (:system-flag t) nil [20 38])
+            ("stdlib.h" include (:system-flag t) nil [39 58])
+            ("string" include (:system-flag t) nil [59 76])
+            ("extractTtsPerDomain" function
+               (:arguments 
+                  ( ("out_fp" variable
+                       (:pointer 1
+                        :type ("FILE" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [102 115])
+                    ("answer_array" variable
+                       (:pointer 1
+                        :type ("cJSON" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [116 136]))                  
+                :type "int")
+                nil [78 1397])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [1408 1417])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1418 1430]))                  
+                :type "int")
+                nil [1399 3141]))          
+      :file "extrctTTS.cpp"
+      :pointmax 3142
+      :fsize 3141
+      :lastmodtime '(24988 47419 103590 267000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-456b3108"
+      :major-mode c++-mode
+      :tags nil
+      :file "aligned.cpp"
+      :pointmax 199
+      :fsize 198
+      :lastmodtime '(24766 480 981240 766000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-456b3128"
+      :major-mode c++-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("cJSON.h" include nil nil [20 38])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [49 58])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [59 71]))                  
+                :type "int")
+                nil [40 320]))          
+      :file "test_cjson.cpp"
+      :pointmax 321
+      :fsize 320
+      :lastmodtime '(24768 58678 970402 430000)
+      :unmatched-syntax nil))
+  :file "!Users!wongyen!github!MyCPlusPlus!test!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

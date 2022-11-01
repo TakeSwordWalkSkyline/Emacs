@@ -1,0 +1,1709 @@
+{
+    "code": 0,
+    "data": {
+        "answer": {
+            "tts": "",
+            "slots": {},
+            "_embedded": {
+                "nluResult": {
+                    "phone": {
+                        "rawValue": "",
+                        "value": ""
+                    },
+                    "num": {
+                        "rawValue": "一",
+                        "value": "1"
+                    },
+                    "name": {
+                        "rawValue": "",
+                        "value": ""
+                    },
+                    "type": {
+                        "rawValue": "",
+                        "value": ""
+                    },
+                    "nums": [
+                    ],
+                    "intention": "calling_poi"
+                },
+                "embeddedContext": {
+                    "tts": "找到治国招待所等多个结果，共10页，您要去第几个？",
+                    "slots": {},
+                    "skill": "NAVI",
+                    "ssml": "找到<pachira:nlu name='area'>治国招待所<\/pachira:nlu>等多个结果，共10页，您要去第几个？",
+                    "recording": 0,
+                    "recommends": [
+                        "第一个",
+                        "最近的",
+                        "第二页",
+                        "下一页",
+                        "距离排序",
+                        "取消",
+                        "播报出来"
+                    ],
+                    "detail": {
+                        "flag": 0,
+                        "lastDialogState": "map_zero"
+                    },
+                    "content": {
+                        "poiResults": {
+                            "total": 30,
+                            "ftype": "120",
+                            "data": [{
+                                    "address": "北京市东城区治国胡同19",
+                                    "distance": "86",
+                                    "poi_index": 4,
+                                    "pname": "北京市",
+                                    "cityname": "北京市",
+                                    "pid": "AO_KBIFMUIRLFMFMVSWKZLQ",
+                                    "nlonlat": "116.42305,39.9047",
+                                    "type": "一般旅馆",
+                                    "photos": [{
+                                            "titile": "",
+                                            "url": "http:\/\/dimg04.c-ctrip.com\/images\/\/200o0c0000006ixpeB0B6_R_550_412.jpg"
+                                        }
+                                    ],
+                                    "typecode": "3103200,300",
+                                    "extend": {
+                                        "taste_rating": "",
+                                        "reco": "客栈",
+                                        "service_rating": "",
+                                        "charging_station": {
+                                            "total": 0,
+                                            "ebnum": null,
+                                            "parknum": "",
+                                            "equipment_info": [
+                                            ],
+                                            "ptype": ""
+                                        },
+                                        "price": "270.0",
+                                        "environment_rating": "",
+                                        "star_rating": "",
+                                        "shop_hours": "",
+                                        "payment": "",
+                                        "overall_rating": "4.2",
+                                        "facility": "",
+                                        "parking_lot": {
+                                            "total": 0,
+                                            "free": 0,
+                                            "type": ""
+                                        },
+                                        "status": -1
+                                    },
+                                    "adname": "东城区",
+                                    "phone": "010-65254868",
+                                    "rinfo": "",
+                                    "name": "五丰四合院酒店",
+                                    "location": "116.42308,39.90476",
+                                    "tag": "",
+                                    "brand": ""
+                                }, {
+                                    "address": "北京市东城区庆平胡同15号",
+                                    "distance": "91",
+                                    "poi_index": 5,
+                                    "pname": "北京市",
+                                    "cityname": "北京市",
+                                    "pid": "AO_KBIFMUIRKBMFSVSQKZIVE",
+                                    "nlonlat": "116.4218,39.90408",
+                                    "type": "一般旅馆",
+                                    "photos": [{
+                                            "titile": "",
+                                            "url": ""
+                                        }
+                                    ],
+                                    "typecode": "3103200,300",
+                                    "extend": {
+                                        "taste_rating": "",
+                                        "reco": "",
+                                        "service_rating": "",
+                                        "charging_station": {
+                                            "total": 0,
+                                            "ebnum": null,
+                                            "parknum": "",
+                                            "equipment_info": [
+                                            ],
+                                            "ptype": ""
+                                        },
+                                        "price": "",
+                                        "environment_rating": "",
+                                        "star_rating": "",
+                                        "shop_hours": "",
+                                        "payment": "",
+                                        "overall_rating": "-1",
+                                        "facility": "",
+                                        "parking_lot": {
+                                            "total": 0,
+                                            "free": 0,
+                                            "type": ""
+                                        },
+                                        "status": -1
+                                    },
+                                    "adname": "东城区",
+                                    "phone": "010-65241772",
+                                    "rinfo": "",
+                                    "name": "永庆旅社",
+                                    "location": "116.42181,39.90415",
+                                    "tag": "",
+                                    "brand": ""
+                                }, {
+                                    "address": "北京市东城区三源胡同4号",
+                                    "distance": "96",
+                                    "poi_index": 6,
+                                    "pname": "北京市",
+                                    "cityname": "北京市",
+                                    "pid": "AO_KBIFMUIRLBKVQVCYKJJVG",
+                                    "nlonlat": "116.42261,39.90491",
+                                    "type": "一般旅馆",
+                                    "photos": [{
+                                            "titile": "",
+                                            "url": "http:\/\/dimg04.c-ctrip.com\/images\/\/200p1b000001bm2w0AD41_R_550_412.jpg"
+                                        }
+                                    ],
+                                    "typecode": "3103200,300",
+                                    "extend": {
+                                        "taste_rating": "",
+                                        "reco": "客栈",
+                                        "service_rating": "",
+                                        "charging_station": {
+                                            "total": 0,
+                                            "ebnum": null,
+                                            "parknum": "",
+                                            "equipment_info": [
+                                            ],
+                                            "ptype": ""
+                                        },
+                                        "price": "207.0",
+                                        "environment_rating": "",
+                                        "star_rating": "",
+                                        "shop_hours": "",
+                                        "payment": "",
+                                        "overall_rating": "2.7",
+                                        "facility": "",
+                                        "parking_lot": {
+                                            "total": 0,
+                                            "free": 0,
+                                            "type": ""
+                                        },
+                                        "status": -1
+                                    },
+                                    "adname": "东城区",
+                                    "phone": "010-65218711",
+                                    "rinfo": "",
+                                    "name": "庆兴宾馆",
+                                    "location": "116.42263,39.90485",
+                                    "tag": "",
+                                    "brand": ""
+                                }
+                            ],
+                            "pageIndex": 2,
+                            "pageSize": 10
+                        },
+                        "numAction": -1,
+                        "request": {
+                            "psize": 30,
+                            "pnum": 1,
+                            "lonlats": "",
+                            "exinfo": 3,
+                            "domain": "around_search",
+                            "language": "cmn",
+                            "haveCondition": false,
+                            "type": "宾馆饭店",
+                            "lonlat": "116.42286,39.90400"
+                        },
+                        "nluSlots": {
+                            "province": "",
+                            "city": "",
+                            "district": "",
+                            "name": "酒店",
+                            "region": "",
+                            "multiNearType": ""
+                        },
+                        "nluIntention": "around_search",
+                        "nluSlotsTwo": {
+                            "province": "",
+                            "city": "",
+                            "district": "",
+                            "name": "",
+                            "region": "",
+                            "multiNearType": ""
+                        },
+                        "pageAction": "",
+                        "index": 0,
+                        "searchData": {
+                            "updated": 1,
+                            "pois": [{
+                                    "address": "北京市东城区治国胡同10",
+                                    "distance": "74",
+                                    "poi_index": 1,
+                                    "pname": "北京市",
+                                    "cityname": "北京市",
+                                    "pid": "AO_KBIFMUIRLBKVQVCYKJJVA",
+                                    "nlonlat": "116.42211,39.90422",
+                                    "type": "一般旅馆",
+                                    "photos": [{
+                                            "titile": "",
+                                            "url": ""
+                                        }
+                                    ],
+                                    "typecode": "3103200,300",
+                                    "extend": {
+                                        "taste_rating": "",
+                                        "reco": "",
+                                        "service_rating": "",
+                                        "charging_station": {
+                                            "total": 0,
+                                            "ebnum": null,
+                                            "parknum": "",
+                                            "equipment_info": [
+                                            ],
+                                            "ptype": ""
+                                        },
+                                        "price": "",
+                                        "environment_rating": "",
+                                        "star_rating": "",
+                                        "shop_hours": "",
+                                        "payment": "",
+                                        "overall_rating": "-1",
+                                        "facility": "",
+                                        "parking_lot": {
+                                            "total": 0,
+                                            "free": 0,
+                                            "type": ""
+                                        },
+                                        "status": -1
+                                    },
+                                    "adname": "东城区",
+                                    "phone": "010-65241642",
+                                    "rinfo": "",
+                                    "name": "治国招待所",
+                                    "location": "116.42204,39.90423",
+                                    "tag": "",
+                                    "brand": ""
+                                }, {
+                                    "address": "北京市东城区治国胡同43号",
+                                    "distance": "75",
+                                    "poi_index": 2,
+                                    "pname": "北京市",
+                                    "cityname": "北京市",
+                                    "pid": "AO_KBIFMUIRKdIFAUaYKZMFSWI",
+                                    "nlonlat": "116.4228245,39.904706",
+                                    "type": "一般旅馆",
+                                    "photos": [{
+                                            "titile": "",
+                                            "url": "http:\/\/dimg04.c-ctrip.com\/images\/\/200816000000yxg6sAB9A_R_550_412.jpg"
+                                        }
+                                    ],
+                                    "typecode": "3103200,300",
+                                    "extend": {
+                                        "taste_rating": "",
+                                        "reco": "客栈",
+                                        "service_rating": "",
+                                        "charging_station": {
+                                            "total": 0,
+                                            "ebnum": null,
+                                            "parknum": "",
+                                            "equipment_info": [
+                                            ],
+                                            "ptype": ""
+                                        },
+                                        "price": "143.0",
+                                        "environment_rating": "",
+                                        "star_rating": "",
+                                        "shop_hours": "",
+                                        "payment": "",
+                                        "overall_rating": "2.8",
+                                        "facility": "1",
+                                        "parking_lot": {
+                                            "total": 0,
+                                            "free": 0,
+                                            "type": ""
+                                        },
+                                        "status": -1
+                                    },
+                                    "adname": "东城区",
+                                    "phone": "010-65275335",
+                                    "rinfo": "",
+                                    "name": "北京时光机快捷酒店(原天赐宾馆)",
+                                    "location": "116.422827,39.9046785",
+                                    "tag": "",
+                                    "brand": ""
+                                }, {
+                                    "address": "北京市东城区西镇江胡同4号",
+                                    "distance": "82",
+                                    "poi_index": 3,
+                                    "pname": "北京市",
+                                    "cityname": "北京市",
+                                    "pid": "AO_KBIFMUIRKRJVCUCRKNMVGVQ",
+                                    "nlonlat": "116.42214,39.90357",
+                                    "type": "一般旅馆",
+                                    "photos": [{
+                                            "titile": "",
+                                            "url": ""
+                                        }
+                                    ],
+                                    "typecode": "3103200,300",
+                                    "extend": {
+                                        "taste_rating": "",
+                                        "reco": "",
+                                        "service_rating": "",
+                                        "charging_station": {
+                                            "total": 0,
+                                            "ebnum": null,
+                                            "parknum": "",
+                                            "equipment_info": [
+                                            ],
+                                            "ptype": ""
+                                        },
+                                        "price": "",
+                                        "environment_rating": "",
+                                        "star_rating": "",
+                                        "shop_hours": "",
+                                        "payment": "",
+                                        "overall_rating": "-1",
+                                        "facility": "",
+                                        "parking_lot": {
+                                            "total": 0,
+                                            "free": 0,
+                                            "type": ""
+                                        },
+                                        "status": -1
+                                    },
+                                    "adname": "东城区",
+                                    "phone": "010-85110186",
+                                    "rinfo": "",
+                                    "name": "海友北京站前广场店",
+                                    "location": "116.42213,39.90352",
+                                    "tag": "",
+                                    "brand": "海友酒店"
+                                }, {
+                                    "address": "北京市东城区治国胡同19",
+                                    "distance": "86",
+                                    "poi_index": 4,
+                                    "pname": "北京市",
+                                    "cityname": "北京市",
+                                    "pid": "AO_KBIFMUIRLFMFMVSWKZLQ",
+                                    "nlonlat": "116.42305,39.9047",
+                                    "type": "一般旅馆",
+                                    "photos": [{
+                                            "titile": "",
+                                            "url": "http:\/\/dimg04.c-ctrip.com\/images\/\/200o0c0000006ixpeB0B6_R_550_412.jpg"
+                                        }
+                                    ],
+                                    "typecode": "3103200,300",
+                                    "extend": {
+                                        "taste_rating": "",
+                                        "reco": "客栈",
+                                        "service_rating": "",
+                                        "charging_station": {
+                                            "total": 0,
+                                            "ebnum": null,
+                                            "parknum": "",
+                                            "equipment_info": [
+                                            ],
+                                            "ptype": ""
+                                        },
+                                        "price": "270.0",
+                                        "environment_rating": "",
+                                        "star_rating": "",
+                                        "shop_hours": "",
+                                        "payment": "",
+                                        "overall_rating": "4.2",
+                                        "facility": "",
+                                        "parking_lot": {
+                                            "total": 0,
+                                            "free": 0,
+                                            "type": ""
+                                        },
+                                        "status": -1
+                                    },
+                                    "adname": "东城区",
+                                    "phone": "010-65254868",
+                                    "rinfo": "",
+                                    "name": "五丰四合院酒店",
+                                    "location": "116.42308,39.90476",
+                                    "tag": "",
+                                    "brand": ""
+                                }, {
+                                    "address": "北京市东城区庆平胡同15号",
+                                    "distance": "91",
+                                    "poi_index": 5,
+                                    "pname": "北京市",
+                                    "cityname": "北京市",
+                                    "pid": "AO_KBIFMUIRKBMFSVSQKZIVE",
+                                    "nlonlat": "116.4218,39.90408",
+                                    "type": "一般旅馆",
+                                    "photos": [{
+                                            "titile": "",
+                                            "url": ""
+                                        }
+                                    ],
+                                    "typecode": "3103200,300",
+                                    "extend": {
+                                        "taste_rating": "",
+                                        "reco": "",
+                                        "service_rating": "",
+                                        "charging_station": {
+                                            "total": 0,
+                                            "ebnum": null,
+                                            "parknum": "",
+                                            "equipment_info": [
+                                            ],
+                                            "ptype": ""
+                                        },
+                                        "price": "",
+                                        "environment_rating": "",
+                                        "star_rating": "",
+                                        "shop_hours": "",
+                                        "payment": "",
+                                        "overall_rating": "-1",
+                                        "facility": "",
+                                        "parking_lot": {
+                                            "total": 0,
+                                            "free": 0,
+                                            "type": ""
+                                        },
+                                        "status": -1
+                                    },
+                                    "adname": "东城区",
+                                    "phone": "010-65241772",
+                                    "rinfo": "",
+                                    "name": "永庆旅社",
+                                    "location": "116.42181,39.90415",
+                                    "tag": "",
+                                    "brand": ""
+                                }, {
+                                    "address": "北京市东城区三源胡同4号",
+                                    "distance": "96",
+                                    "poi_index": 6,
+                                    "pname": "北京市",
+                                    "cityname": "北京市",
+                                    "pid": "AO_KBIFMUIRLBKVQVCYKJJVG",
+                                    "nlonlat": "116.42261,39.90491",
+                                    "type": "一般旅馆",
+                                    "photos": [{
+                                            "titile": "",
+                                            "url": "http:\/\/dimg04.c-ctrip.com\/images\/\/200p1b000001bm2w0AD41_R_550_412.jpg"
+                                        }
+                                    ],
+                                    "typecode": "3103200,300",
+                                    "extend": {
+                                        "taste_rating": "",
+                                        "reco": "客栈",
+                                        "service_rating": "",
+                                        "charging_station": {
+                                            "total": 0,
+                                            "ebnum": null,
+                                            "parknum": "",
+                                            "equipment_info": [
+                                            ],
+                                            "ptype": ""
+                                        },
+                                        "price": "207.0",
+                                        "environment_rating": "",
+                                        "star_rating": "",
+                                        "shop_hours": "",
+                                        "payment": "",
+                                        "overall_rating": "2.7",
+                                        "facility": "",
+                                        "parking_lot": {
+                                            "total": 0,
+                                            "free": 0,
+                                            "type": ""
+                                        },
+                                        "status": -1
+                                    },
+                                    "adname": "东城区",
+                                    "phone": "010-65218711",
+                                    "rinfo": "",
+                                    "name": "庆兴宾馆",
+                                    "location": "116.42263,39.90485",
+                                    "tag": "",
+                                    "brand": ""
+                                }, {
+                                    "address": "北京市东城区庆平胡同19",
+                                    "distance": "109",
+                                    "poi_index": 7,
+                                    "pname": "北京市",
+                                    "cityname": "北京市",
+                                    "pid": "AO_KBIFMUIRLBKVQVCYKJJVC",
+                                    "nlonlat": "116.4215,39.90424",
+                                    "type": "一般旅馆",
+                                    "photos": [{
+                                            "titile": "",
+                                            "url": "http:\/\/dimg04.c-ctrip.com\/images\/\/20061e000001flihf4470_R_550_412.jpg"
+                                        }
+                                    ],
+                                    "typecode": "3103200,300",
+                                    "extend": {
+                                        "taste_rating": "",
+                                        "reco": "客栈",
+                                        "service_rating": "",
+                                        "charging_station": {
+                                            "total": 0,
+                                            "ebnum": null,
+                                            "parknum": "",
+                                            "equipment_info": [
+                                            ],
+                                            "ptype": ""
+                                        },
+                                        "price": "189.0",
+                                        "environment_rating": "",
+                                        "star_rating": "",
+                                        "shop_hours": "",
+                                        "payment": "",
+                                        "overall_rating": "2.5",
+                                        "facility": "",
+                                        "parking_lot": {
+                                            "total": 0,
+                                            "free": 0,
+                                            "type": ""
+                                        },
+                                        "status": -1
+                                    },
+                                    "adname": "东城区",
+                                    "phone": "010-65262007",
+                                    "rinfo": "",
+                                    "name": "庆平旅馆",
+                                    "location": "116.42161,39.90424",
+                                    "tag": "",
+                                    "brand": ""
+                                }, {
+                                    "address": "北京市东城区苏州胡同62号",
+                                    "distance": "114",
+                                    "poi_index": 8,
+                                    "pname": "北京市",
+                                    "cityname": "北京市",
+                                    "pid": "AO_KBIFMUIRKNJVQUSTKFIVI",
+                                    "nlonlat": "116.42265,39.90492",
+                                    "type": "一般旅馆",
+                                    "photos": [{
+                                            "titile": "",
+                                            "url": "http:\/\/dimg04.c-ctrip.com\/images\/\/20070a0000004gvq66ECA_R_550_412.jpg"
+                                        }
+                                    ],
+                                    "typecode": "3103200,300",
+                                    "extend": {
+                                        "taste_rating": "",
+                                        "reco": "客栈",
+                                        "service_rating": "",
+                                        "charging_station": {
+                                            "total": 0,
+                                            "ebnum": null,
+                                            "parknum": "",
+                                            "equipment_info": [
+                                            ],
+                                            "ptype": ""
+                                        },
+                                        "price": "180.0",
+                                        "environment_rating": "",
+                                        "star_rating": "",
+                                        "shop_hours": "",
+                                        "payment": "",
+                                        "overall_rating": "2.5",
+                                        "facility": "1",
+                                        "parking_lot": {
+                                            "total": 0,
+                                            "free": 0,
+                                            "type": ""
+                                        },
+                                        "status": -1
+                                    },
+                                    "adname": "东城区",
+                                    "phone": "010-65210588",
+                                    "rinfo": "",
+                                    "name": "京哈招待所",
+                                    "location": "116.42263,39.90501",
+                                    "tag": "",
+                                    "brand": ""
+                                }, {
+                                    "address": "北京市东城区西镇江胡同10号",
+                                    "distance": "122",
+                                    "poi_index": 9,
+                                    "pname": "北京市",
+                                    "cityname": "北京市",
+                                    "pid": "AO_KBIFMUIRLBLVMWCYKVJVG",
+                                    "nlonlat": "116.42155,39.90363",
+                                    "type": "一般旅馆",
+                                    "photos": [{
+                                            "titile": "",
+                                            "url": "http:\/\/dimg04.c-ctrip.com\/images\/\/200q0p000000fjx0m5C60_R_550_412.jpg"
+                                        }
+                                    ],
+                                    "typecode": "3103200,300",
+                                    "extend": {
+                                        "taste_rating": "",
+                                        "reco": "客栈",
+                                        "service_rating": "",
+                                        "charging_station": {
+                                            "total": 0,
+                                            "ebnum": null,
+                                            "parknum": "",
+                                            "equipment_info": [
+                                            ],
+                                            "ptype": ""
+                                        },
+                                        "price": "198.0",
+                                        "environment_rating": "",
+                                        "star_rating": "",
+                                        "shop_hours": "",
+                                        "payment": "",
+                                        "overall_rating": "4.1",
+                                        "facility": "",
+                                        "parking_lot": {
+                                            "total": 0,
+                                            "free": 0,
+                                            "type": ""
+                                        },
+                                        "status": -1
+                                    },
+                                    "adname": "东城区",
+                                    "phone": "010-65281108",
+                                    "rinfo": "",
+                                    "name": "天赐福院酒店",
+                                    "location": "116.42154,39.90356",
+                                    "tag": "",
+                                    "brand": ""
+                                }, {
+                                    "address": "北京市东城区北京站西街船板胡同23号",
+                                    "distance": "124",
+                                    "poi_index": 10,
+                                    "pname": "北京市",
+                                    "cityname": "北京市",
+                                    "pid": "AO_KBIFMUIRKZMVOUCTKBLFE",
+                                    "nlonlat": "116.42204,39.90301",
+                                    "type": "一般旅馆",
+                                    "photos": [{
+                                            "titile": "",
+                                            "url": "http:\/\/dimg04.c-ctrip.com\/images\/\/200j080000002z62b2E21_R_550_412.jpg"
+                                        }
+                                    ],
+                                    "typecode": "3103200,300",
+                                    "extend": {
+                                        "taste_rating": "",
+                                        "reco": "客栈",
+                                        "service_rating": "",
+                                        "charging_station": {
+                                            "total": 0,
+                                            "ebnum": null,
+                                            "parknum": "",
+                                            "equipment_info": [
+                                            ],
+                                            "ptype": ""
+                                        },
+                                        "price": "156.0",
+                                        "environment_rating": "",
+                                        "star_rating": "",
+                                        "shop_hours": "",
+                                        "payment": "",
+                                        "overall_rating": "4.4",
+                                        "facility": "",
+                                        "parking_lot": {
+                                            "total": 0,
+                                            "free": 0,
+                                            "type": ""
+                                        },
+                                        "status": -1
+                                    },
+                                    "adname": "东城区",
+                                    "phone": "010-65187677",
+                                    "rinfo": "",
+                                    "name": "天赐顺兴宾馆",
+                                    "location": "116.42195,39.90312",
+                                    "tag": "",
+                                    "brand": ""
+                                }, {
+                                    "address": "北京市东城区北京汇文一小东侧",
+                                    "distance": "132",
+                                    "poi_index": 11,
+                                    "pname": "北京市",
+                                    "cityname": "北京市",
+                                    "pid": "AO_KBIFMUIRKVLFCVKULFKFE",
+                                    "nlonlat": "116.42408,39.90342",
+                                    "type": "一般旅馆",
+                                    "photos": [{
+                                            "titile": "",
+                                            "url": "http:\/\/dimg04.c-ctrip.com\/images\/\/2004060000001ck3mB5AC_R_550_412.jpg"
+                                        }
+                                    ],
+                                    "typecode": "3103200,300",
+                                    "extend": {
+                                        "taste_rating": "",
+                                        "reco": "客栈",
+                                        "service_rating": "",
+                                        "charging_station": {
+                                            "total": 0,
+                                            "ebnum": null,
+                                            "parknum": "",
+                                            "equipment_info": [
+                                            ],
+                                            "ptype": ""
+                                        },
+                                        "price": "238.0",
+                                        "environment_rating": "",
+                                        "star_rating": "",
+                                        "shop_hours": "",
+                                        "payment": "",
+                                        "overall_rating": "3.4",
+                                        "facility": "15",
+                                        "parking_lot": {
+                                            "total": 0,
+                                            "free": 0,
+                                            "type": ""
+                                        },
+                                        "status": -1
+                                    },
+                                    "adname": "东城区",
+                                    "phone": "010-65285513",
+                                    "rinfo": "",
+                                    "name": "丁香客舍快捷酒店",
+                                    "location": "116.42406,39.90325",
+                                    "tag": "",
+                                    "brand": ""
+                                }, {
+                                    "address": "北京市东城区庆平胡同42",
+                                    "distance": "134",
+                                    "poi_index": 12,
+                                    "pname": "北京市",
+                                    "cityname": "北京市",
+                                    "pid": "AO_KBIFMUIRLFMFAUKSKBLFC",
+                                    "nlonlat": "116.42149,39.9045",
+                                    "type": "一般旅馆",
+                                    "photos": [{
+                                            "titile": "",
+                                            "url": "http:\/\/dimg04.c-ctrip.com\/images\/\/20021900000167fg94102_R_550_412.jpg"
+                                        }
+                                    ],
+                                    "typecode": "3103200,300",
+                                    "extend": {
+                                        "taste_rating": "",
+                                        "reco": "客栈",
+                                        "service_rating": "",
+                                        "charging_station": {
+                                            "total": 0,
+                                            "ebnum": null,
+                                            "parknum": "",
+                                            "equipment_info": [
+                                            ],
+                                            "ptype": ""
+                                        },
+                                        "price": "134.0",
+                                        "environment_rating": "",
+                                        "star_rating": "",
+                                        "shop_hours": "",
+                                        "payment": "",
+                                        "overall_rating": "2.7",
+                                        "facility": "1",
+                                        "parking_lot": {
+                                            "total": 0,
+                                            "free": 0,
+                                            "type": ""
+                                        },
+                                        "status": -1
+                                    },
+                                    "adname": "东城区",
+                                    "phone": "010-65243989",
+                                    "rinfo": "",
+                                    "name": "红绵旅馆",
+                                    "location": "116.42142,39.9045",
+                                    "tag": "",
+                                    "brand": ""
+                                }, {
+                                    "address": "北京市东城区北京站西街(北京站西公交车站斜对面)",
+                                    "distance": "138",
+                                    "poi_index": 13,
+                                    "pname": "北京市",
+                                    "cityname": "北京市",
+                                    "pid": "AO_KBIFMUIRKBIFCVSWKRMFS",
+                                    "nlonlat": "116.42443,39.90444",
+                                    "type": "一般旅馆",
+                                    "photos": [{
+                                            "titile": "",
+                                            "url": "http:\/\/dimg04.c-ctrip.com\/images\/\/200j14000000w0k405951_R_550_412.jpg"
+                                        }
+                                    ],
+                                    "typecode": "3103200,300",
+                                    "extend": {
+                                        "taste_rating": "",
+                                        "reco": "客栈",
+                                        "service_rating": "",
+                                        "charging_station": {
+                                            "total": 0,
+                                            "ebnum": null,
+                                            "parknum": "",
+                                            "equipment_info": [
+                                            ],
+                                            "ptype": ""
+                                        },
+                                        "price": "",
+                                        "environment_rating": "",
+                                        "star_rating": "",
+                                        "shop_hours": "",
+                                        "payment": "",
+                                        "overall_rating": "4.1",
+                                        "facility": "1",
+                                        "parking_lot": {
+                                            "total": 0,
+                                            "free": 0,
+                                            "type": ""
+                                        },
+                                        "status": -1
+                                    },
+                                    "adname": "东城区",
+                                    "phone": "010-65287708",
+                                    "rinfo": "",
+                                    "name": "京鑫博招待所",
+                                    "location": "116.42444,39.90429",
+                                    "tag": "",
+                                    "brand": ""
+                                }, {
+                                    "address": "北京市东城区中鲜鱼巷10",
+                                    "distance": "155",
+                                    "poi_index": 14,
+                                    "pname": "北京市",
+                                    "cityname": "北京市",
+                                    "pid": "AO_KBIFMUIRKBIFCVSWKdLVA",
+                                    "nlonlat": "116.42381,39.90506",
+                                    "type": "一般旅馆",
+                                    "photos": [{
+                                            "titile": "",
+                                            "url": "http:\/\/dimg04.c-ctrip.com\/images\/\/200n0u000000jeb0s6AAC_R_550_412.jpg"
+                                        }
+                                    ],
+                                    "typecode": "3103200,300",
+                                    "extend": {
+                                        "taste_rating": "",
+                                        "reco": "客栈",
+                                        "service_rating": "",
+                                        "charging_station": {
+                                            "total": 0,
+                                            "ebnum": null,
+                                            "parknum": "",
+                                            "equipment_info": [
+                                            ],
+                                            "ptype": ""
+                                        },
+                                        "price": "198.0",
+                                        "environment_rating": "",
+                                        "star_rating": "",
+                                        "shop_hours": "",
+                                        "payment": "",
+                                        "overall_rating": "3.3",
+                                        "facility": "",
+                                        "parking_lot": {
+                                            "total": 0,
+                                            "free": 0,
+                                            "type": ""
+                                        },
+                                        "status": -1
+                                    },
+                                    "adname": "东城区",
+                                    "phone": "010-65210744",
+                                    "rinfo": "",
+                                    "name": "天赐庭院精品酒店",
+                                    "location": "116.424,39.90509",
+                                    "tag": "",
+                                    "brand": ""
+                                }, {
+                                    "address": "北京市东城区公平巷20号",
+                                    "distance": "172",
+                                    "poi_index": 15,
+                                    "pname": "北京市",
+                                    "cityname": "北京市",
+                                    "pid": "AO_KBIFMUIRLBJVKUCSKRIVM",
+                                    "nlonlat": "116.42438,39.90519",
+                                    "type": "一般旅馆",
+                                    "photos": [{
+                                            "titile": "",
+                                            "url": "http:\/\/dimg04.c-ctrip.com\/images\/\/fd\/hotel\/g3\/M0B\/76\/EF\/CggYGlZKXAiACMOqABHVPWBPzGs343_R_550_412.jpg"
+                                        }
+                                    ],
+                                    "typecode": "3103200,300",
+                                    "extend": {
+                                        "taste_rating": "",
+                                        "reco": "客栈",
+                                        "service_rating": "",
+                                        "charging_station": {
+                                            "total": 0,
+                                            "ebnum": null,
+                                            "parknum": "",
+                                            "equipment_info": [
+                                            ],
+                                            "ptype": ""
+                                        },
+                                        "price": "",
+                                        "environment_rating": "",
+                                        "star_rating": "",
+                                        "shop_hours": "",
+                                        "payment": "",
+                                        "overall_rating": "4.1",
+                                        "facility": "1",
+                                        "parking_lot": {
+                                            "total": 0,
+                                            "free": 0,
+                                            "type": ""
+                                        },
+                                        "status": -1
+                                    },
+                                    "adname": "东城区",
+                                    "phone": "010-65598820",
+                                    "rinfo": "",
+                                    "name": "站前宾馆",
+                                    "location": "116.42421,39.90516",
+                                    "tag": "",
+                                    "brand": ""
+                                }, {
+                                    "address": "北京市东城区苏州胡同66",
+                                    "distance": "173",
+                                    "poi_index": 16,
+                                    "pname": "北京市",
+                                    "cityname": "北京市",
+                                    "pid": "AO_KBIFMUIRLFMFMVSWKdLA",
+                                    "nlonlat": "116.42238,39.90561",
+                                    "type": "一般旅馆",
+                                    "photos": [{
+                                            "titile": "",
+                                            "url": "http:\/\/dimg04.c-ctrip.com\/images\/\/200815000000yjr9w4810_R_550_412.jpg"
+                                        }
+                                    ],
+                                    "typecode": "3103200,300",
+                                    "extend": {
+                                        "taste_rating": "",
+                                        "reco": "客栈",
+                                        "service_rating": "",
+                                        "charging_station": {
+                                            "total": 0,
+                                            "ebnum": null,
+                                            "parknum": "",
+                                            "equipment_info": [
+                                            ],
+                                            "ptype": ""
+                                        },
+                                        "price": "134.0",
+                                        "environment_rating": "",
+                                        "star_rating": "",
+                                        "shop_hours": "",
+                                        "payment": "",
+                                        "overall_rating": "3.3",
+                                        "facility": "1,16",
+                                        "parking_lot": {
+                                            "total": 0,
+                                            "free": 0,
+                                            "type": ""
+                                        },
+                                        "status": -1
+                                    },
+                                    "adname": "东城区",
+                                    "phone": "010-65248213",
+                                    "rinfo": "",
+                                    "name": "紫石旅馆",
+                                    "location": "116.42239,39.90552",
+                                    "tag": "",
+                                    "brand": ""
+                                }, {
+                                    "address": "北京市东城区船板胡同47号",
+                                    "distance": "181",
+                                    "poi_index": 17,
+                                    "pname": "北京市",
+                                    "cityname": "北京市",
+                                    "pid": "AO_KBIFMUIRKBMFKVCVKJMA",
+                                    "nlonlat": "116.4208077,39.9033073",
+                                    "type": "一般旅馆",
+                                    "photos": [{
+                                            "titile": "",
+                                            "url": ""
+                                        }
+                                    ],
+                                    "typecode": "3103200,300",
+                                    "extend": {
+                                        "taste_rating": "",
+                                        "reco": "客栈",
+                                        "service_rating": "",
+                                        "charging_station": {
+                                            "total": 0,
+                                            "ebnum": null,
+                                            "parknum": "",
+                                            "equipment_info": [
+                                            ],
+                                            "ptype": ""
+                                        },
+                                        "price": "381.0",
+                                        "environment_rating": "",
+                                        "star_rating": "",
+                                        "shop_hours": "",
+                                        "payment": "",
+                                        "overall_rating": "3.7",
+                                        "facility": "1,15,16",
+                                        "parking_lot": {
+                                            "total": 0,
+                                            "free": 0,
+                                            "type": ""
+                                        },
+                                        "status": -1
+                                    },
+                                    "adname": "东城区",
+                                    "phone": "010-65249867|010-65246446",
+                                    "rinfo": "",
+                                    "name": "汉庭酒店(北京崇文门店)",
+                                    "location": "116.42087,39.90342",
+                                    "tag": "",
+                                    "brand": "汉庭酒店"
+                                }, {
+                                    "address": "北京市东城区三源胡同29号",
+                                    "distance": "199",
+                                    "poi_index": 18,
+                                    "pname": "北京市",
+                                    "cityname": "北京市",
+                                    "pid": "AO_KBIFMUIRKdIVEUCRKNJFGWA",
+                                    "nlonlat": "116.42081,39.90495",
+                                    "type": "一般旅馆",
+                                    "photos": [{
+                                            "titile": "",
+                                            "url": "http:\/\/dimg04.c-ctrip.com\/images\/\/200a0r000000gzadoF83C_R_550_412.jpg"
+                                        }
+                                    ],
+                                    "typecode": "3103200,300",
+                                    "extend": {
+                                        "taste_rating": "",
+                                        "reco": "客栈",
+                                        "service_rating": "",
+                                        "charging_station": {
+                                            "total": 0,
+                                            "ebnum": null,
+                                            "parknum": "",
+                                            "equipment_info": [
+                                            ],
+                                            "ptype": ""
+                                        },
+                                        "price": "306.0",
+                                        "environment_rating": "",
+                                        "star_rating": "",
+                                        "shop_hours": "",
+                                        "payment": "",
+                                        "overall_rating": "4",
+                                        "facility": "",
+                                        "parking_lot": {
+                                            "total": 0,
+                                            "free": 0,
+                                            "type": ""
+                                        },
+                                        "status": -1
+                                    },
+                                    "adname": "东城区",
+                                    "phone": "010-85175799",
+                                    "rinfo": "",
+                                    "name": "窄巷福院客栈",
+                                    "location": "116.42087,39.90495",
+                                    "tag": "",
+                                    "brand": ""
+                                }, {
+                                    "address": "北京市东城区苏州胡同30",
+                                    "distance": "209",
+                                    "poi_index": 19,
+                                    "pname": "北京市",
+                                    "cityname": "北京市",
+                                    "pid": "AO_KBIFMUIRKBJFCVCWKRMQ",
+                                    "nlonlat": "116.4242401,39.9057455",
+                                    "type": "一般旅馆",
+                                    "photos": [{
+                                            "titile": "",
+                                            "url": "http:\/\/dimg04.c-ctrip.com\/images\/\/fd\/hotel\/g1\/M07\/06\/6C\/CghzflW7ZAGAE-oSAARzCLv2QgQ400_R_550_412.jpg"
+                                        }
+                                    ],
+                                    "typecode": "3103200,300",
+                                    "extend": {
+                                        "taste_rating": "",
+                                        "reco": "客栈",
+                                        "service_rating": "",
+                                        "charging_station": {
+                                            "total": 0,
+                                            "ebnum": null,
+                                            "parknum": "",
+                                            "equipment_info": [
+                                            ],
+                                            "ptype": ""
+                                        },
+                                        "price": "",
+                                        "environment_rating": "",
+                                        "star_rating": "",
+                                        "shop_hours": "",
+                                        "payment": "",
+                                        "overall_rating": "4.4",
+                                        "facility": "1,14,16",
+                                        "parking_lot": {
+                                            "total": 0,
+                                            "free": 0,
+                                            "type": ""
+                                        },
+                                        "status": -1
+                                    },
+                                    "adname": "东城区",
+                                    "phone": "010-65243535",
+                                    "rinfo": "",
+                                    "name": "国机快捷酒店",
+                                    "location": "116.42425,39.90555",
+                                    "tag": "",
+                                    "brand": ""
+                                }, {
+                                    "address": "北京市东城区南八宝胡同23号",
+                                    "distance": "221",
+                                    "poi_index": 20,
+                                    "pname": "北京市",
+                                    "cityname": "北京市",
+                                    "pid": "AO_KBIFMUIRLBKVEUaXKZKFI",
+                                    "nlonlat": "116.42026,39.90423",
+                                    "type": "一般旅馆",
+                                    "photos": [{
+                                            "titile": "",
+                                            "url": "http:\/\/dimg04.c-ctrip.com\/images\/\/200n12000000sk1hhB78F_R_550_412.jpg"
+                                        }
+                                    ],
+                                    "typecode": "3103200,300",
+                                    "extend": {
+                                        "taste_rating": "",
+                                        "reco": "客栈",
+                                        "service_rating": "",
+                                        "charging_station": {
+                                            "total": 0,
+                                            "ebnum": null,
+                                            "parknum": "",
+                                            "equipment_info": [
+                                            ],
+                                            "ptype": ""
+                                        },
+                                        "price": "273.0",
+                                        "environment_rating": "",
+                                        "star_rating": "",
+                                        "shop_hours": "",
+                                        "payment": "",
+                                        "overall_rating": "4.6",
+                                        "facility": "1,15,16,3",
+                                        "parking_lot": {
+                                            "total": 0,
+                                            "free": 0,
+                                            "type": ""
+                                        },
+                                        "status": -1
+                                    },
+                                    "adname": "东城区",
+                                    "phone": "010-65236564",
+                                    "rinfo": "",
+                                    "name": "海友酒店(北京崇文门店)",
+                                    "location": "116.42027,39.90418",
+                                    "tag": "",
+                                    "brand": "海友酒店"
+                                }, {
+                                    "address": "北京市东城区船板胡同59",
+                                    "distance": "223",
+                                    "poi_index": 21,
+                                    "pname": "北京市",
+                                    "cityname": "北京市",
+                                    "pid": "AO_KBIFMUIRLBLVMWCYKVJVE",
+                                    "nlonlat": "116.4202618,39.9035571",
+                                    "type": "一般旅馆",
+                                    "photos": [{
+                                            "titile": "",
+                                            "url": ""
+                                        }
+                                    ],
+                                    "typecode": "3103200,300",
+                                    "extend": {
+                                        "taste_rating": "",
+                                        "reco": "",
+                                        "service_rating": "",
+                                        "charging_station": {
+                                            "total": 0,
+                                            "ebnum": null,
+                                            "parknum": "",
+                                            "equipment_info": [
+                                            ],
+                                            "ptype": ""
+                                        },
+                                        "price": "",
+                                        "environment_rating": "",
+                                        "star_rating": "",
+                                        "shop_hours": "",
+                                        "payment": "",
+                                        "overall_rating": "-1",
+                                        "facility": "",
+                                        "parking_lot": {
+                                            "total": 0,
+                                            "free": 0,
+                                            "type": ""
+                                        },
+                                        "status": -1
+                                    },
+                                    "adname": "东城区",
+                                    "phone": "010-65242974",
+                                    "rinfo": "",
+                                    "name": "永乐宾馆",
+                                    "location": "116.42028,39.90363",
+                                    "tag": "",
+                                    "brand": ""
+                                }, {
+                                    "address": "北京市东城区南八宝胡同4号",
+                                    "distance": "236",
+                                    "poi_index": 22,
+                                    "pname": "北京市",
+                                    "cityname": "北京市",
+                                    "pid": "AO_KBIFMUIRKdKVQVKYKBJVA",
+                                    "nlonlat": "116.42043,39.90526",
+                                    "type": "一般旅馆",
+                                    "photos": [{
+                                            "titile": "",
+                                            "url": ""
+                                        }
+                                    ],
+                                    "typecode": "3103200,300",
+                                    "extend": {
+                                        "taste_rating": "",
+                                        "reco": "",
+                                        "service_rating": "",
+                                        "charging_station": {
+                                            "total": 0,
+                                            "ebnum": null,
+                                            "parknum": "",
+                                            "equipment_info": [
+                                            ],
+                                            "ptype": ""
+                                        },
+                                        "price": "",
+                                        "environment_rating": "",
+                                        "star_rating": "",
+                                        "shop_hours": "",
+                                        "payment": "",
+                                        "overall_rating": "-1",
+                                        "facility": "",
+                                        "parking_lot": {
+                                            "total": 0,
+                                            "free": 0,
+                                            "type": ""
+                                        },
+                                        "status": -1
+                                    },
+                                    "adname": "东城区",
+                                    "phone": "010-65262627",
+                                    "rinfo": "",
+                                    "name": "南八宝旅店",
+                                    "location": "116.42062,39.90526",
+                                    "tag": "",
+                                    "brand": ""
+                                }, {
+                                    "address": "北京市东城区后沟胡同3",
+                                    "distance": "238",
+                                    "poi_index": 23,
+                                    "pname": "北京市",
+                                    "cityname": "北京市",
+                                    "pid": "AO_KBIFMUIRKdKVQVKYKJKFG",
+                                    "nlonlat": "116.42033,39.9032",
+                                    "type": "一般旅馆",
+                                    "photos": [{
+                                            "titile": "",
+                                            "url": "http:\/\/dimg04.c-ctrip.com\/images\/\/200g1b000001bno289BCD_R_550_412.jpg"
+                                        }
+                                    ],
+                                    "typecode": "3103200,300",
+                                    "extend": {
+                                        "taste_rating": "",
+                                        "reco": "客栈",
+                                        "service_rating": "",
+                                        "charging_station": {
+                                            "total": 0,
+                                            "ebnum": null,
+                                            "parknum": "",
+                                            "equipment_info": [
+                                            ],
+                                            "ptype": ""
+                                        },
+                                        "price": "297.0",
+                                        "environment_rating": "",
+                                        "star_rating": "",
+                                        "shop_hours": "",
+                                        "payment": "",
+                                        "overall_rating": "3.6",
+                                        "facility": "1",
+                                        "parking_lot": {
+                                            "total": 0,
+                                            "free": 0,
+                                            "type": ""
+                                        },
+                                        "status": -1
+                                    },
+                                    "adname": "东城区",
+                                    "phone": "010-51017277",
+                                    "rinfo": "",
+                                    "name": "客居安宾馆",
+                                    "location": "116.42025,39.90323",
+                                    "tag": "",
+                                    "brand": ""
+                                }, {
+                                    "address": "北京市东城区北京站西街1-9",
+                                    "distance": "248",
+                                    "poi_index": 24,
+                                    "pname": "北京市",
+                                    "cityname": "北京市",
+                                    "pid": "AO_KBIFMUIRKdIVKUSTKBMVMUY",
+                                    "nlonlat": "116.425052,39.9053201",
+                                    "type": "一般旅馆",
+                                    "photos": [{
+                                            "titile": "",
+                                            "url": "http:\/\/dimg04.c-ctrip.com\/images\/\/200v1c000001dpiqp44B2_R_550_412.jpg"
+                                        }
+                                    ],
+                                    "typecode": "3103200,300",
+                                    "extend": {
+                                        "taste_rating": "",
+                                        "reco": "舒适",
+                                        "service_rating": "",
+                                        "charging_station": {
+                                            "total": 0,
+                                            "ebnum": null,
+                                            "parknum": "",
+                                            "equipment_info": [
+                                            ],
+                                            "ptype": ""
+                                        },
+                                        "price": "526.0",
+                                        "environment_rating": "",
+                                        "star_rating": "",
+                                        "shop_hours": "",
+                                        "payment": "",
+                                        "overall_rating": "4.8",
+                                        "facility": "1,14,15,16,3",
+                                        "parking_lot": {
+                                            "total": 0,
+                                            "free": 0,
+                                            "type": ""
+                                        },
+                                        "status": -1
+                                    },
+                                    "adname": "东城区",
+                                    "phone": "010-65278878",
+                                    "rinfo": "",
+                                    "name": "丽枫酒店(北京北京站店)",
+                                    "location": "116.4250464,39.9054762",
+                                    "tag": "",
+                                    "brand": "麗枫酒店"
+                                }, {
+                                    "address": "北京市东城区毛家湾胡同甲13北京站售票厅2楼",
+                                    "distance": "248",
+                                    "poi_index": 25,
+                                    "pname": "北京市",
+                                    "cityname": "北京市",
+                                    "pid": "AO_KBIFMUIRKBIFIUaQKBLVIWCY",
+                                    "nlonlat": "116.42585,39.90387",
+                                    "type": "一般旅馆",
+                                    "photos": [{
+                                            "titile": "",
+                                            "url": "http:\/\/dimg04.c-ctrip.com\/images\/\/fd\/hotel\/g3\/M07\/C1\/A8\/CggYG1X73SeAR-QTAAFcWixj5xo361_R_550_412.jpg"
+                                        }
+                                    ],
+                                    "typecode": "3103200,300",
+                                    "extend": {
+                                        "taste_rating": "",
+                                        "reco": "客栈",
+                                        "service_rating": "",
+                                        "charging_station": {
+                                            "total": 0,
+                                            "ebnum": null,
+                                            "parknum": "",
+                                            "equipment_info": [
+                                            ],
+                                            "ptype": ""
+                                        },
+                                        "price": "240.0",
+                                        "environment_rating": "",
+                                        "star_rating": "",
+                                        "shop_hours": "",
+                                        "payment": "",
+                                        "overall_rating": "4.3",
+                                        "facility": "1",
+                                        "parking_lot": {
+                                            "total": 0,
+                                            "free": 0,
+                                            "type": ""
+                                        },
+                                        "status": -1
+                                    },
+                                    "adname": "东城区",
+                                    "phone": "010-65131668",
+                                    "rinfo": "",
+                                    "name": "易佰连锁旅店北京站店",
+                                    "location": "116.42577,39.90387",
+                                    "tag": "",
+                                    "brand": "易佰酒店"
+                                }, {
+                                    "address": "北京市东城区船板胡同16",
+                                    "distance": "249",
+                                    "poi_index": 26,
+                                    "pname": "北京市",
+                                    "cityname": "北京市",
+                                    "pid": "AO_KBIFMUIRKdKVQVKYKJKFM",
+                                    "nlonlat": "116.4200429,39.9036118",
+                                    "type": "一般旅馆",
+                                    "photos": [{
+                                            "titile": "",
+                                            "url": ""
+                                        }
+                                    ],
+                                    "typecode": "3103200,300",
+                                    "extend": {
+                                        "taste_rating": "",
+                                        "reco": "",
+                                        "service_rating": "",
+                                        "charging_station": {
+                                            "total": 0,
+                                            "ebnum": null,
+                                            "parknum": "",
+                                            "equipment_info": [
+                                            ],
+                                            "ptype": ""
+                                        },
+                                        "price": "",
+                                        "environment_rating": "",
+                                        "star_rating": "",
+                                        "shop_hours": "",
+                                        "payment": "",
+                                        "overall_rating": "-1",
+                                        "facility": "",
+                                        "parking_lot": {
+                                            "total": 0,
+                                            "free": 0,
+                                            "type": ""
+                                        },
+                                        "status": -1
+                                    },
+                                    "adname": "东城区",
+                                    "phone": "010-65136582",
+                                    "rinfo": "",
+                                    "name": "仁分旅店",
+                                    "location": "116.42001,39.90348",
+                                    "tag": "",
+                                    "brand": ""
+                                }, {
+                                    "address": "北京市东城区邮通街9号",
+                                    "distance": "269",
+                                    "poi_index": 27,
+                                    "pname": "北京市",
+                                    "cityname": "北京市",
+                                    "pid": "AO_KBIFMUIRKdKVQVKYKJLFM",
+                                    "nlonlat": "116.42441,39.90618",
+                                    "type": "星级酒店",
+                                    "photos": [{
+                                            "titile": "",
+                                            "url": "http:\/\/dimg04.c-ctrip.com\/images\/\/0202m1200084req6w8A02_R_550_412.jpg"
+                                        }
+                                    ],
+                                    "typecode": "3B0,300",
+                                    "extend": {
+                                        "taste_rating": "",
+                                        "reco": "舒适",
+                                        "service_rating": "",
+                                        "charging_station": {
+                                            "total": 0,
+                                            "ebnum": null,
+                                            "parknum": "",
+                                            "equipment_info": [
+                                            ],
+                                            "ptype": ""
+                                        },
+                                        "price": "548.0",
+                                        "environment_rating": "",
+                                        "star_rating": "",
+                                        "shop_hours": "",
+                                        "payment": "",
+                                        "overall_rating": "4.7",
+                                        "facility": "1,13,14,15,16,3,8",
+                                        "parking_lot": {
+                                            "total": 0,
+                                            "free": 0,
+                                            "type": ""
+                                        },
+                                        "status": -1
+                                    },
+                                    "adname": "东城区",
+                                    "phone": "010-65285566",
+                                    "rinfo": "",
+                                    "name": "信谊酒店",
+                                    "location": "116.42423,39.90618",
+                                    "tag": "准三星级酒店",
+                                    "brand": ""
+                                }, {
+                                    "address": "北京市东城区船板胡同24号",
+                                    "distance": "273",
+                                    "poi_index": 28,
+                                    "pname": "北京市",
+                                    "cityname": "北京市",
+                                    "pid": "AO_KBIFMUIRKBJFKUSQ",
+                                    "nlonlat": "116.4197418,39.9036871",
+                                    "type": "一般旅馆",
+                                    "photos": [{
+                                            "titile": "",
+                                            "url": "http:\/\/dimg04.c-ctrip.com\/images\/\/0206v1200086k1skbCDA9_R_550_412.jpg"
+                                        }
+                                    ],
+                                    "typecode": "3103200,300",
+                                    "extend": {
+                                        "taste_rating": "",
+                                        "reco": "客栈",
+                                        "service_rating": "",
+                                        "charging_station": {
+                                            "total": 0,
+                                            "ebnum": null,
+                                            "parknum": "",
+                                            "equipment_info": [
+                                            ],
+                                            "ptype": ""
+                                        },
+                                        "price": "264.0",
+                                        "environment_rating": "",
+                                        "star_rating": "",
+                                        "shop_hours": "",
+                                        "payment": "",
+                                        "overall_rating": "3.8",
+                                        "facility": "1,15,16",
+                                        "parking_lot": {
+                                            "total": 0,
+                                            "free": 0,
+                                            "type": ""
+                                        },
+                                        "status": -1
+                                    },
+                                    "adname": "东城区",
+                                    "phone": "010-65136240|010-83288449",
+                                    "rinfo": "",
+                                    "name": "欣燕都酒店(崇文门店)",
+                                    "location": "116.41971,39.90356",
+                                    "tag": "",
+                                    "brand": "欣燕都"
+                                }, {
+                                    "address": "北京市东城区北京站西街1号世纪华联超市北京站店2楼",
+                                    "distance": "280",
+                                    "poi_index": 29,
+                                    "pname": "北京市",
+                                    "cityname": "北京市",
+                                    "pid": "AO_KBIFMUIRKdIVAVaYLBJFEWI",
+                                    "nlonlat": "116.42555,39.90534",
+                                    "type": "一般旅馆",
+                                    "photos": [{
+                                            "titile": "",
+                                            "url": "http:\/\/dimg04.c-ctrip.com\/images\/\/200t190000015lgilBCA5_R_550_412.jpg"
+                                        }
+                                    ],
+                                    "typecode": "3103200,300",
+                                    "extend": {
+                                        "taste_rating": "",
+                                        "reco": "客栈",
+                                        "service_rating": "",
+                                        "charging_station": {
+                                            "total": 0,
+                                            "ebnum": null,
+                                            "parknum": "",
+                                            "equipment_info": [
+                                            ],
+                                            "ptype": ""
+                                        },
+                                        "price": "283.0",
+                                        "environment_rating": "",
+                                        "star_rating": "",
+                                        "shop_hours": "",
+                                        "payment": "",
+                                        "overall_rating": "4.4",
+                                        "facility": "1",
+                                        "parking_lot": {
+                                            "total": 0,
+                                            "free": 0,
+                                            "type": ""
+                                        },
+                                        "status": -1
+                                    },
+                                    "adname": "东城区",
+                                    "phone": "010-56198608",
+                                    "rinfo": "",
+                                    "name": "99优选酒店",
+                                    "location": "116.42554,39.90546",
+                                    "tag": "",
+                                    "brand": "99优选酒店"
+                                }, {
+                                    "address": "北京市东城区东城区西街1号",
+                                    "distance": "337",
+                                    "poi_index": 30,
+                                    "pname": "北京市",
+                                    "cityname": "北京市",
+                                    "pid": "AO_KBIFMUIRKRIVKVaYLBLVSUI",
+                                    "nlonlat": "116.42638,39.905547",
+                                    "type": "一般旅馆",
+                                    "photos": [{
+                                            "titile": "",
+                                            "url": "http:\/\/dimg04.c-ctrip.com\/images\/\/200s160000010u1aj1F2F_R_550_412.jpg"
+                                        }
+                                    ],
+                                    "typecode": "3103200,300",
+                                    "extend": {
+                                        "taste_rating": "",
+                                        "reco": "舒适",
+                                        "service_rating": "",
+                                        "charging_station": {
+                                            "total": 0,
+                                            "ebnum": null,
+                                            "parknum": "",
+                                            "equipment_info": [
+                                            ],
+                                            "ptype": ""
+                                        },
+                                        "price": "322.0",
+                                        "environment_rating": "",
+                                        "star_rating": "",
+                                        "shop_hours": "",
+                                        "payment": "",
+                                        "overall_rating": "4.6",
+                                        "facility": "1,14,15,16,3",
+                                        "parking_lot": {
+                                            "total": 0,
+                                            "free": 0,
+                                            "type": ""
+                                        },
+                                        "status": -1
+                                    },
+                                    "adname": "东城区",
+                                    "phone": "010-65278868",
+                                    "rinfo": "",
+                                    "name": "如家酒店NEN(北京站店)",
+                                    "location": "116.4262649,39.905547",
+                                    "tag": "",
+                                    "brand": "如家酒店"
+                                }
+                            ],
+                            "routeResults": [
+                            ]
+                        },
+                        "routeResults": {
+                            "total": 0,
+                            "data": [
+                            ],
+                            "pageIndex": 1,
+                            "pageSize": 0
+                        }
+                    },
+                    "intention": "search"
+                }
+            },
+            "skill": "CALL_PHONE",
+            "ssml": "",
+            "recording": 0,
+            "recommends": [
+            ],
+            "detail": {},
+            "content": {},
+            "intention": "calling_poi"
+        },
+        "requestId": "fb9aa8dbabaf4a75bedd4be0fafbacbc",
+        "confidence": {
+            "nluScore": 4.1157007217,
+            "contentScore": 0.0,
+            "taskScore": 6.0
+        },
+        "text": "给第一个打电话",
+        "dialogId": "837ca99631ab44aa8d591cd030126786"
+    },
+    "message": "success"
+}

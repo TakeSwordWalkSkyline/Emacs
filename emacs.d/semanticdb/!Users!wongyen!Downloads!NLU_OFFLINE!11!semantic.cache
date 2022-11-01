@@ -1,0 +1,16 @@
+;; Object semanticdb-project-database-file-b1e46a98
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-b1e46a98"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-b1e46aaa"
+      :major-mode json-mode
+      :tags nil
+      :file "7238.json"
+      :pointmax 4638
+      :fsize 4765
+      :lastmodtime '(24991 16137 891188 594000)
+      :unmatched-syntax nil))
+  :file "!Users!wongyen!Downloads!NLU_OFFLINE!11!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

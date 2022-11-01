@@ -1,0 +1,301 @@
+{
+  "code": 0,
+  "data": {
+    "answer": {
+      "tts": "手机美团APP扫描屏幕上的二维码，即可点餐。",
+      "slots": {
+        "address": {
+          "rawValue": "",
+          "value": ""
+        }
+      },
+      "skill": "WAIMAI",
+      "ssml": "手机美团APP扫描屏幕上的二维码，即可点餐。",
+      "recording": 0,
+      "recommends": [
+        "返回"
+      ],
+      "detail": {
+        "flag": 3,
+        "lastDialogState": "waimai_qr_code_display"
+      },
+      "content": {
+        "waimaiInfo": [],
+        "numAction": 1,
+        "total": 30,
+        "code": 0,
+        "pageIndex": 1,
+        "waimaiDesc": {
+          "wifi": "0",
+          "address": "海淀区西二旗大街39号融通高科大厦1层",
+          "avgprice": "91",
+          "phone": "13552047866/18514558766",
+          "frontimg": "https://img.meituan.net/msmerchant/737850b6116aafe3cbf317835a56fb99251797.jpg",
+          "openstatus": "营业中",
+          "avgscore": "4.4",
+          "iurl": "https://runion.meituan.com/url?key=58677350c9704c823b81893a07bb41af454&url=https%3A%2F%2Fi.meituan.com%2Fshop%2Fencryptpoiid&encryptpoiid=xMUc1Eb8VyRyUM3qNBRrHQ",
+          "name": "兴悦阁",
+          "distasnce": "0.53",
+          "openinfo": "周一至周日\n11:00-14:00\n17:00-22:00"
+        },
+        "pageAction": "",
+        "pageSize": 10,
+        "searchData": {
+          "allWaimaiInfo": [
+            {
+              "avgprice": "91",
+              "frontimg": "https://img.meituan.net/msmerchant/737850b6116aafe3cbf317835a56fb99251797.jpg",
+              "avgscore": "4.4",
+              "name": "兴悦阁",
+              "distasnce": "0.53",
+              "sid": "xMUc1Eb8VyRyUM3qNBRrHQ"
+            },
+            {
+              "avgprice": "76",
+              "frontimg": "https://img.meituan.net/msmerchant/e0b551dcd6373d29df2dc7b95916fd42205234.jpg",
+              "avgscore": "4.3",
+              "name": "湘乡楼（西二旗店）",
+              "distasnce": "0.62",
+              "sid": "S32cBIAUnwZXaFwC1wHUOw"
+            },
+            {
+              "avgprice": "37",
+              "frontimg": "https://img.meituan.net/msmerchant/b8b35de13781e652991c2c5683bd8c2c226000.jpg",
+              "avgscore": "3.7",
+              "name": "西部马华牛肉面（上地店）",
+              "distasnce": "0.60",
+              "sid": "8hILoaBPgeh6qF7RJTz3tw"
+            },
+            {
+              "avgprice": "84",
+              "frontimg": "https://img.meituan.net/msmerchant/14288a5faede77e341b7c50afb0df1ba7190381.jpg",
+              "avgscore": "4.4",
+              "name": "海盗船（西三旗店）",
+              "distasnce": "2.38",
+              "sid": "MVfcG6Uj8EOxUXT3uXdnew"
+            },
+            {
+              "avgprice": "79",
+              "frontimg": "http://p0.meituan.net/mogu/4d58d7ce139d487bfcf851693a52fa9176037.jpg",
+              "avgscore": "4.7",
+              "name": "食平方（回龙观店）",
+              "distasnce": "1.06",
+              "sid": "zzWAabS2hrquNRrqYG2nwg"
+            },
+            {
+              "avgprice": "96",
+              "frontimg": "https://img.meituan.net/msmerchant/d94318e9289f5ada0e2e72167e983275335155.jpg",
+              "avgscore": "4.5",
+              "name": "朴氏私家火锅（西二旗店）",
+              "distasnce": "0.54",
+              "sid": "UvUMlTDeYGUNDCfbXItAZQ"
+            },
+            {
+              "avgprice": "68",
+              "frontimg": "https://img.meituan.net/msmerchant/da5b26ae6aadb40ded877f9c7889b48052108.jpg",
+              "avgscore": "4.6",
+              "name": "胖哥俩肉蟹煲（昌发展万科广场店）",
+              "distasnce": "1.35",
+              "sid": "P6zDr4ipMRbyD-l5--cYgA"
+            },
+            {
+              "avgprice": "76",
+              "frontimg": "http://p0.meituan.net/biztone/c14806836f50524124c6c23b4e467fdc97139.png",
+              "avgscore": "4.2",
+              "name": "金掌勺东北菜（龙域万科店）",
+              "distasnce": "1.30",
+              "sid": "Qa7YXE-4E0p1WaMNR7wabA"
+            },
+            {
+              "avgprice": "65",
+              "frontimg": "https://img.meituan.net/msmerchant/5de0aa76f4a2612f2b9edade117445bc21909.jpg",
+              "avgscore": "4.2",
+              "name": "虾吃虾涮（回龙观西大街店）",
+              "distasnce": "2.60",
+              "sid": "LT_ri4MDx4b-wCbz8p67dg"
+            },
+            {
+              "avgprice": "228",
+              "frontimg": "https://img.meituan.net/msmerchant/fd23330e9c4175178a2da63f2e65dbfb1488248.jpg",
+              "avgscore": "4.2",
+              "name": "东田之村·和风料理（西二旗店）",
+              "distasnce": "0.59",
+              "sid": "fCynNmWmi1_-VS8bvWl3Jw"
+            },
+            {
+              "avgprice": "92",
+              "frontimg": "http://p0.meituan.net/merchantpic/30eab3a5c05e3646e1a68ac27a80c641379674.jpg",
+              "avgscore": "4.5",
+              "name": "井格重庆火锅（回龙观融泽店）",
+              "distasnce": "1.04",
+              "sid": "6rels7ixB3yv6ySb4HlKDA"
+            },
+            {
+              "avgprice": "70",
+              "frontimg": "https://img.meituan.net/msmerchant/24f3eecc47cabc8ea171205ddd092a7780983.jpg",
+              "avgscore": "4.8",
+              "name": "北平楼（西三旗店）",
+              "distasnce": "1.78",
+              "sid": "o44gtfOH1M1lC9pWkENe1Q"
+            },
+            {
+              "avgprice": "88",
+              "frontimg": "http://p1.meituan.net/bbia/faff067970e5e10dc83b353c9b7b1de333100.jpg",
+              "avgscore": "4.1",
+              "name": "九头鸟酒家（上地店）",
+              "distasnce": "1.54",
+              "sid": "YTAFl3NBh1rF1ZQigmn2nw"
+            },
+            {
+              "avgprice": "94",
+              "frontimg": "https://img.meituan.net/msmerchant/a19b5aabc3a1335dee5d0005f513371d429404.jpg",
+              "avgscore": "4.7",
+              "name": "印湘·剁椒鱼头（回龙观店）",
+              "distasnce": "1.04",
+              "sid": "8AM6uFjZ8kVXVCcPqSq6fg"
+            },
+            {
+              "avgprice": "83",
+              "frontimg": "https://img.meituan.net/msmerchant/47c86359fb1614e5e75e5060a9611e7c1102732.jpg",
+              "avgscore": "4.5",
+              "name": "韩时烤肉（昌发展万科店）",
+              "distasnce": "1.23",
+              "sid": "yBQJ3NxgdQKd1y7J4y8_Rw"
+            },
+            {
+              "avgprice": "60",
+              "frontimg": "https://img.meituan.net/msmerchant/7faf4dd3357eb830001de899594faa2a230402.png",
+              "avgscore": "4.3",
+              "name": "大鸭梨烤鸭店（西三旗店）",
+              "distasnce": "2.03",
+              "sid": "ySnXXQ9auFd3NepzkfD1ow"
+            },
+            {
+              "avgprice": "77",
+              "frontimg": "http://p0.meituan.net/xianfu/ecee4b78d64c09b693d4c47abbb24c1a386936.jpg",
+              "avgscore": "4.6",
+              "name": "东北老家",
+              "distasnce": "2.42",
+              "sid": "N_V09zVdTqkBHXXonSCDiQ"
+            },
+            {
+              "avgprice": "77",
+              "frontimg": "https://img.meituan.net/msmerchant/08f8365e2c33ea6ee2e8f8b214efa5ab109633.jpg",
+              "avgscore": "4.8",
+              "name": "木屋烧烤（回龙观店）",
+              "distasnce": "2.21",
+              "sid": "eOpm77hqaTaMdshhuAqyiw"
+            },
+            {
+              "avgprice": "19",
+              "frontimg": "https://img.meituan.net/msmerchant/f4e40e569fa5c2fe9b9461ed6fac4386248582.jpg",
+              "avgscore": "4.9",
+              "name": "好适口（回龙观新村店）",
+              "distasnce": "0.69",
+              "sid": "oip3N-GqopIvdJ9TYMNx2w"
+            },
+            {
+              "avgprice": "48",
+              "frontimg": "https://img.meituan.net/msmerchant/6ae7e82d22f60ac11085c1bfedbf1246324238.jpg",
+              "avgscore": "4.6",
+              "name": "东方饺子王（西三旗店）",
+              "distasnce": "1.85",
+              "sid": "TkvPng3YGCtl9vzVnD53vA"
+            },
+            {
+              "avgprice": "130",
+              "frontimg": "https://img.meituan.net/msmerchant/546e8c0b7ba2203f2e0640508ab292b95008454.jpg",
+              "avgscore": "4.3",
+              "name": "上地宴（清河高铁站店）",
+              "distasnce": "1.59",
+              "sid": "_JGwGHbJiVfowb6SoFSJMA"
+            },
+            {
+              "avgprice": "18",
+              "frontimg": "https://img.meituan.net/msmerchant/f4e40e569fa5c2fe9b9461ed6fac4386248582.jpg",
+              "avgscore": "4.6",
+              "name": "好适口（74融泽嘉园店）",
+              "distasnce": "1.04",
+              "sid": "Ml_BRqk3_jKpsQTlCcRzQg"
+            },
+            {
+              "avgprice": "85",
+              "frontimg": "http://p1.meituan.net/bbia/ea06e7b6eebefcac0eb21a43df99e7d0482022.jpg",
+              "avgscore": "4.5",
+              "name": "素虎（西三旗店）",
+              "distasnce": "2.03",
+              "sid": "ssJavamwHqSid9B1Ai5sxw"
+            },
+            {
+              "avgprice": "23",
+              "frontimg": "http://p0.meituan.net/waimaidpoipicmining/13c948ef4985dfcfdf228a5d85fd9a65123530.jpg",
+              "avgscore": "4.8",
+              "name": "庆丰包子铺（西二旗店）",
+              "distasnce": "0.55",
+              "sid": "kqtzpcdZF5PS7fIgr0F0Kw"
+            },
+            {
+              "avgprice": "96",
+              "frontimg": "https://img.meituan.net/msmerchant/a19b5aabc3a1335dee5d0005f513371d429404.jpg",
+              "avgscore": "4.6",
+              "name": "印湘·剁椒鱼头（安宁庄店）",
+              "distasnce": "2.21",
+              "sid": "jn77sCb97BGVWIY5vHjL0g"
+            },
+            {
+              "avgprice": "65",
+              "frontimg": "https://img.meituan.net/msmerchant/e93287e612466b161963c27279e28c1e968356.jpg",
+              "avgscore": "4.7",
+              "name": "巴蜀王婆大虾（回龙观旗舰店）",
+              "distasnce": "2.93",
+              "sid": "LCBt3aO3kY2l_-PBVPPtyA"
+            },
+            {
+              "avgprice": "50",
+              "frontimg": "http://p0.meituan.net/biztone/66b391284c0eaa24afb8d85cdd381622846293.jpg",
+              "avgscore": "4.8",
+              "name": "紫光园清真北京小吃（回龙观店）",
+              "distasnce": "2.64",
+              "sid": "RMtyZBcpIl3nccZdD95neg"
+            },
+            {
+              "avgprice": "87",
+              "frontimg": "https://img.meituan.net/msmerchant/0099ff04aa9d7717d966604726f57d35553820.jpg",
+              "avgscore": "4.9",
+              "name": "巴蜀龍炎卤味火锅",
+              "distasnce": "2.39",
+              "sid": "zimHEpsZQjkXsNB_UgImkA"
+            },
+            {
+              "avgprice": "64",
+              "frontimg": "http://p0.meituan.net/bbia/0e4c91fd7efbfde9126642a6bea6dfba348828.jpg",
+              "avgscore": "4.3",
+              "name": "川辣邦·新派川菜（上地店）",
+              "distasnce": "2.19",
+              "sid": "F75hRPlOxPhUPy9bp-aZHA"
+            },
+            {
+              "avgprice": "31",
+              "frontimg": "http://p0.meituan.net/biztone/c23d1f150f634b0e3291ce77aa22a39e364747.jpg",
+              "avgscore": "4.6",
+              "name": "吉野家（龙域北街店）",
+              "distasnce": "1.11",
+              "sid": "m8lQQv-bfW-V1o7ZsF_kQw"
+            }
+          ],
+          "updated": 0
+        }
+      },
+      "intention": "query"
+    },
+    "requestId": "30891a9139024156acde3ef1972a27f2",
+    "confidence": {
+      "nluScore": 5.7166996002,
+      "contentScore": 0.0,
+      "taskScore": 6.0
+    },
+    "text": "去点餐",
+    "dialogId": "62418dfd4a974f548daaa9aaed84d7cf"
+  },
+  "message": "success"
+}

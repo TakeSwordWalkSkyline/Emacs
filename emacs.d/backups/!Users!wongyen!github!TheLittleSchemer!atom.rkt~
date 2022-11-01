@@ -1,0 +1,40 @@
+
+#lang racket
+
+;; #The Five Rules
+
+;; # The Low of Car
+;; #    The primitive car is defined only for non-empty lists.
+
+
+;; # The Low of Cdr
+;; #    The primitive adr is defined only for non-empty lists.
+;; #    The cdr of any non-empty list is always another list.
+
+
+;; # The Low of Cons
+;; #    The primitive Cons takes two arguments
+;; #    The second argument to Cons must be a list
+;; #    The result is a list
+
+
+;; # The Low of Null?
+;; #    The primitive null? is defined only for list
+
+
+;; # The Low of Eq?
+;; #    The primitive eq? takes two arguments
+;; #    Each must be a non-numeric atom.
+  
+
+
+(define atom?
+  (lambda (x)
+    (and (not (pair? x)) (not (null? x)))))
+
+
+(cons
+ (cons
+  (cons '(atom) 'turkey) 
+  null)
+ (cons 'or null))

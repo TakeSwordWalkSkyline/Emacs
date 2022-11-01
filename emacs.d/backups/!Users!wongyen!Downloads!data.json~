@@ -1,0 +1,74 @@
+{
+	"code": 0,
+	"data": {
+		"answer": {
+			"tts": "",
+			"slots": {},
+			"_embedded": {
+				"nluResult": {
+					"slots": {
+						"area": {
+							"rawValue": "",
+							"value": ""
+						},
+						"province": {
+							"rawValue": "北京",
+							"value": "北京"
+						},
+						"city": {
+							"rawValue": "",
+							"value": ""
+						},
+						"keyword": ""
+					},
+					"intention": "query"
+				}
+			},
+			"skill": "RADIOSTATION",
+			"ssml": "",
+			"recording": 0,
+			"recommends": [],
+			"detail": {
+				"flag": -2
+			},
+			"content": {
+				"numAction": -1,
+				"slots": {
+					"area": {
+						"rawValue": "",
+						"value": ""
+					},
+					"province": {
+						"rawValue": "北京",
+						"value": "北京"
+					},
+					"city": {
+						"rawValue": "",
+						"value": ""
+					}
+				},
+				"pageAction": "",
+				"results": {
+					"total": 0,
+					"data": [],
+					"pageIndex": 0,
+					"pageSize": 0
+				},
+				"searchData": {
+					"results": [],
+					"updated": 0
+				}
+			},
+			"intention": "query"
+		},
+		"requestId": "2452fde35653443c896a4b840ba9e046",
+		"confidence": {
+			"nluScore": 4.8063488007,
+			"contentScore": 0.0,
+			"taskScore": 6.0
+		},
+		"text": "显示北京的电台",
+		"dialogId": "bac9306fae5e436db56dad89c337875b"
+	},
+	"message": "success"
+}

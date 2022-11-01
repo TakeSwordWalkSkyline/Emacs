@@ -1,0 +1,117 @@
+{
+  "nluVersion": 1,
+  "isNew": 0,
+  "language": "cmn",
+  "ignoreInput": 1,
+  "sericeVersion": 0,
+  "eventId": [],
+  "extra": {
+    "searchData": {
+      "poiData": {
+        "ftype": "10",
+        "pois": [
+          {
+            "cityname": "北京市",
+            "adname": "海淀区",
+            "name": "新闻四维图新大厦",
+            "pid": "MAPIJPHILWJRQVCNTRC",
+            "nlonlat": "116.30537,40.05356",
+            "location": "116.30614,40.05284",
+            "distance": "1900.5045",
+            "typecode": "G11,G00",
+            "phone": "123456781",
+            "extend": {
+              "price": "16"
+            }
+          },
+          {
+            "cityname": "北京市",
+            "adname": "海淀区",
+            "name": "播放新闻四维图新大厦C座",
+            "pid": "MAPISPJIZWYRJMQACRTEC",
+            "nlonlat": "116.354351,39.97625",
+            "location": "116.35369,39.97632",
+            "distance": "1060.3446",
+            "typecode": "G11,G00",
+            "phone": "123456782",
+            "extend": {
+              "price": "15"
+            }
+          },
+          {
+            "cityname": "北京市",
+            "adname": "海淀区",
+            "name": "四维图新大厦A座",
+            "pid": "MAPIJPHILWJRQVCNTRC",
+            "nlonlat": "116.30537,40.05356",
+            "location": "116.30614,40.05284",
+            "distance": "1071.5045",
+            "typecode": "G11,G00",
+            "phone": "123456783",
+            "extend": {
+              "noPrice": "no"
+            }
+          },
+          {
+            "cityname": "北京市",
+            "adname": "海淀区",
+            "name": "五道口商场_3",
+            "pid": "MAPIJPHILWJRQVCNTRC",
+            "nlonlat": "116.30537,40.05356",
+            "location": "116.30614,40.05284",
+            "distance": "",
+            "typecode": "G11,G00",
+            "phone": "123456784",
+            "extend": {
+              "price": ""
+            }
+          }
+        ]
+      }
+    }
+  },
+  "status": {
+    "callingStatus": 1,
+    "bluetooth": 1,
+    "players": {
+      "ipod": {
+        "status": 1,
+        "timestamp": ""
+      }
+    },
+    "_musicdb": {
+      "status": 1,
+      "appleStatus": 0
+    },
+    "navInfo": {
+      "home": {
+        "cityname": "北京市",
+        "adname": "海淀区",
+        "name": "生命科学园",
+        "pid": "MAPIJPHILWJRQVCNTRC",
+        "nlonlat": "116.30537,40.05356",
+        "location": "116.30614,40.05284",
+        "distance": "1900.5045",
+        "typecode": "G11,G00",
+        "phone": "123456781",
+        "extend": {
+          "price": "16"
+        }
+      },
+      "company": {
+        "cityname": "北京市",
+        "adname": "海淀区",
+        "name": "四维图新大厦",
+        "pid": "MAPIJPHILWJRQVCNTRC",
+        "nlonlat": "116.30537,40.05356",
+        "location": "116.30614,40.05284",
+        "distance": "1900.5045",
+        "typecode": "G11,G00",
+        "phone": "123456781",
+        "extend": {
+          "price": "16"
+        }
+      }
+    }
+  }
+}

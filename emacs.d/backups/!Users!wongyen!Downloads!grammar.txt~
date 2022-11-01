@@ -1,0 +1,37 @@
+[navi_operation]
+	( [_keyword_search@navi] )
+;
+[_keyword_search@navi]
+	( [Navi_destination] [_在哪@navi] )
+;
+[在哪@navi]
+	( 在 这 )
+	( 在 那 )
+;
+[成都@navi]
+	( 成 都 )
+;
+[poi信息@navi]
+	( 加 油 站 )
+	( 西 二 旗 加 油 站 )
+;
+[上海@navi]
+	( 上 海 )
+	( 魔 都 )
+;
+[Navi_destination]
+	( [Navi_city] )
+	( [Navi_name] )
+;
+[北京@navi]
+	( 北 京 )
+	( 帝 都 )
+;
+[Navi_name]
+	( [poi信息@navi] )
+;
+[Navi_city]
+	( [北京@navi] )
+	( [上海@navi] )
+	( [成都@navi] )
+;

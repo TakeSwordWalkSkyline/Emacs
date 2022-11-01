@@ -1,0 +1,360 @@
+{
+  "code": 0,
+  "message": "success",
+  "data": {
+    "requestId": "",
+    "dialogId": "",
+    "answer": {
+      "skill": "NAVI",
+      "intention": "multi_search",
+      "slots": {
+        "originText": {
+          "value": ""
+        },
+        "keyword": {
+          "value": "辣风芹"
+        },
+        "region": {
+          "value": ""
+        },
+        "destination": {
+          "value": "辣风芹"
+        },
+        "distance": {
+          "value": "",
+          "type": ""
+        },
+        "route_title": {
+          "value": ""
+        }
+      },
+      "tts": "没有找到建政路 普强的结果。去加油站点2吗？请说确定或说取消。",
+      "ssml": "没有找到建政路 普强的结果。去加油站点2吗？请说确定或说取消。",
+      "recommends": [],
+      "content": {
+        "request": {
+          "domain": "keyword_search",
+          "kw": "辣风芹",
+          "type": "",
+          "city": "",
+          "province": "",
+          "area": "",
+          "sort": "default|ASC",
+          "psize": "30",
+          "pnum": "1",
+          "language": ""
+        },
+        "index": -1,
+        "icon": "",
+        "pageAction": "",
+        "numAction": -1,
+        "poiResults": {
+          "data": [
+            {
+              "poi_index": 0,
+              "index": -1,
+              "pid": "MAPIJPHILWJRQVCNTRC",
+              "name": "加油站点2",
+              "location": "116.30614,40.05284",
+              "nlonlat": "116.30537,40.05356",
+              "address": "",
+              "pname": "",
+              "cityname": "北京市",
+              "adname": "海淀区",
+              "phone": "",
+              "type": "",
+              "typecode": "G11,G00",
+              "distance": "1001",
+              "brand": "",
+              "tag": "",
+              "rinfo": "",
+              "extend": {
+                "price": "15",
+                "taste_rating": "",
+                "service_rating": "",
+                "environment_rating": "",
+                "star_rating": "",
+                "overall_rating": "",
+                "reco": "",
+                "stop_hours": "",
+                "facility": "",
+                "payment": "",
+                "parking_lot": {
+                  "total": 0,
+                  "free": 0,
+                  "type": ""
+                },
+                "charging_station": {
+                  "total": 0,
+                  "ebnum": 0,
+                  "ptype": "",
+                  "parknum": ""
+                }
+              }
+            }
+          ],
+          "pageIndex": 1,
+          "pageSize": 1,
+          "total": 1,
+          "ftype": "10"
+        },
+        "routeResults": {
+          "data": []
+        },
+        "searchData": {
+          "pois": [
+            {
+              "poi_index": 0,
+              "index": -1,
+              "pid": "MAPIJPHILWJRQVCNTRC",
+              "name": "加油站点2",
+              "location": "116.30614,40.05284",
+              "nlonlat": "116.30537,40.05356",
+              "address": "",
+              "pname": "",
+              "cityname": "北京市",
+              "adname": "海淀区",
+              "phone": "",
+              "type": "",
+              "typecode": "G11,G00",
+              "distance": "1001",
+              "brand": "",
+              "tag": "",
+              "rinfo": "",
+              "extend": {
+                "price": "15",
+                "taste_rating": "",
+                "service_rating": "",
+                "environment_rating": "",
+                "star_rating": "",
+                "overall_rating": "",
+                "reco": "",
+                "stop_hours": "",
+                "facility": "",
+                "payment": "",
+                "parking_lot": {
+                  "total": 0,
+                  "free": 0,
+                  "type": ""
+                },
+                "charging_station": {
+                  "total": 0,
+                  "ebnum": 0,
+                  "ptype": "",
+                  "parknum": ""
+                }
+              }
+            }
+          ],
+          "updated": 1
+        },
+        "nluIntention": "multi_search",
+        "nluSlots": {
+          "province": "",
+          "city": "",
+          "district": "",
+          "region": "建政路",
+          "name": "建政路 普强",
+          "routes": {
+            "count": "",
+            "datas": []
+          }
+        },
+        "nluSlotsTwo": {
+          "province": "",
+          "city": "",
+          "district": "",
+          "region": "",
+          "name": "辣风芹",
+          "routes": {
+            "count": "",
+            "datas": []
+          }
+        }
+      },
+      "_cp_required": 0,
+      "detail": {
+        "flag": 710,
+        "lastDialogState": "map_seven_one_zero"
+      },
+      "_context": {
+        "skill": "NAVI",
+        "intention": "multi_search",
+        "slots": {
+          "originText": {
+            "value": ""
+          },
+          "keyword": {
+            "value": "辣风芹"
+          },
+          "region": {
+            "value": ""
+          },
+          "destination": {
+            "value": "辣风芹"
+          },
+          "distance": {
+            "value": "",
+            "type": ""
+          },
+          "route_title": {
+            "value": ""
+          }
+        },
+        "tts": "",
+        "ssml": "",
+        "recommends": [],
+        "content": {
+          "request": {
+            "domain": "keyword_search",
+            "kw": "辣风芹",
+            "type": "",
+            "city": "",
+            "province": "",
+            "area": "",
+            "sort": "default|ASC",
+            "psize": "30",
+            "pnum": "1",
+            "language": ""
+          },
+          "index": -1,
+          "icon": "",
+          "pageAction": "",
+          "numAction": -1,
+          "poiResults": {
+            "data": [
+              {
+                "poi_index": 0,
+                "index": -1,
+                "pid": "MAPIJPHILWJRQVCNTRC",
+                "name": "加油站点2",
+                "location": "116.30614,40.05284",
+                "nlonlat": "116.30537,40.05356",
+                "address": "",
+                "pname": "",
+                "cityname": "北京市",
+                "adname": "海淀区",
+                "phone": "",
+                "type": "",
+                "typecode": "G11,G00",
+                "distance": "1001",
+                "brand": "",
+                "tag": "",
+                "rinfo": "",
+                "extend": {
+                  "price": "15",
+                  "taste_rating": "",
+                  "service_rating": "",
+                  "environment_rating": "",
+                  "star_rating": "",
+                  "overall_rating": "",
+                  "reco": "",
+                  "stop_hours": "",
+                  "facility": "",
+                  "payment": "",
+                  "parking_lot": {
+                    "total": 0,
+                    "free": 0,
+                    "type": ""
+                  },
+                  "charging_station": {
+                    "total": 0,
+                    "ebnum": 0,
+                    "ptype": "",
+                    "parknum": ""
+                  }
+                }
+              }
+            ],
+            "pageIndex": 1,
+            "pageSize": 1,
+            "total": 1,
+            "ftype": "10"
+          },
+          "routeResults": {
+            "data": []
+          },
+          "searchData": {
+            "pois": [
+              {
+                "poi_index": 0,
+                "index": -1,
+                "pid": "MAPIJPHILWJRQVCNTRC",
+                "name": "加油站点2",
+                "location": "116.30614,40.05284",
+                "nlonlat": "116.30537,40.05356",
+                "address": "",
+                "pname": "",
+                "cityname": "北京市",
+                "adname": "海淀区",
+                "phone": "",
+                "type": "",
+                "typecode": "G11,G00",
+                "distance": "1001",
+                "brand": "",
+                "tag": "",
+                "rinfo": "",
+                "extend": {
+                  "price": "15",
+                  "taste_rating": "",
+                  "service_rating": "",
+                  "environment_rating": "",
+                  "star_rating": "",
+                  "overall_rating": "",
+                  "reco": "",
+                  "stop_hours": "",
+                  "facility": "",
+                  "payment": "",
+                  "parking_lot": {
+                    "total": 0,
+                    "free": 0,
+                    "type": ""
+                  },
+                  "charging_station": {
+                    "total": 0,
+                    "ebnum": 0,
+                    "ptype": "",
+                    "parknum": ""
+                  }
+                }
+              }
+            ],
+            "updated": 1
+          },
+          "nluIntention": "multi_search",
+          "nluSlots": {
+            "province": "",
+            "city": "",
+            "district": "",
+            "region": "建政路",
+            "name": "建政路 普强",
+            "routes": {
+              "count": "",
+              "datas": []
+            }
+          },
+          "nluSlotsTwo": {
+            "province": "",
+            "city": "",
+            "district": "",
+            "region": "",
+            "name": "辣风芹",
+            "routes": {
+              "count": "",
+              "datas": []
+            }
+          }
+        },
+        "id": 1417,
+        "_cp_required": 0,
+        "detail": {
+          "flag": 710,
+          "lastDialogState": "map_seven_one_zero"
+        }
+      }
+    },
+    "text": ""
+  },
+  "conf": 1,
+  "parseScore": 1
+}

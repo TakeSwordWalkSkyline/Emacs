@@ -1,0 +1,171 @@
+;; Object semanticdb-project-database-file-5fe32868
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-5fe32868"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-5fe32808"
+      :major-mode c++-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [54 72])
+            ("iostream" include (:system-flag t) nil [73 92])
+            ("vector" include (:system-flag t) nil [93 110])
+            ("std::vector" using (:type ("std::vector" type
+                 (:prototype t
+                  :type "class")
+                  nil nil)) nil [112 130])
+            ("two_num_st" type
+               (:members 
+                  ( ("position1" variable (:type "int") (reparse-symbol classsubparts) [156 170])
+                    ("position2" variable (:type "int") (reparse-symbol classsubparts) [175 189]))                  
+                :type "struct")
+                nil [132 192])
+            ("twoSum" function
+               (:arguments 
+                  ( ("numbers" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [212 225])
+                    ("target" variable (:type "int") (reparse-symbol arg-sub-list) [226 237])
+                    ("arraySize" variable (:type "int") (reparse-symbol arg-sub-list) [238 252]))                  
+                :type ("two_num_st" type (:type "class") nil nil))
+                nil [194 639])
+            ("main" function (:type "int") nil [1048 1473]))          
+      :file "twoSum.cpp"
+      :pointmax 1474
+      :fsize 1553
+      :lastmodtime '(24717 32251 177522 961000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-5fe32828"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("vector" include (:system-flag t) nil [21 38])
+            ("TreeNode" type
+               (:members 
+                  ( ("val" variable (:type "int") (reparse-symbol classsubparts) [106 114])
+                    ("left" variable
+                       (:pointer 1
+                        :type ("TreeNode" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [120 135])
+                    ("right" variable
+                       (:pointer 1
+                        :type ("TreeNode" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [141 157])
+                    ("TreeNode" function
+                       (:constructor-flag t
+                        :type ("TreeNode" type (:type "struct") nil nil))
+                        (reparse-symbol classsubparts) [163 216])
+                    ("TreeNode" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [231 237]))                          
+                        :type ("TreeNode" type (:type "struct") nil nil))
+                        (reparse-symbol classsubparts) [222 280])
+                    ("TreeNode" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [295 301])
+                            ("left" variable
+                               (:pointer 1
+                                :type ("TreeNode" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [302 317])
+                            ("right" variable
+                               (:pointer 1
+                                :type ("TreeNode" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [318 334]))                          
+                        :type ("TreeNode" type (:type "struct") nil nil))
+                        (reparse-symbol classsubparts) [286 372]))                  
+                :type "struct")
+                nil [83 375])
+            ("BSTIterator" type
+               (:members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [606 613])
+                    ("BSTIterator" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("root" variable
+                               (:pointer 1
+                                :type ("TreeNode" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [630 645]))                          
+                        :type ("BSTIterator" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [618 705])
+                    ("next" function (:type "int") (reparse-symbol classsubparts) [710 889])
+                    ("hasNext" function (:type "bool") (reparse-symbol classsubparts) [899 1197])
+                    ("private" label nil (reparse-symbol classsubparts) [1198 1206])
+                    ("in" function
+                       (:arguments 
+                          ( ("n" variable
+                               (:pointer 1
+                                :type ("TreeNode" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [1219 1231]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [1211 1368])
+                    ("private" label nil (reparse-symbol classsubparts) [1369 1377])
+                    ("m_bst" variable
+                       (:pointer 1
+                        :type ("TreeNode" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [1382 1398])
+                    ("orderly_vec" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [1403 1432])
+                    ("m_cursor" variable (:type "int") (reparse-symbol classsubparts) [1437 1450]))                  
+                :type "class")
+                nil [586 1453])
+            ("main" function (:type "int") nil [1455 1995]))          
+      :file "get_mininum_in_bst.cpp"
+      :pointmax 1996
+      :fsize 2289
+      :lastmodtime '(24709 36957 966314 589000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-5fe32848"
+      :major-mode c++-mode
+      :tags 
+        '( ("stdio.h" include nil nil [1 19])
+            ("iostream" include nil nil [20 39])
+            ("fibonacci" function
+               (:arguments 
+                  ( ("n" variable (:type "int") (reparse-symbol arg-sub-list) [55 61]))                  
+                :type "int")
+                nil [41 235])
+            ("main" function (:type "int") nil [237 390]))          
+      :file "fibonacci_dynamic_programming.cpp"
+      :pointmax 391
+      :fsize 390
+      :lastmodtime '(24709 36957 966181 590000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-5fe32890"
+      :major-mode c++-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [15 33])
+            ("tolower" function
+               (:arguments 
+                  ( ("c" variable (:type "int") (reparse-symbol arg-sub-list) [47 53]))                  
+                :type "int")
+                nil [35 156])
+            ("htoi" function
+               (:arguments 
+                  ( ("s" variable
+                       (:dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [168 177]))                  
+                :type "long")
+                nil [158 607])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [618 627])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [628 640]))                  
+                :type "int")
+                nil [609 764]))          
+      :file "hex2int.cpp"
+      :pointmax 765
+      :fsize 786
+      :lastmodtime '(25016 15395 619999 12000)
+      :unmatched-syntax nil))
+  :file "!Users!wongyen!github!MyCPlusPlus!comprehensive!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

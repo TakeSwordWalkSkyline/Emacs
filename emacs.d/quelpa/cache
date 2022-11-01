@@ -1,0 +1,1 @@
+((english-teacher :fetcher github :repo "loyalpartner/english-teacher.el") (lazycat-theme :fetcher github :repo "manateelazycat/lazycat-theme"))

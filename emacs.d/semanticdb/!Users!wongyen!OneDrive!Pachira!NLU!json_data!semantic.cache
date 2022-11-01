@@ -1,0 +1,104 @@
+;; Object semanticdb-project-database-file-4b191e68
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-4b191e68"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-4b191630"
+      :major-mode json-mode
+      :tags nil
+      :file "searchData4.json"
+      :pointmax 1304
+      :fsize 1425
+      :lastmodtime '(25018 56413 2347 453000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-4b191650"
+      :major-mode json-mode
+      :tags nil
+      :file "favPoiData.json"
+      :pointmax 2893
+      :fsize 4905
+      :lastmodtime '(25018 56584 853704 202000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-4b191d88"
+      :major-mode json-mode
+      :tags nil
+      :file "favDestPoiData.json"
+      :pointmax 2296
+      :fsize 2399
+      :lastmodtime '(24980 30711 894712 284000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-4b191da8"
+      :major-mode json-mode
+      :tags nil
+      :file "searchData1.json"
+      :pointmax 266
+      :fsize 285
+      :lastmodtime '(25020 15702 865423 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-4b191dc8"
+      :major-mode json-mode
+      :tags nil
+      :file "waimai.json"
+      :pointmax 9873
+      :fsize 10595
+      :lastmodtime '(24686 62397 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-4b191de8"
+      :major-mode json-mode
+      :tags nil
+      :file "routes.json"
+      :pointmax 274
+      :fsize 301
+      :lastmodtime '(24896 26023 157558 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-4b191e08"
+      :major-mode json-mode
+      :tags nil
+      :file "phone_calling_in_event.json"
+      :pointmax 40
+      :fsize 39
+      :lastmodtime '(24797 27298 324951 814000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-4b191e28"
+      :major-mode json-mode
+      :tags nil
+      :file "parameter.json"
+      :pointmax 2914
+      :fsize 3069
+      :lastmodtime '(25008 37695 664480 797000)
+      :unmatched-syntax '((COLON 6 . 7)))
+    (semanticdb-table "semanticdb-table-4b191e48"
+      :major-mode json-mode
+      :tags nil
+      :file "tmp.json"
+      :pointmax 254
+      :fsize 253
+      :lastmodtime '(25020 15726 935800 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-4b192188"
+      :major-mode json-mode
+      :tags nil
+      :file "_embedded.json"
+      :pointmax 1709
+      :fsize 1766
+      :lastmodtime '(24863 24098 798362 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-4b4ed900"
+      :major-mode json-mode
+      :tags nil
+      :file "pageInfo_pageIndex.json"
+      :pointmax 40
+      :fsize 39
+      :lastmodtime '(24933 31476 374049 923000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-42f1d332"
+      :major-mode json-mode
+      :tags nil
+      :file "ignore.json"
+      :pointmax 19
+      :fsize 18
+      :lastmodtime '(24973 2016 71087 0)
+      :unmatched-syntax nil))
+  :file "!Users!wongyen!OneDrive!Pachira!NLU!json_data!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

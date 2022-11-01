@@ -1,0 +1,12 @@
+#lang racket
+
+(define atom?
+  (lambda (x)
+    (and (not (pair? x)) (not (null? x)))))
+
+
+;; (cons
+;;  (cons
+;;   (cons '(atom) 'turkey) 
+;;   null)
+;;  (cons 'or null))

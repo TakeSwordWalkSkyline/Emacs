@@ -1,0 +1,25 @@
+//哈希法判断链表是否有环
+//遍历所有节点并且判断该节点是否被访问过
+//使用哈希表来记录已经访问过的节点，每次达到一个节点的时候，如果该节点被访问过那么则链表有环否则没有
+
+
+#include <iostream>
+#include <unordered_set>
+using std::unordered_set;
+
+struct Node {
+    int data;
+    Node *next;
+};
+
+bool hasCircles(Node *head) {
+    unordered_set<Node*> hash_table;
+    while (head != NULL) {
+        if (hash_table.count(head)) {
+            return true;
+        } else {
+            hash_table.insert(head);
+            head = head->next;
+        }
+    }
+}

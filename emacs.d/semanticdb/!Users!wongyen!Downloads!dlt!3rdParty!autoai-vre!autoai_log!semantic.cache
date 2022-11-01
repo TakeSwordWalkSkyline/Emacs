@@ -1,0 +1,16 @@
+;; Object semanticdb-project-database-file-478d41d0
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-478d41d0"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-478d41e2"
+      :major-mode json-mode
+      :tags nil
+      :file "phone_history.json"
+      :pointmax 2313
+      :fsize 2312
+      :lastmodtime '(25005 56723 812893 85000)
+      :unmatched-syntax '((VARIABLE 58 . 61) (VARIABLE 62 . 70) (COLON 70 . 71) (BRACK_BLOCK 35 . 49) (BRACK_BLOCK 25 . 31) (COLON 17 . 18) (NUMBER 12 . 14) (COLON 14 . 15))))
+  :file "!Users!wongyen!Downloads!dlt!3rdParty!autoai-vre!autoai_log!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,13 @@
+#include "cJSON.h"
+#include <stdio.h>
+
+int main(int argc, char **argv) {
+    printf("%s\n", argv[0]);
+    printf("%s\n", argv[1]);
+    FILE *fp = fopen(argv[1], "r");
+    if (fp) {
+        fseek(fp, 0, SEEK_END);
+    } else {
+        printf("failed to open file [%s]\n", argv[1]);
+    }
+}

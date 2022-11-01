@@ -1,0 +1,44 @@
+{
+  "code": 0,
+  "message": "success",
+  "data": {
+    "requestId": "",
+    "dialogId": "",
+    "answer": {
+      "skill": "AIPUSH",
+      "intention": "oil_alarm_ticket",
+      "slots": {
+      },
+      "tts": "",
+      "ssml": "",
+      "recommends": [],
+      "content": {
+      },
+      "_cp_required": 0,
+      "detail": {
+        "flag": 1,
+        "lastDialogState": "confirm_ending"
+      },
+      "_context": {
+        "skill": "AIPUSH",
+        "intention": "oil_alarm_ticket",
+        "slots": {
+        },
+        "tts": "",
+        "ssml": "",
+        "recommends": [],
+        "content": {
+        },
+        "id": 2319,
+        "_cp_required": 0,
+        "detail": {
+          "flag": 1,
+          "lastDialogState": "confirm_ending"
+        }
+      }
+    },
+    "text": ""
+  },
+  "conf": 1,
+  "parseScore": 1
+}

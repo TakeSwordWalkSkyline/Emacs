@@ -1,0 +1,48 @@
+{
+  "code": 0,
+  "data": {
+    "answer": {
+      "tts": "",
+      "slots": {
+      },
+      "_embedded": {
+        "nluResult": {
+          "phone": {
+            "rawValue": "",
+            "value": ""
+          },
+          "name": {
+            "rawValue": "张三",
+            "value": "张三"
+          },
+          "type": {
+            "rawValue": "",
+            "value": ""
+          },
+          "nums": [],
+          "intention": "calling"
+        },
+        "embeddedContext": {
+        }
+      },
+      "skill": "CALL_PHONE",
+      "ssml": "",
+      "recording": 0,
+      "recommends": [],
+      "detail": {
+      },
+      "content": {
+      },
+      "intention": "calling"
+    },
+    "requestId": "529ddbb7f7d84fcc84ef46f752c9bce8",
+    "confidence": {
+      "nluScore": 1.0,
+      "contentScore": 0.0,
+      "taskScore": 6.0
+    },
+    "text": "打电话给张三的10086",
+    "dialogId": "63ac511e19a546a080402e19f0421b6e"
+  },
+  "message": "success"
+}

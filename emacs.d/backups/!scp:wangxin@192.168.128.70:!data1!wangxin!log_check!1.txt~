@@ -1,0 +1,1652 @@
+{
+    "code": 0,
+    "data": {
+        "answer": {
+            "tts": "明天北京首都国际机场到上海虹桥国际机场找到45趟航班，共15页，最早07:10出发。",
+            "slots": {
+                "orig_province": {
+                    "rawValue": "北京",
+                    "value": "北京"
+                },
+                "arrCode": {
+                    "rawValue": "SHA",
+                    "value": "SHA"
+                },
+                "orig_airport_domestic": {
+                    "rawValue": "",
+                    "value": ""
+                },
+                "orig_city": {
+                    "rawValue": "",
+                    "value": ""
+                },
+                "orig_area": {
+                    "rawValue": "",
+                    "value": ""
+                },
+                "orig_airport_abroad": {
+                    "rawValue": "",
+                    "value": ""
+                },
+                "dest_time": {
+                    "rawValue": "",
+                    "value": "0000-00-00T00:00"
+                },
+                "depCode": {
+                    "rawValue": "BJS",
+                    "value": "BJS"
+                },
+                "dest_city": {
+                    "rawValue": "",
+                    "value": ""
+                },
+                "dest_area": {
+                    "rawValue": "",
+                    "value": ""
+                },
+                "later": {
+                    "rawValue": "",
+                    "value": ""
+                },
+                "dest_airport_domestic": {
+                    "rawValue": "",
+                    "value": ""
+                },
+                "orig_country": {
+                    "rawValue": "",
+                    "value": ""
+                },
+                "orig_foreignCity": {
+                    "rawValue": "",
+                    "value": ""
+                },
+                "dest_airport_abroad": {
+                    "rawValue": "",
+                    "value": ""
+                },
+                "dest_province": {
+                    "rawValue": "上海",
+                    "value": "上海"
+                },
+                "dest_foreignCity": {
+                    "rawValue": "",
+                    "value": ""
+                },
+                "dest_country": {
+                    "rawValue": "",
+                    "value": ""
+                },
+                "orig_time": {
+                    "rawValue": "明天",
+                    "value": "2021-12-10T00:00"
+                }
+            },
+            "skill": "FLIGHT",
+            "ssml": "明天<pachira:nlu name='depature'>北京首都国际机场<\/pachira:nlu>到<pachira:nlu name='destination'>上海虹桥国际机场<\/pachira:nlu>找到45趟航班，共15页，最早07:10出发。",
+            "recording": 0,
+            "recommends": [
+                "下一页",
+                "第二页"
+            ],
+            "detail": {
+                "flag": 1,
+                "lastDialogState": "flight_display_multiple_page"
+            },
+            "content": {
+                "numAction": -1,
+                "total": 45,
+                "flightInfo": [
+                    {
+                        "dacode": "PEK",
+                        "price_info": [
+                            {
+                                "price": 500,
+                                "fp": 500,
+                                "vote": 6
+                            },
+                            {
+                                "price": 500,
+                                "fp": 500,
+                                "vote": 6
+                            },
+                            {
+                                "price": 500,
+                                "fp": 500,
+                                "vote": 6
+                            }
+                        ],
+                        "atime": "2021-12-10 09:30",
+                        "aacode": "SHA",
+                        "dtime": "2021-12-10 07:10",
+                        "daName": "北京首都国际机场",
+                        "fn": "HU7605",
+                        "accode": "海南航空公司",
+                        "aaName": "上海虹桥国际机场",
+                        "tax": "50",
+                        "aaAttr": "虹桥T2",
+                        "oilfee": "20",
+                        "duration": "2时20分",
+                        "daAttr": "首都T2",
+                        "planecode": "B737-84P(WL)",
+                        "stops": null,
+                        "airlineShortName": "海南航空"
+                    },
+                    {
+                        "dacode": "PEK",
+                        "price_info": [
+                            {
+                                "price": 600,
+                                "fp": 600,
+                                "vote": 100
+                            },
+                            {
+                                "price": 596,
+                                "fp": 600,
+                                "vote": 100
+                            }
+                        ],
+                        "atime": "2021-12-10 09:55",
+                        "aacode": "SHA",
+                        "dtime": "2021-12-10 07:30",
+                        "daName": "北京首都国际机场",
+                        "fn": "CA1831",
+                        "accode": "中国国际航空公司",
+                        "aaName": "上海虹桥国际机场",
+                        "tax": "50",
+                        "aaAttr": "虹桥T2",
+                        "oilfee": "20",
+                        "duration": "2时25分",
+                        "daAttr": "首都T3",
+                        "planecode": "A330-343X",
+                        "stops": null,
+                        "airlineShortName": "中国国际航空"
+                    },
+                    {
+                        "dacode": "PEK",
+                        "price_info": [
+                            {
+                                "price": 600,
+                                "fp": 600,
+                                "vote": 100
+                            },
+                            {
+                                "price": 596,
+                                "fp": 600,
+                                "vote": 100
+                            }
+                        ],
+                        "atime": "2021-12-10 10:15",
+                        "aacode": "PVG",
+                        "dtime": "2021-12-10 07:55",
+                        "daName": "北京首都国际机场",
+                        "fn": "CA1835",
+                        "accode": "中国国际航空公司",
+                        "aaName": "上海浦东国际机场",
+                        "tax": "50",
+                        "aaAttr": "浦T2",
+                        "oilfee": "20",
+                        "duration": "2时20分",
+                        "daAttr": "首都T3",
+                        "planecode": "A330-243",
+                        "stops": null,
+                        "airlineShortName": "中国国际航空"
+                    }
+                ],
+                "code": 0,
+                "pageIndex": 1,
+                "pageAction": "",
+                "pageSize": 15,
+                "searchData": {
+                    "updated": 1,
+                    "allFlightInfo": [
+                        {
+                            "dacode": "PEK",
+                            "price_info": [
+                                {
+                                    "price": 500,
+                                    "fp": 500,
+                                    "vote": 6
+                                },
+                                {
+                                    "price": 500,
+                                    "fp": 500,
+                                    "vote": 6
+                                },
+                                {
+                                    "price": 500,
+                                    "fp": 500,
+                                    "vote": 6
+                                }
+                            ],
+                            "atime": "2021-12-10 09:30",
+                            "aacode": "SHA",
+                            "dtime": "2021-12-10 07:10",
+                            "daName": "北京首都国际机场",
+                            "fn": "HU7605",
+                            "accode": "海南航空公司",
+                            "aaName": "上海虹桥国际机场",
+                            "tax": "50",
+                            "aaAttr": "虹桥T2",
+                            "oilfee": "20",
+                            "duration": "2时20分",
+                            "daAttr": "首都T2",
+                            "planecode": "B737-84P(WL)",
+                            "stops": null,
+                            "airlineShortName": "海南航空"
+                        },
+                        {
+                            "dacode": "PEK",
+                            "price_info": [
+                                {
+                                    "price": 600,
+                                    "fp": 600,
+                                    "vote": 100
+                                },
+                                {
+                                    "price": 596,
+                                    "fp": 600,
+                                    "vote": 100
+                                }
+                            ],
+                            "atime": "2021-12-10 09:55",
+                            "aacode": "SHA",
+                            "dtime": "2021-12-10 07:30",
+                            "daName": "北京首都国际机场",
+                            "fn": "CA1831",
+                            "accode": "中国国际航空公司",
+                            "aaName": "上海虹桥国际机场",
+                            "tax": "50",
+                            "aaAttr": "虹桥T2",
+                            "oilfee": "20",
+                            "duration": "2时25分",
+                            "daAttr": "首都T3",
+                            "planecode": "A330-343X",
+                            "stops": null,
+                            "airlineShortName": "中国国际航空"
+                        },
+                        {
+                            "dacode": "PEK",
+                            "price_info": [
+                                {
+                                    "price": 600,
+                                    "fp": 600,
+                                    "vote": 100
+                                },
+                                {
+                                    "price": 596,
+                                    "fp": 600,
+                                    "vote": 100
+                                }
+                            ],
+                            "atime": "2021-12-10 10:15",
+                            "aacode": "PVG",
+                            "dtime": "2021-12-10 07:55",
+                            "daName": "北京首都国际机场",
+                            "fn": "CA1835",
+                            "accode": "中国国际航空公司",
+                            "aaName": "上海浦东国际机场",
+                            "tax": "50",
+                            "aaAttr": "浦T2",
+                            "oilfee": "20",
+                            "duration": "2时20分",
+                            "daAttr": "首都T3",
+                            "planecode": "A330-243",
+                            "stops": null,
+                            "airlineShortName": "中国国际航空"
+                        },
+                        {
+                            "dacode": "PEK",
+                            "price_info": [
+                                {
+                                    "price": 832,
+                                    "fp": 850,
+                                    "vote": 100
+                                }
+                            ],
+                            "atime": "2021-12-10 10:15",
+                            "aacode": "SHA",
+                            "dtime": "2021-12-10 08:00",
+                            "daName": "北京首都国际机场",
+                            "fn": "HO5727",
+                            "accode": "吉祥航空公司",
+                            "aaName": "上海虹桥国际机场",
+                            "tax": "50",
+                            "aaAttr": "虹桥T2",
+                            "oilfee": "20",
+                            "duration": "2时15分",
+                            "daAttr": "首都T2",
+                            "planecode": "A330-343X",
+                            "stops": null,
+                            "airlineShortName": "吉祥航空"
+                        },
+                        {
+                            "dacode": "PEK",
+                            "price_info": [
+                                {
+                                    "price": 710,
+                                    "fp": 720,
+                                    "vote": 100
+                                },
+                                {
+                                    "price": 717,
+                                    "fp": 720,
+                                    "vote": 100
+                                },
+                                {
+                                    "price": 710,
+                                    "fp": 720,
+                                    "vote": 100
+                                }
+                            ],
+                            "atime": "2021-12-10 10:15",
+                            "aacode": "SHA",
+                            "dtime": "2021-12-10 08:00",
+                            "daName": "北京首都国际机场",
+                            "fn": "MU5102",
+                            "accode": "中国东方航空公司",
+                            "aaName": "上海虹桥国际机场",
+                            "tax": "50",
+                            "aaAttr": "虹桥T2",
+                            "oilfee": "20",
+                            "duration": "2时15分",
+                            "daAttr": "首都T2",
+                            "planecode": "A330-343X",
+                            "stops": null,
+                            "airlineShortName": "中国东方航空"
+                        },
+                        {
+                            "dacode": "PEK",
+                            "price_info": [
+                                {
+                                    "price": 500,
+                                    "fp": 500,
+                                    "vote": 100
+                                },
+                                {
+                                    "price": 500,
+                                    "fp": 500,
+                                    "vote": 100
+                                },
+                                {
+                                    "price": 550,
+                                    "fp": 550,
+                                    "vote": 100
+                                }
+                            ],
+                            "atime": "2021-12-10 10:20",
+                            "aacode": "SHA",
+                            "dtime": "2021-12-10 08:05",
+                            "daName": "北京首都国际机场",
+                            "fn": "HU7607",
+                            "accode": "海南航空公司",
+                            "aaName": "上海虹桥国际机场",
+                            "tax": "50",
+                            "aaAttr": "虹桥T2",
+                            "oilfee": "20",
+                            "duration": "2时15分",
+                            "daAttr": "首都T2",
+                            "planecode": "A330-243",
+                            "stops": null,
+                            "airlineShortName": "海南航空"
+                        },
+                        {
+                            "dacode": "PKX",
+                            "price_info": [
+                                {
+                                    "price": 1477,
+                                    "fp": 1490,
+                                    "vote": 100
+                                },
+                                {
+                                    "price": 4170,
+                                    "fp": 4170,
+                                    "vote": 100
+                                }
+                            ],
+                            "atime": "2021-12-10 11:05",
+                            "aacode": "SHA",
+                            "dtime": "2021-12-10 09:00",
+                            "daName": "北京大兴国际机场",
+                            "fn": "3U1663",
+                            "accode": "四川航空公司",
+                            "aaName": "上海虹桥国际机场",
+                            "tax": "50",
+                            "aaAttr": "虹桥T2",
+                            "oilfee": "20",
+                            "duration": "2时5分",
+                            "daAttr": "大兴",
+                            "planecode": "A321-253NX",
+                            "stops": null,
+                            "airlineShortName": "四川航空"
+                        },
+                        {
+                            "dacode": "PEK",
+                            "price_info": [
+                                {
+                                    "price": 1752,
+                                    "fp": 1790,
+                                    "vote": 100
+                                },
+                                {
+                                    "price": 1752,
+                                    "fp": 1790,
+                                    "vote": 100
+                                },
+                                {
+                                    "price": 1748,
+                                    "fp": 1790,
+                                    "vote": 100
+                                }
+                            ],
+                            "atime": "2021-12-10 11:20",
+                            "aacode": "SHA",
+                            "dtime": "2021-12-10 09:00",
+                            "daName": "北京首都国际机场",
+                            "fn": "MU5104",
+                            "accode": "中国东方航空公司",
+                            "aaName": "上海虹桥国际机场",
+                            "tax": "50",
+                            "aaAttr": "虹桥T2",
+                            "oilfee": "20",
+                            "duration": "2时20分",
+                            "daAttr": "首都T2",
+                            "planecode": "A330-343X",
+                            "stops": null,
+                            "airlineShortName": "中国东方航空"
+                        },
+                        {
+                            "dacode": "PKX",
+                            "price_info": [
+                                {
+                                    "price": 592,
+                                    "fp": 610,
+                                    "vote": 1
+                                },
+                                {
+                                    "price": 721,
+                                    "fp": 730,
+                                    "vote": 100
+                                }
+                            ],
+                            "atime": "2021-12-10 11:05",
+                            "aacode": "SHA",
+                            "dtime": "2021-12-10 09:00",
+                            "daName": "北京大兴国际机场",
+                            "fn": "CZ8879",
+                            "accode": "中国南方航空公司",
+                            "aaName": "上海虹桥国际机场",
+                            "tax": "50",
+                            "aaAttr": "虹桥T2",
+                            "oilfee": "20",
+                            "duration": "2时5分",
+                            "daAttr": "大兴",
+                            "planecode": "A321-253NX",
+                            "stops": null,
+                            "airlineShortName": "中国南方航空"
+                        },
+                        {
+                            "dacode": "PEK",
+                            "price_info": [
+                                {
+                                    "price": 1790,
+                                    "fp": 1790,
+                                    "vote": 100
+                                },
+                                {
+                                    "price": 1777,
+                                    "fp": 1790,
+                                    "vote": 100
+                                },
+                                {
+                                    "price": 1777,
+                                    "fp": 1790,
+                                    "vote": 100
+                                }
+                            ],
+                            "atime": "2021-12-10 11:55",
+                            "aacode": "SHA",
+                            "dtime": "2021-12-10 09:30",
+                            "daName": "北京首都国际机场",
+                            "fn": "CA1519",
+                            "accode": "中国国际航空公司",
+                            "aaName": "上海虹桥国际机场",
+                            "tax": "50",
+                            "aaAttr": "虹桥T2",
+                            "oilfee": "20",
+                            "duration": "2时25分",
+                            "daAttr": "首都T3",
+                            "planecode": "B787-9",
+                            "stops": null,
+                            "airlineShortName": "中国国际航空"
+                        },
+                        {
+                            "dacode": "PEK",
+                            "price_info": [
+                                {
+                                    "price": 1790,
+                                    "fp": 1790,
+                                    "vote": 100
+                                },
+                                {
+                                    "price": 1777,
+                                    "fp": 1790,
+                                    "vote": 100
+                                },
+                                {
+                                    "price": 1777,
+                                    "fp": 1790,
+                                    "vote": 100
+                                }
+                            ],
+                            "atime": "2021-12-10 12:30",
+                            "aacode": "SHA",
+                            "dtime": "2021-12-10 10:15",
+                            "daName": "北京首都国际机场",
+                            "fn": "CA1861",
+                            "accode": "中国国际航空公司",
+                            "aaName": "上海虹桥国际机场",
+                            "tax": "50",
+                            "aaAttr": "虹桥T2",
+                            "oilfee": "20",
+                            "duration": "2时15分",
+                            "daAttr": "首都T3",
+                            "planecode": "A350-941",
+                            "stops": null,
+                            "airlineShortName": "中国国际航空"
+                        },
+                        {
+                            "dacode": "PEK",
+                            "price_info": [
+                                {
+                                    "price": 1752,
+                                    "fp": 1790,
+                                    "vote": 100
+                                },
+                                {
+                                    "price": 1784,
+                                    "fp": 1790,
+                                    "vote": 100
+                                },
+                                {
+                                    "price": 1752,
+                                    "fp": 1790,
+                                    "vote": 100
+                                }
+                            ],
+                            "atime": "2021-12-10 13:15",
+                            "aacode": "SHA",
+                            "dtime": "2021-12-10 11:00",
+                            "daName": "北京首都国际机场",
+                            "fn": "MU5108",
+                            "accode": "中国东方航空公司",
+                            "aaName": "上海虹桥国际机场",
+                            "tax": "50",
+                            "aaAttr": "虹桥T2",
+                            "oilfee": "20",
+                            "duration": "2时15分",
+                            "daAttr": "首都T2",
+                            "planecode": "B777-300(ER)",
+                            "stops": null,
+                            "airlineShortName": "中国东方航空"
+                        },
+                        {
+                            "dacode": "PEK",
+                            "price_info": [
+                                {
+                                    "price": 1752,
+                                    "fp": 1790,
+                                    "vote": 100
+                                }
+                            ],
+                            "atime": "2021-12-10 13:15",
+                            "aacode": "SHA",
+                            "dtime": "2021-12-10 11:00",
+                            "daName": "北京首都国际机场",
+                            "fn": "HO5729",
+                            "accode": "吉祥航空公司",
+                            "aaName": "上海虹桥国际机场",
+                            "tax": "50",
+                            "aaAttr": "虹桥T2",
+                            "oilfee": "20",
+                            "duration": "2时15分",
+                            "daAttr": "首都T2",
+                            "planecode": "B777-300(ER)",
+                            "stops": null,
+                            "airlineShortName": "吉祥航空"
+                        },
+                        {
+                            "dacode": "PEK",
+                            "price_info": [
+                                {
+                                    "price": 1790,
+                                    "fp": 1790,
+                                    "vote": 100
+                                },
+                                {
+                                    "price": 1777,
+                                    "fp": 1790,
+                                    "vote": 100
+                                }
+                            ],
+                            "atime": "2021-12-10 13:55",
+                            "aacode": "SHA",
+                            "dtime": "2021-12-10 11:30",
+                            "daName": "北京首都国际机场",
+                            "fn": "CA1557",
+                            "accode": "中国国际航空公司",
+                            "aaName": "上海虹桥国际机场",
+                            "tax": "50",
+                            "aaAttr": "虹桥T2",
+                            "oilfee": "20",
+                            "duration": "2时25分",
+                            "daAttr": "首都T3",
+                            "planecode": "B777-39L(ER)",
+                            "stops": null,
+                            "airlineShortName": "中国国际航空"
+                        },
+                        {
+                            "dacode": "PKX",
+                            "price_info": [
+                                {
+                                    "price": 1167,
+                                    "fp": 1180,
+                                    "vote": 100
+                                }
+                            ],
+                            "atime": "2021-12-10 13:50",
+                            "aacode": "SHA",
+                            "dtime": "2021-12-10 11:40",
+                            "daName": "北京大兴国际机场",
+                            "fn": "CA3280",
+                            "accode": "中国国际航空公司",
+                            "aaName": "上海虹桥国际机场",
+                            "tax": "50",
+                            "aaAttr": "虹桥T2",
+                            "oilfee": "20",
+                            "duration": "2时10分",
+                            "daAttr": "大兴",
+                            "planecode": "A321-231(SL)",
+                            "stops": null,
+                            "airlineShortName": "中国国际航空"
+                        },
+                        {
+                            "dacode": "PKX",
+                            "price_info": [
+                                {
+                                    "price": 742,
+                                    "fp": 750,
+                                    "vote": 100
+                                },
+                                {
+                                    "price": 822,
+                                    "fp": 830,
+                                    "vote": 100
+                                },
+                                {
+                                    "price": 977,
+                                    "fp": 990,
+                                    "vote": 100
+                                }
+                            ],
+                            "atime": "2021-12-10 13:50",
+                            "aacode": "SHA",
+                            "dtime": "2021-12-10 11:40",
+                            "daName": "北京大兴国际机场",
+                            "fn": "ZH5114",
+                            "accode": "深圳航空公司",
+                            "aaName": "上海虹桥国际机场",
+                            "tax": "50",
+                            "aaAttr": "虹桥T2",
+                            "oilfee": "20",
+                            "duration": "2时10分",
+                            "daAttr": "大兴",
+                            "planecode": "A321-231(SL)",
+                            "stops": null,
+                            "airlineShortName": "深圳航空"
+                        },
+                        {
+                            "dacode": "PKX",
+                            "price_info": [
+                                {
+                                    "price": 506,
+                                    "fp": 510,
+                                    "vote": 3
+                                }
+                            ],
+                            "atime": "2021-12-10 13:50",
+                            "aacode": "SHA",
+                            "dtime": "2021-12-10 11:40",
+                            "daName": "北京大兴国际机场",
+                            "fn": "HO1252",
+                            "accode": "吉祥航空公司",
+                            "aaName": "上海虹桥国际机场",
+                            "tax": "50",
+                            "aaAttr": "虹桥T2",
+                            "oilfee": "20",
+                            "duration": "2时10分",
+                            "daAttr": "大兴",
+                            "planecode": "A321-231(SL)",
+                            "stops": null,
+                            "airlineShortName": "吉祥航空"
+                        },
+                        {
+                            "dacode": "PKX",
+                            "price_info": [
+                                {
+                                    "price": 707,
+                                    "fp": 720,
+                                    "vote": 100
+                                },
+                                {
+                                    "price": 792,
+                                    "fp": 800,
+                                    "vote": 100
+                                },
+                                {
+                                    "price": 880,
+                                    "fp": 880,
+                                    "vote": 100
+                                }
+                            ],
+                            "atime": "2021-12-10 13:50",
+                            "aacode": "SHA",
+                            "dtime": "2021-12-10 11:40",
+                            "daName": "北京大兴国际机场",
+                            "fn": "MU3672",
+                            "accode": "中国东方航空公司",
+                            "aaName": "上海虹桥国际机场",
+                            "tax": "50",
+                            "aaAttr": "虹桥T2",
+                            "oilfee": "20",
+                            "duration": "2时10分",
+                            "daAttr": "大兴",
+                            "planecode": "A321-231(SL)",
+                            "stops": null,
+                            "airlineShortName": "中国东方航空"
+                        },
+                        {
+                            "dacode": "PEK",
+                            "price_info": [
+                                {
+                                    "price": 1752,
+                                    "fp": 1790,
+                                    "vote": 100
+                                },
+                                {
+                                    "price": 1784,
+                                    "fp": 1790,
+                                    "vote": 100
+                                },
+                                {
+                                    "price": 1752,
+                                    "fp": 1790,
+                                    "vote": 100
+                                }
+                            ],
+                            "atime": "2021-12-10 14:15",
+                            "aacode": "SHA",
+                            "dtime": "2021-12-10 12:00",
+                            "daName": "北京首都国际机场",
+                            "fn": "MU5110",
+                            "accode": "中国东方航空公司",
+                            "aaName": "上海虹桥国际机场",
+                            "tax": "50",
+                            "aaAttr": "虹桥T2",
+                            "oilfee": "20",
+                            "duration": "2时15分",
+                            "daAttr": "首都T2",
+                            "planecode": "B777-300(ER)",
+                            "stops": null,
+                            "airlineShortName": "中国东方航空"
+                        },
+                        {
+                            "dacode": "PEK",
+                            "price_info": [
+                                {
+                                    "price": 1752,
+                                    "fp": 1790,
+                                    "vote": 100
+                                },
+                                {
+                                    "price": 1752,
+                                    "fp": 1790,
+                                    "vote": 100
+                                },
+                                {
+                                    "price": 1748,
+                                    "fp": 1790,
+                                    "vote": 100
+                                }
+                            ],
+                            "atime": "2021-12-10 15:15",
+                            "aacode": "SHA",
+                            "dtime": "2021-12-10 13:00",
+                            "daName": "北京首都国际机场",
+                            "fn": "MU5112",
+                            "accode": "中国东方航空公司",
+                            "aaName": "上海虹桥国际机场",
+                            "tax": "50",
+                            "aaAttr": "虹桥T2",
+                            "oilfee": "20",
+                            "duration": "2时15分",
+                            "daAttr": "首都T2",
+                            "planecode": "A350-941",
+                            "stops": null,
+                            "airlineShortName": "中国东方航空"
+                        },
+                        {
+                            "dacode": "PKX",
+                            "price_info": [
+                                {
+                                    "price": 1477,
+                                    "fp": 1490,
+                                    "vote": 100
+                                },
+                                {
+                                    "price": 4170,
+                                    "fp": 4170,
+                                    "vote": 100
+                                }
+                            ],
+                            "atime": "2021-12-10 15:05",
+                            "aacode": "SHA",
+                            "dtime": "2021-12-10 13:00",
+                            "daName": "北京大兴国际机场",
+                            "fn": "3U1671",
+                            "accode": "四川航空公司",
+                            "aaName": "上海虹桥国际机场",
+                            "tax": "50",
+                            "aaAttr": "虹桥T2",
+                            "oilfee": "20",
+                            "duration": "2时5分",
+                            "daAttr": "大兴",
+                            "planecode": "A330-323X",
+                            "stops": null,
+                            "airlineShortName": "四川航空"
+                        },
+                        {
+                            "dacode": "PKX",
+                            "price_info": [
+                                {
+                                    "price": 721,
+                                    "fp": 730,
+                                    "vote": 2
+                                },
+                                {
+                                    "price": 714,
+                                    "fp": 730,
+                                    "vote": 2
+                                },
+                                {
+                                    "price": 721,
+                                    "fp": 730,
+                                    "vote": 2
+                                }
+                            ],
+                            "atime": "2021-12-10 15:05",
+                            "aacode": "SHA",
+                            "dtime": "2021-12-10 13:00",
+                            "daName": "北京大兴国际机场",
+                            "fn": "CZ8887",
+                            "accode": "中国南方航空公司",
+                            "aaName": "上海虹桥国际机场",
+                            "tax": "50",
+                            "aaAttr": "虹桥T2",
+                            "oilfee": "20",
+                            "duration": "2时5分",
+                            "daAttr": "大兴",
+                            "planecode": "A330-323X",
+                            "stops": null,
+                            "airlineShortName": "中国南方航空"
+                        },
+                        {
+                            "dacode": "PEK",
+                            "price_info": [
+                                {
+                                    "price": 1790,
+                                    "fp": 1790,
+                                    "vote": 100
+                                },
+                                {
+                                    "price": 1777,
+                                    "fp": 1790,
+                                    "vote": 100
+                                }
+                            ],
+                            "atime": "2021-12-10 15:55",
+                            "aacode": "SHA",
+                            "dtime": "2021-12-10 13:30",
+                            "daName": "北京首都国际机场",
+                            "fn": "CA1517",
+                            "accode": "中国国际航空公司",
+                            "aaName": "上海虹桥国际机场",
+                            "tax": "50",
+                            "aaAttr": "虹桥T2",
+                            "oilfee": "20",
+                            "duration": "2时25分",
+                            "daAttr": "首都T3",
+                            "planecode": "B777-39L(ER)",
+                            "stops": null,
+                            "airlineShortName": "中国国际航空"
+                        },
+                        {
+                            "dacode": "PEK",
+                            "price_info": [
+                                {
+                                    "price": 1752,
+                                    "fp": 1790,
+                                    "vote": 100
+                                },
+                                {
+                                    "price": 1784,
+                                    "fp": 1790,
+                                    "vote": 100
+                                },
+                                {
+                                    "price": 1752,
+                                    "fp": 1790,
+                                    "vote": 100
+                                }
+                            ],
+                            "atime": "2021-12-10 16:15",
+                            "aacode": "SHA",
+                            "dtime": "2021-12-10 14:00",
+                            "daName": "北京首都国际机场",
+                            "fn": "MU5114",
+                            "accode": "中国东方航空公司",
+                            "aaName": "上海虹桥国际机场",
+                            "tax": "50",
+                            "aaAttr": "虹桥T2",
+                            "oilfee": "20",
+                            "duration": "2时15分",
+                            "daAttr": "首都T2",
+                            "planecode": "B777-300(ER)",
+                            "stops": null,
+                            "airlineShortName": "中国东方航空"
+                        },
+                        {
+                            "dacode": "PEK",
+                            "price_info": [
+                                {
+                                    "price": 1790,
+                                    "fp": 1790,
+                                    "vote": 100
+                                },
+                                {
+                                    "price": 1777,
+                                    "fp": 1790,
+                                    "vote": 100
+                                }
+                            ],
+                            "atime": "2021-12-10 16:55",
+                            "aacode": "SHA",
+                            "dtime": "2021-12-10 14:30",
+                            "daName": "北京首都国际机场",
+                            "fn": "CA1521",
+                            "accode": "中国国际航空公司",
+                            "aaName": "上海虹桥国际机场",
+                            "tax": "50",
+                            "aaAttr": "虹桥T2",
+                            "oilfee": "20",
+                            "duration": "2时25分",
+                            "daAttr": "首都T3",
+                            "planecode": "A330-243",
+                            "stops": null,
+                            "airlineShortName": "中国国际航空"
+                        },
+                        {
+                            "dacode": "PEK",
+                            "price_info": [
+                                {
+                                    "price": 1752,
+                                    "fp": 1790,
+                                    "vote": 100
+                                },
+                                {
+                                    "price": 1784,
+                                    "fp": 1790,
+                                    "vote": 100
+                                },
+                                {
+                                    "price": 1784,
+                                    "fp": 1790,
+                                    "vote": 100
+                                }
+                            ],
+                            "atime": "2021-12-10 17:15",
+                            "aacode": "SHA",
+                            "dtime": "2021-12-10 15:00",
+                            "daName": "北京首都国际机场",
+                            "fn": "MU5116",
+                            "accode": "中国东方航空公司",
+                            "aaName": "上海虹桥国际机场",
+                            "tax": "50",
+                            "aaAttr": "虹桥T2",
+                            "oilfee": "20",
+                            "duration": "2时15分",
+                            "daAttr": "首都T2",
+                            "planecode": "A330-343X",
+                            "stops": null,
+                            "airlineShortName": "中国东方航空"
+                        },
+                        {
+                            "dacode": "PKX",
+                            "price_info": [
+                                {
+                                    "price": 1477,
+                                    "fp": 1490,
+                                    "vote": 100
+                                },
+                                {
+                                    "price": 4170,
+                                    "fp": 4170,
+                                    "vote": 3
+                                }
+                            ],
+                            "atime": "2021-12-10 17:35",
+                            "aacode": "PVG",
+                            "dtime": "2021-12-10 15:10",
+                            "daName": "北京大兴国际机场",
+                            "fn": "3U1665",
+                            "accode": "四川航空公司",
+                            "aaName": "上海浦东国际机场",
+                            "tax": "50",
+                            "aaAttr": "浦T2",
+                            "oilfee": "20",
+                            "duration": "2时25分",
+                            "daAttr": "大兴",
+                            "planecode": "B737-81B(WL)",
+                            "stops": null,
+                            "airlineShortName": "四川航空"
+                        },
+                        {
+                            "dacode": "PKX",
+                            "price_info": [
+                                {
+                                    "price": 535,
+                                    "fp": 540,
+                                    "vote": 100
+                                },
+                                {
+                                    "price": 535,
+                                    "fp": 540,
+                                    "vote": 100
+                                },
+                                {
+                                    "price": 536,
+                                    "fp": 540,
+                                    "vote": 100
+                                }
+                            ],
+                            "atime": "2021-12-10 17:35",
+                            "aacode": "PVG",
+                            "dtime": "2021-12-10 15:10",
+                            "daName": "北京大兴国际机场",
+                            "fn": "CZ8881",
+                            "accode": "中国南方航空公司",
+                            "aaName": "上海浦东国际机场",
+                            "tax": "50",
+                            "aaAttr": "浦T2",
+                            "oilfee": "20",
+                            "duration": "2时25分",
+                            "daAttr": "大兴",
+                            "planecode": "B737-81B(WL)",
+                            "stops": null,
+                            "airlineShortName": "中国南方航空"
+                        },
+                        {
+                            "dacode": "PEK",
+                            "price_info": [
+                                {
+                                    "price": 1790,
+                                    "fp": 1790,
+                                    "vote": 100
+                                },
+                                {
+                                    "price": 1777,
+                                    "fp": 1790,
+                                    "vote": 100
+                                },
+                                {
+                                    "price": 1777,
+                                    "fp": 1790,
+                                    "vote": 100
+                                }
+                            ],
+                            "atime": "2021-12-10 17:55",
+                            "aacode": "SHA",
+                            "dtime": "2021-12-10 15:30",
+                            "daName": "北京首都国际机场",
+                            "fn": "CA1515",
+                            "accode": "中国国际航空公司",
+                            "aaName": "上海虹桥国际机场",
+                            "tax": "50",
+                            "aaAttr": "虹桥T2",
+                            "oilfee": "20",
+                            "duration": "2时25分",
+                            "daAttr": "首都T3",
+                            "planecode": "A330-343X",
+                            "stops": null,
+                            "airlineShortName": "中国国际航空"
+                        },
+                        {
+                            "dacode": "PEK",
+                            "price_info": [
+                                {
+                                    "price": 860,
+                                    "fp": 860,
+                                    "vote": 100
+                                },
+                                {
+                                    "price": 860,
+                                    "fp": 860,
+                                    "vote": 100
+                                },
+                                {
+                                    "price": 910,
+                                    "fp": 910,
+                                    "vote": 100
+                                }
+                            ],
+                            "atime": "2021-12-10 18:00",
+                            "aacode": "SHA",
+                            "dtime": "2021-12-10 15:30",
+                            "daName": "北京首都国际机场",
+                            "fn": "HU7609",
+                            "accode": "海南航空公司",
+                            "aaName": "上海虹桥国际机场",
+                            "tax": "50",
+                            "aaAttr": "虹桥T2",
+                            "oilfee": "20",
+                            "duration": "2时30分",
+                            "daAttr": "首都T2",
+                            "planecode": "A330-243",
+                            "stops": null,
+                            "airlineShortName": "海南航空"
+                        },
+                        {
+                            "dacode": "PKX",
+                            "price_info": [
+                                {
+                                    "price": 537,
+                                    "fp": 538,
+                                    "vote": 100
+                                },
+                                {
+                                    "price": 617,
+                                    "fp": 618,
+                                    "vote": 100
+                                },
+                                {
+                                    "price": 620,
+                                    "fp": 620,
+                                    "vote": 100
+                                }
+                            ],
+                            "atime": "2021-12-10 17:40",
+                            "aacode": "SHA",
+                            "dtime": "2021-12-10 15:35",
+                            "daName": "北京大兴国际机场",
+                            "fn": "KN5955",
+                            "accode": "中国联合航空公司",
+                            "aaName": "上海虹桥国际机场",
+                            "tax": "50",
+                            "aaAttr": "虹桥T2",
+                            "oilfee": "20",
+                            "duration": "2时5分",
+                            "daAttr": "大兴",
+                            "planecode": "A330-343X",
+                            "stops": null,
+                            "airlineShortName": "中国联合航空"
+                        },
+                        {
+                            "dacode": "PKX",
+                            "price_info": [
+                                {
+                                    "price": 650,
+                                    "fp": 650,
+                                    "vote": 100
+                                },
+                                {
+                                    "price": 730,
+                                    "fp": 730,
+                                    "vote": 100
+                                },
+                                {
+                                    "price": 820,
+                                    "fp": 820,
+                                    "vote": 100
+                                }
+                            ],
+                            "atime": "2021-12-10 17:40",
+                            "aacode": "SHA",
+                            "dtime": "2021-12-10 15:35",
+                            "daName": "北京大兴国际机场",
+                            "fn": "MU8859",
+                            "accode": "中国东方航空公司",
+                            "aaName": "上海虹桥国际机场",
+                            "tax": "50",
+                            "aaAttr": "虹桥T2",
+                            "oilfee": "20",
+                            "duration": "2时5分",
+                            "daAttr": "大兴",
+                            "planecode": "A330-343X",
+                            "stops": null,
+                            "airlineShortName": "中国东方航空"
+                        },
+                        {
+                            "dacode": "PEK",
+                            "price_info": [
+                                {
+                                    "price": 1752,
+                                    "fp": 1790,
+                                    "vote": 100
+                                },
+                                {
+                                    "price": 1784,
+                                    "fp": 1790,
+                                    "vote": 100
+                                },
+                                {
+                                    "price": 1784,
+                                    "fp": 1790,
+                                    "vote": 100
+                                }
+                            ],
+                            "atime": "2021-12-10 18:15",
+                            "aacode": "SHA",
+                            "dtime": "2021-12-10 16:00",
+                            "daName": "北京首都国际机场",
+                            "fn": "MU5118",
+                            "accode": "中国东方航空公司",
+                            "aaName": "上海虹桥国际机场",
+                            "tax": "50",
+                            "aaAttr": "虹桥T2",
+                            "oilfee": "20",
+                            "duration": "2时15分",
+                            "daAttr": "首都T2",
+                            "planecode": "A330-343X",
+                            "stops": null,
+                            "airlineShortName": "中国东方航空"
+                        },
+                        {
+                            "dacode": "PEK",
+                            "price_info": [
+                                {
+                                    "price": 1752,
+                                    "fp": 1790,
+                                    "vote": 100
+                                }
+                            ],
+                            "atime": "2021-12-10 18:15",
+                            "aacode": "SHA",
+                            "dtime": "2021-12-10 16:00",
+                            "daName": "北京首都国际机场",
+                            "fn": "HO5731",
+                            "accode": "吉祥航空公司",
+                            "aaName": "上海虹桥国际机场",
+                            "tax": "50",
+                            "aaAttr": "虹桥T2",
+                            "oilfee": "20",
+                            "duration": "2时15分",
+                            "daAttr": "首都T2",
+                            "planecode": "A330-343X",
+                            "stops": null,
+                            "airlineShortName": "吉祥航空"
+                        },
+                        {
+                            "dacode": "PKX",
+                            "price_info": [
+                                {
+                                    "price": 1477,
+                                    "fp": 1490,
+                                    "vote": 100
+                                },
+                                {
+                                    "price": 4170,
+                                    "fp": 4170,
+                                    "vote": 100
+                                }
+                            ],
+                            "atime": "2021-12-10 18:20",
+                            "aacode": "SHA",
+                            "dtime": "2021-12-10 16:15",
+                            "daName": "北京大兴国际机场",
+                            "fn": "3U1669",
+                            "accode": "四川航空公司",
+                            "aaName": "上海虹桥国际机场",
+                            "tax": "50",
+                            "aaAttr": "虹桥T2",
+                            "oilfee": "20",
+                            "duration": "2时5分",
+                            "daAttr": "大兴",
+                            "planecode": "A321-253NX",
+                            "stops": null,
+                            "airlineShortName": "四川航空"
+                        },
+                        {
+                            "dacode": "PKX",
+                            "price_info": [
+                                {
+                                    "price": 721,
+                                    "fp": 730,
+                                    "vote": 3
+                                },
+                                {
+                                    "price": 714,
+                                    "fp": 730,
+                                    "vote": 3
+                                },
+                                {
+                                    "price": 721,
+                                    "fp": 730,
+                                    "vote": 3
+                                }
+                            ],
+                            "atime": "2021-12-10 18:20",
+                            "aacode": "SHA",
+                            "dtime": "2021-12-10 16:15",
+                            "daName": "北京大兴国际机场",
+                            "fn": "CZ8885",
+                            "accode": "中国南方航空公司",
+                            "aaName": "上海虹桥国际机场",
+                            "tax": "50",
+                            "aaAttr": "虹桥T2",
+                            "oilfee": "20",
+                            "duration": "2时5分",
+                            "daAttr": "大兴",
+                            "planecode": "A321-253NX",
+                            "stops": null,
+                            "airlineShortName": "中国南方航空"
+                        },
+                        {
+                            "dacode": "PKX",
+                            "price_info": [
+                                {
+                                    "price": 528,
+                                    "fp": 530,
+                                    "vote": 100
+                                },
+                                {
+                                    "price": 530,
+                                    "fp": 530,
+                                    "vote": 100
+                                }
+                            ],
+                            "atime": "2021-12-10 19:20",
+                            "aacode": "PVG",
+                            "dtime": "2021-12-10 17:00",
+                            "daName": "北京大兴国际机场",
+                            "fn": "MF8555",
+                            "accode": "厦门航空公司",
+                            "aaName": "上海浦东国际机场",
+                            "tax": "50",
+                            "aaAttr": "浦T2",
+                            "oilfee": "20",
+                            "duration": "2时20分",
+                            "daAttr": "大兴",
+                            "planecode": "B737-85C(WL)",
+                            "stops": null,
+                            "airlineShortName": "厦门航空"
+                        },
+                        {
+                            "dacode": "PKX",
+                            "price_info": [
+                                {
+                                    "price": 748,
+                                    "fp": 750,
+                                    "vote": 100
+                                },
+                                {
+                                    "price": 808,
+                                    "fp": 820,
+                                    "vote": 100
+                                },
+                                {
+                                    "price": 958,
+                                    "fp": 970,
+                                    "vote": 100
+                                }
+                            ],
+                            "atime": "2021-12-10 19:20",
+                            "aacode": "PVG",
+                            "dtime": "2021-12-10 17:00",
+                            "daName": "北京大兴国际机场",
+                            "fn": "MU4939",
+                            "accode": "中国东方航空公司",
+                            "aaName": "上海浦东国际机场",
+                            "tax": "50",
+                            "aaAttr": "浦T2",
+                            "oilfee": "20",
+                            "duration": "2时20分",
+                            "daAttr": "大兴",
+                            "planecode": "B737-85C(WL)",
+                            "stops": null,
+                            "airlineShortName": "中国东方航空"
+                        },
+                        {
+                            "dacode": "PKX",
+                            "price_info": [
+                                {
+                                    "price": 448,
+                                    "fp": 450,
+                                    "vote": 100
+                                }
+                            ],
+                            "atime": "2021-12-10 19:20",
+                            "aacode": "PVG",
+                            "dtime": "2021-12-10 17:00",
+                            "daName": "北京大兴国际机场",
+                            "fn": "NS8555",
+                            "accode": "河北航空公司",
+                            "aaName": "上海浦东国际机场",
+                            "tax": "50",
+                            "aaAttr": "浦T2",
+                            "oilfee": "20",
+                            "duration": "2时20分",
+                            "daAttr": "大兴",
+                            "planecode": "B737-85C(WL)",
+                            "stops": null,
+                            "airlineShortName": "河北航空"
+                        },
+                        {
+                            "dacode": "PKX",
+                            "price_info": [
+                                {
+                                    "price": 448,
+                                    "fp": 450,
+                                    "vote": 100
+                                }
+                            ],
+                            "atime": "2021-12-10 19:20",
+                            "aacode": "PVG",
+                            "dtime": "2021-12-10 17:00",
+                            "daName": "北京大兴国际机场",
+                            "fn": "CZ4499",
+                            "accode": "中国南方航空公司",
+                            "aaName": "上海浦东国际机场",
+                            "tax": "50",
+                            "aaAttr": "浦T2",
+                            "oilfee": "20",
+                            "duration": "2时20分",
+                            "daAttr": "大兴",
+                            "planecode": "B737-85C(WL)",
+                            "stops": null,
+                            "airlineShortName": "中国南方航空"
+                        },
+                        {
+                            "dacode": "PEK",
+                            "price_info": [
+                                {
+                                    "price": 1752,
+                                    "fp": 1790,
+                                    "vote": 100
+                                },
+                                {
+                                    "price": 1752,
+                                    "fp": 1790,
+                                    "vote": 100
+                                },
+                                {
+                                    "price": 1748,
+                                    "fp": 1790,
+                                    "vote": 100
+                                }
+                            ],
+                            "atime": "2021-12-10 19:15",
+                            "aacode": "SHA",
+                            "dtime": "2021-12-10 17:00",
+                            "daName": "北京首都国际机场",
+                            "fn": "MU5120",
+                            "accode": "中国东方航空公司",
+                            "aaName": "上海虹桥国际机场",
+                            "tax": "50",
+                            "aaAttr": "虹桥T2",
+                            "oilfee": "20",
+                            "duration": "2时15分",
+                            "daAttr": "首都T2",
+                            "planecode": "A330-343X",
+                            "stops": null,
+                            "airlineShortName": "中国东方航空"
+                        },
+                        {
+                            "dacode": "PEK",
+                            "price_info": [
+                                {
+                                    "price": 1220,
+                                    "fp": 1220,
+                                    "vote": 7
+                                },
+                                {
+                                    "price": 1220,
+                                    "fp": 1220,
+                                    "vote": 7
+                                },
+                                {
+                                    "price": 1270,
+                                    "fp": 1270,
+                                    "vote": 7
+                                }
+                            ],
+                            "atime": "2021-12-10 19:40",
+                            "aacode": "SHA",
+                            "dtime": "2021-12-10 17:20",
+                            "daName": "北京首都国际机场",
+                            "fn": "HU7601",
+                            "accode": "海南航空公司",
+                            "aaName": "上海虹桥国际机场",
+                            "tax": "50",
+                            "aaAttr": "虹桥T2",
+                            "oilfee": "20",
+                            "duration": "2时20分",
+                            "daAttr": "首都T2",
+                            "planecode": "B737-84P(WL)",
+                            "stops": null,
+                            "airlineShortName": "海南航空"
+                        },
+                        {
+                            "dacode": "PEK",
+                            "price_info": [
+                                {
+                                    "price": 1790,
+                                    "fp": 1790,
+                                    "vote": 100
+                                },
+                                {
+                                    "price": 1777,
+                                    "fp": 1790,
+                                    "vote": 100
+                                }
+                            ],
+                            "atime": "2021-12-10 20:00",
+                            "aacode": "SHA",
+                            "dtime": "2021-12-10 17:30",
+                            "daName": "北京首都国际机场",
+                            "fn": "CA1855",
+                            "accode": "中国国际航空公司",
+                            "aaName": "上海虹桥国际机场",
+                            "tax": "50",
+                            "aaAttr": "虹桥T2",
+                            "oilfee": "20",
+                            "duration": "2时30分",
+                            "daAttr": "首都T3",
+                            "planecode": "B737-89L(WL)",
+                            "stops": null,
+                            "airlineShortName": "中国国际航空"
+                        },
+                        {
+                            "dacode": "PEK",
+                            "price_info": [
+                                {
+                                    "price": 1752,
+                                    "fp": 1790,
+                                    "vote": 100
+                                }
+                            ],
+                            "atime": "2021-12-10 20:15",
+                            "aacode": "SHA",
+                            "dtime": "2021-12-10 18:00",
+                            "daName": "北京首都国际机场",
+                            "fn": "HO5733",
+                            "accode": "吉祥航空公司",
+                            "aaName": "上海虹桥国际机场",
+                            "tax": "50",
+                            "aaAttr": "虹桥T2",
+                            "oilfee": "20",
+                            "duration": "2时15分",
+                            "daAttr": "首都T2",
+                            "planecode": "A330-343X",
+                            "stops": null,
+                            "airlineShortName": "吉祥航空"
+                        },
+                        {
+                            "dacode": "PEK",
+                            "price_info": [
+                                {
+                                    "price": 1752,
+                                    "fp": 1790,
+                                    "vote": 100
+                                },
+                                {
+                                    "price": 1752,
+                                    "fp": 1790,
+                                    "vote": 100
+                                },
+                                {
+                                    "price": 1748,
+                                    "fp": 1790,
+                                    "vote": 100
+                                }
+                            ],
+                            "atime": "2021-12-10 20:15",
+                            "aacode": "SHA",
+                            "dtime": "2021-12-10 18:00",
+                            "daName": "北京首都国际机场",
+                            "fn": "MU5122",
+                            "accode": "中国东方航空公司",
+                            "aaName": "上海虹桥国际机场",
+                            "tax": "50",
+                            "aaAttr": "虹桥T2",
+                            "oilfee": "20",
+                            "duration": "2时15分",
+                            "daAttr": "首都T2",
+                            "planecode": "A330-343X",
+                            "stops": null,
+                            "airlineShortName": "中国东方航空"
+                        }
+                    ]
+                }
+            },
+            "intention": "query"
+        },
+        "requestId": "380baf39aacc4b4e8cf81bc409e4cc4a",
+        "confidence": {
+            "nluScore": 1.0,
+            "contentScore": 0.0,
+            "taskScore": 6.0
+        },
+        "text": "明天北京到上海的飞机",
+        "dialogId": "6a9f93cf92e142eca12ea9cf6c6e1e1a"
+    },
+    "message": "success"
+}

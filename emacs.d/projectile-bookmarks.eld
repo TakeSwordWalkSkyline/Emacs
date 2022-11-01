@@ -1,0 +1,1 @@
+("~/github/EvanEmacs/" "~/github/MyCPlusPlus/" "~/github/cJSON/" "~/github/Emacs/" "~/programming/test/" "~/github/SomeNote/" "~/github/C-Plus-Plus/" "~/Downloads/" "~/Downloads/git-2.31.1/")

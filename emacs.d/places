@@ -1,0 +1,45 @@
+;;; -*- coding: utf-8 -*-
+(("/Users/wongyen/github/"
+  (dired-filename . "/Users/wongyen/github/EvanEmacs"))
+ ("/Users/wongyen/github/EvanEmacs/etc/+mini-keybind.el" . 417)
+ ("/Users/wongyen/github/EvanEmacs/etc/extensions/"
+  (dired-filename . "/Users/wongyen/github/EvanEmacs/etc/extensions/init-ivy.el"))
+ ("/Users/wongyen/github/EvanEmacs/etc/snippets/"
+  (dired-filename . "/Users/wongyen/github/EvanEmacs/etc/snippets/dart-mode"))
+ ("/Users/wongyen/github/EvanEmacs/etc/config/init-keybind.el" . 8031)
+ ("/Users/wongyen/Downloads/zhangsan.json" . 2568)
+ ("/Users/wongyen/Downloads/"
+  (dired-filename . "/Users/wongyen/Downloads/singer_info.csv"))
+ ("/Users/wongyen/github/EvanEmacs/"
+  (dired-filename . "/Users/wongyen/github/EvanEmacs/etc"))
+ ("/Users/wongyen/github/EvanEmacs/etc/config/"
+  (dired-filename . "/Users/wongyen/github/EvanEmacs/etc/config/init-basic.el"))
+ ("/Users/wongyen/github/EvanEmacs/etc/config/init-basic.el" . 7041)
+ ("/Users/wongyen/.emacs.d/etc/config/"
+  (dired-filename . "/Users/wongyen/.emacs.d/etc/config/.."))
+ ("/Users/wongyen/.emacs.d/etc/"
+  (dired-filename . "/Users/wongyen/.emacs.d/etc/.."))
+ ("/Users/wongyen/.emacs.d/var/"
+  (dired-filename . "/Users/wongyen/.emacs.d/var/.."))
+ ("/Users/wongyen/"
+  (dired-filename . "/Users/wongyen/.config"))
+ ("/Users/wongyen/.config/"
+  (dired-filename . "/Users/wongyen/.config/iterm2"))
+ ("/Users/wongyen/.config/iterm2/"
+  (dired-filename . "/Users/wongyen/.config/iterm2/AppSupport"))
+ ("/Users/wongyen/.emacs.d/"
+  (dired-filename . "/Users/wongyen/.emacs.d/games"))
+ ("/Users/wongyen/.emacs.d/elpa/amx-20210305.118/amx.el" . 44318)
+ ("/Users/wongyen/.emacs.d/elpa/amx-20210305.118/"
+  (dired-filename . "/Users/wongyen/.emacs.d/elpa/amx-20210305.118/amx.el"))
+ ("/Users/wongyen/github/EvanEmacs/etc/"
+  (dired-filename . "/Users/wongyen/github/EvanEmacs/etc/init-config.el"))
+ ("/Users/wongyen/github/EvanEmacs/etc/init-config.el" . 40)
+ ("/Users/wongyen/github/EvanEmacs/etc/+config.el" . 195)
+ ("/Users/wongyen/github/EvanEmacs/etc/+autoload.el" . 577)
+ ("/Users/wongyen/.emacs.d/etc/+autoload.el" . 567)
+ ("/Users/wongyen/.emacs.d/etc/config/init-basic.el" . 3446)
+ ("/Users/wongyen/.emacs.d/init.el" . 990)
+ ("/Users/wongyen/.emacs.d/etc/init-config.el" . 125)
+ ("/Users/wongyen/.emacs.d/var/recentf" . 1105)
+ ("/Users/wongyen/.emacs.d/elpa/amx-20210305.118/amx.elc" . 10))

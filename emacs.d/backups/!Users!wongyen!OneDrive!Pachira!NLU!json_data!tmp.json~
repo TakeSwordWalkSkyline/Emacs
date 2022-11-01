@@ -1,0 +1,110 @@
+{
+  "skill": "MUSIC",
+  "intention": "browse_singer",
+  "slots": {
+    "iSong": {
+      "valu    e": ""
+    },
+    "iSinger": {
+      "value": ""
+    },
+    "iType": {
+      "value": "说唱"
+    },
+    "iAlbum": {
+      "value": ""
+    },
+    "iList": {
+      "value": ""
+    },
+    "oSong": {
+      "value": ""
+    },
+    "oSinger": {
+      "value": ""
+    },
+    "oType": {
+      "value": "说唱"
+    },
+    "oAlbum    ": {
+      "value": ""
+    },
+    "oList": {
+      "value": ""
+    },
+    "now": {
+      "value": ""
+    },
+    "keyword": {
+      "value": "潘玮柏"
+    },
+    "songInfo": {
+      "value": 1
+    }
+  },
+  "tts": "",
+  "ssml": "",
+  "recommends": [],
+  "content": {
+    "player": "local",
+    "pl    ayMode": "",
+    "slots": {
+      "songOrtho": "",
+      "artistOrtho": "",
+      "genreOrtho": "说唱",
+      "albumOrtho": "",
+      "playlistOrtho": "",
+      "genreId": 6
+    },
+    "sub_intention": "",
+    "pageAction": "",
+    "numAction": 0,
+    "sear    chData": {
+      "updated": 0,
+      "allMusicInfo": [
+        {
+          "genreId": 6,
+          "genreOrtho": "说唱",
+          "albumOrtho": "",
+          "songOrtho": "",
+          "artistId": 5,
+          "artistOrtho": "李佳隆"
+        },
+        {
+          "genreId": 7,
+          "genreOrtho": "说唱",
+          "al    bumOrtho": "",
+          "songOrtho": "",
+          "artistId": 6,
+          "artistOrtho": "潘玮柏"
+        },
+        {
+          "genreId": 7,
+          "genreOrtho": "说唱",
+          "albumOrtho": "",
+          "songOrtho": "",
+          "artistId": 8,
+          "artistOrtho": "潘玮"
+        }
+      ],
+      "allPlayl    istInfo": []
+    },
+    "music": [
+      {
+        "genreId": 7,
+        "genreOrtho": "说唱",
+        "albumOrtho": "",
+        "songOrtho": "",
+        "artistId": 8,
+        "artistOrtho": "潘玮"
+      }
+    ],
+    "playlist": []
+  },
+  "id": 575,
+  "_cp_required": 0,
+  "detail": {
+    "    flag": 1,
+    "lastDialogState": "music_ending"
+  }
+}

@@ -1,0 +1,2 @@
+;;; Generated package description from dired-posframe.el  -*- no-byte-compile: t -*-
+(define-package "dired-posframe" "20200817.420" "Peep dired items using posframe" '((emacs "26.1") (posframe "0.7")) :commit "1a21eb9ad956a0371dd3c9e1bec53407d685f705" :authors '(("Naoya Yamashita" . "conao3@gmail.com")) :maintainer '("Naoya Yamashita" . "conao3@gmail.com") :keywords '("convenience") :url "https://github.com/conao3/dired-posframe.el")

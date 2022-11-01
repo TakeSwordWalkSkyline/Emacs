@@ -1,0 +1,35 @@
+{
+      "skill": "AIPUSH",
+      "intention": "wash_alarm_ticket",
+      "slots": {
+      },
+      "tts": "",
+      "ssml": "",
+      "recommends": [],
+      "content": {
+      },
+      "_cp_required": 0,
+      "detail": {
+        "flag": 0,
+        "lastDialogState": "aipush_root",
+        "exclusive": true
+      },
+      "_context": {
+        "skill": "AIPUSH",
+        "intention": "wash_alarm_ticket",
+        "slots": {
+        },
+        "tts": "",
+        "ssml": "",
+        "recommends": [],
+        "content": {
+        },
+        "id": 2319,
+        "_cp_required": 0,
+        "detail": {
+          "flag": 0,
+          "lastDialogState": "aipush_root",
+          "exclusive": true
+        }
+      }
+    }

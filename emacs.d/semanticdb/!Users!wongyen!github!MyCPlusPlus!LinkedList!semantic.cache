@@ -1,0 +1,85 @@
+;; Object semanticdb-project-database-file-46f3853c
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-46f3853c"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-50ab830c"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [29 48])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [50 70])
+            ("Node" type
+               (:members 
+                  ( ("data" variable (:type "int") (reparse-symbol classsubparts) [90 99])
+                    ("next" variable
+                       (:pointer 1
+                        :type ("Node" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [104 115]))                  
+                :type "struct")
+                nil [72 118])
+            ("hasCircles" function
+               (:arguments 
+                  ( ("head" variable
+                       (:pointer 1
+                        :type ("Node" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [136 147])
+                    ("" variable
+                       (:pointer 1
+                        :type ("Node" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [148 155])
+                    ("" variable (:type ("circleNode" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [155 166]))                  
+                :type "bool")
+                nil [120 444])
+            ("findLoopPorts" function
+               (:pointer 1
+                :arguments 
+                  ( ("head" variable
+                       (:pointer 1
+                        :type ("Node" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [466 477]))                  
+                :type ("Node" type (:type "class") nil nil))
+                nil [446 917])
+            ("main" function (:type "int") nil [919 1567]))          
+      :file "FastSlowPointerLinkedListLoop.cpp"
+      :pointmax 1568
+      :fsize 1609
+      :lastmodtime '(24719 26291 895926 310000)
+      :unmatched-syntax '((punctuation 154 . 155)))
+    (semanticdb-table "semanticdb-table-4af7f820"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [91 110])
+            ("unordered_set" include (:system-flag t) nil [111 135])
+            ("std::unordered_set" using (:type ("std::unordered_set" type
+                 (:prototype t
+                  :type "class")
+                  nil nil)) nil [136 161])
+            ("Node" type
+               (:members 
+                  ( ("data" variable (:type "int") (reparse-symbol classsubparts) [181 190])
+                    ("next" variable
+                       (:pointer 1
+                        :type ("Node" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [195 206]))                  
+                :type "struct")
+                nil [163 209])
+            ("hasCircles" function
+               (:arguments 
+                  ( ("head" variable
+                       (:pointer 1
+                        :type ("Node" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [227 238]))                  
+                :type "bool")
+                nil [211 488])
+            ("main" function (:type "int") nil [490 964]))          
+      :file "HashLinkedListLoop.cpp"
+      :pointmax 965
+      :fsize 1128
+      :lastmodtime '(24717 32441 461710 439000)
+      :unmatched-syntax nil))
+  :file "!Users!wongyen!github!MyCPlusPlus!LinkedList!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,30 @@
+{
+  "eventId": [
+    "select_route"
+  ],
+  "extra": {
+    "searchData": {
+      "routes": {
+        "count": "4",
+        "datas": [
+          {
+            "intention": "dalu_first",
+            "title": "大路优先"
+          },
+          {
+            "intention": "shortest_time",
+            "title": "时间最短"
+          },
+          {
+            "intention": "congestion_less",
+            "title": "拥堵更少"
+          },
+          {
+            "intention": "route_1",
+            "title": "方案1"
+          }
+        ]
+      }
+    }
+  }
+}

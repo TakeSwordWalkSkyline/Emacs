@@ -1,0 +1,596 @@
+{
+  "code": 0,
+  "message": "success",
+  "data": {
+    "requestId": "",
+    "dialogId": "",
+    "answer": {
+      "skill": "NAVI",
+      "intention": "search",
+      "slots": {
+        "originText": {
+          "value": ""
+        },
+        "keyword": {
+          "value": "中关村"
+        },
+        "region": {
+          "value": ""
+        },
+        "destination": {
+          "value": "中关村"
+        },
+        "distance": {
+          "value": "",
+          "type": ""
+        },
+        "route_title": {
+          "value": ""
+        },
+        "none_mark": {
+          "value": ""
+        }
+      },
+      "tts": "好的，已收藏四维图新大厦C座。要导航过去吗？",
+      "ssml": "好的，已收藏四维图新大厦C座。要导航过去吗？",
+      "recommends": [],
+      "content": {
+        "request": {
+          "domain": "keyword_search",
+          "kw": "中关村",
+          "type": "",
+          "city": "",
+          "province": "",
+          "area": "",
+          "sort": "default|ASC",
+          "psize": "30",
+          "pnum": "1",
+          "language": ""
+        },
+        "index": 1,
+        "icon": "",
+        "pageAction": "",
+        "numAction": 1,
+        "poiResults": {
+          "data": [
+            {
+              "poi_index": 1,
+              "index": -1,
+              "pid": "MAPISPJIZWYRJMQACRTEC",
+              "name": "四维图新大厦C座",
+              "location": "116.35369,39.97632",
+              "nlonlat": "116.354351,39.97625",
+              "address": "",
+              "pname": "",
+              "cityname": "北京市",
+              "adname": "海淀区",
+              "phone": "",
+              "type": "",
+              "typecode": "G11,G00",
+              "distance": "1060.3446",
+              "brand": "",
+              "tag": "",
+              "rinfo": "",
+              "extend": {
+                "price": "15",
+                "taste_rating": "",
+                "service_rating": "",
+                "environment_rating": "",
+                "star_rating": "",
+                "overall_rating": "",
+                "reco": "",
+                "stop_hours": "",
+                "facility": "",
+                "payment": "",
+                "parking_lot": {
+                  "total": 0,
+                  "free": 0,
+                  "type": ""
+                },
+                "charging_station": {
+                  "total": 0,
+                  "ebnum": 0,
+                  "ptype": "",
+                  "parknum": ""
+                }
+              }
+            }
+          ],
+          "pageIndex": 1,
+          "pageSize": 1,
+          "total": 1,
+          "ftype": "10"
+        },
+        "routeResults": {
+          "data": []
+        },
+        "searchData": {
+          "pois": [
+            {
+              "poi_index": 0,
+              "index": -1,
+              "pid": "MAPIJPHILWJRQVCNTRC",
+              "name": "四维图新大厦",
+              "location": "116.30614,40.05284",
+              "nlonlat": "116.30537,40.05356",
+              "address": "",
+              "pname": "",
+              "cityname": "北京市",
+              "adname": "海淀区",
+              "phone": "",
+              "type": "",
+              "typecode": "G11,G00",
+              "distance": "1900.5045",
+              "brand": "",
+              "tag": "",
+              "rinfo": "",
+              "extend": {
+                "price": "16",
+                "taste_rating": "",
+                "service_rating": "",
+                "environment_rating": "",
+                "star_rating": "",
+                "overall_rating": "",
+                "reco": "",
+                "stop_hours": "",
+                "facility": "",
+                "payment": "",
+                "parking_lot": {
+                  "total": 0,
+                  "free": 0,
+                  "type": ""
+                },
+                "charging_station": {
+                  "total": 0,
+                  "ebnum": 0,
+                  "ptype": "",
+                  "parknum": ""
+                }
+              }
+            },
+            {
+              "poi_index": 1,
+              "index": -1,
+              "pid": "MAPISPJIZWYRJMQACRTEC",
+              "name": "四维图新大厦C座",
+              "location": "116.35369,39.97632",
+              "nlonlat": "116.354351,39.97625",
+              "address": "",
+              "pname": "",
+              "cityname": "北京市",
+              "adname": "海淀区",
+              "phone": "",
+              "type": "",
+              "typecode": "G11,G00",
+              "distance": "1060.3446",
+              "brand": "",
+              "tag": "",
+              "rinfo": "",
+              "extend": {
+                "price": "15",
+                "taste_rating": "",
+                "service_rating": "",
+                "environment_rating": "",
+                "star_rating": "",
+                "overall_rating": "",
+                "reco": "",
+                "stop_hours": "",
+                "facility": "",
+                "payment": "",
+                "parking_lot": {
+                  "total": 0,
+                  "free": 0,
+                  "type": ""
+                },
+                "charging_station": {
+                  "total": 0,
+                  "ebnum": 0,
+                  "ptype": "",
+                  "parknum": ""
+                }
+              }
+            },
+            {
+              "poi_index": 2,
+              "index": -1,
+              "pid": "MAPIJPHILWJRQVCNTRC",
+              "name": "四维图新大厦A座",
+              "location": "116.30614,40.05284",
+              "nlonlat": "116.30537,40.05356",
+              "address": "",
+              "pname": "",
+              "cityname": "北京市",
+              "adname": "海淀区",
+              "phone": "",
+              "type": "",
+              "typecode": "G11,G00",
+              "distance": "1071.5045",
+              "brand": "",
+              "tag": "",
+              "rinfo": "",
+              "extend": {
+                "price": "",
+                "taste_rating": "",
+                "service_rating": "",
+                "environment_rating": "",
+                "star_rating": "",
+                "overall_rating": "",
+                "reco": "",
+                "stop_hours": "",
+                "facility": "",
+                "payment": "",
+                "parking_lot": {
+                  "total": 0,
+                  "free": 0,
+                  "type": ""
+                },
+                "charging_station": {
+                  "total": 0,
+                  "ebnum": 0,
+                  "ptype": "",
+                  "parknum": ""
+                }
+              }
+            },
+            {
+              "poi_index": 3,
+              "index": -1,
+              "pid": "MAPIJPHILWJRQVCNTRC",
+              "name": "五道口商场_3",
+              "location": "116.30614,40.05284",
+              "nlonlat": "116.30537,40.05356",
+              "address": "",
+              "pname": "",
+              "cityname": "北京市",
+              "adname": "海淀区",
+              "phone": "",
+              "type": "",
+              "typecode": "G11,G00",
+              "distance": "",
+              "brand": "",
+              "tag": "",
+              "rinfo": "",
+              "extend": {
+                "price": "",
+                "taste_rating": "",
+                "service_rating": "",
+                "environment_rating": "",
+                "star_rating": "",
+                "overall_rating": "",
+                "reco": "",
+                "stop_hours": "",
+                "facility": "",
+                "payment": "",
+                "parking_lot": {
+                  "total": 0,
+                  "free": 0,
+                  "type": ""
+                },
+                "charging_station": {
+                  "total": 0,
+                  "ebnum": 0,
+                  "ptype": "",
+                  "parknum": ""
+                }
+              }
+            }
+          ],
+          "updated": 0
+        },
+        "nluIntention": "keyword_search",
+        "nluSlots": {
+          "province": "",
+          "city": "",
+          "district": "",
+          "region": "",
+          "name": "中关村",
+          "routes": {
+            "count": "",
+            "datas": []
+          }
+        }
+      },
+      "_cp_required": 0,
+      "detail": {
+        "flag": 102,
+        "lastDialogState": ""
+      },
+      "_context": {
+        "skill": "NAVI",
+        "intention": "search",
+        "slots": {
+          "originText": {
+            "value": ""
+          },
+          "keyword": {
+            "value": "中关村"
+          },
+          "region": {
+            "value": ""
+          },
+          "destination": {
+            "value": "中关村"
+          },
+          "distance": {
+            "value": "",
+            "type": ""
+          },
+          "route_title": {
+            "value": ""
+          },
+          "none_mark": {
+            "value": ""
+          }
+        },
+        "tts": "",
+        "ssml": "",
+        "recommends": [],
+        "content": {
+          "request": {
+            "domain": "keyword_search",
+            "kw": "中关村",
+            "type": "",
+            "city": "",
+            "province": "",
+            "area": "",
+            "sort": "default|ASC",
+            "psize": "30",
+            "pnum": "1",
+            "language": ""
+          },
+          "index": 1,
+          "icon": "",
+          "pageAction": "",
+          "numAction": 1,
+          "poiResults": {
+            "data": [
+              {
+                "poi_index": 1,
+                "index": -1,
+                "pid": "MAPISPJIZWYRJMQACRTEC",
+                "name": "四维图新大厦C座",
+                "location": "116.35369,39.97632",
+                "nlonlat": "116.354351,39.97625",
+                "address": "",
+                "pname": "",
+                "cityname": "北京市",
+                "adname": "海淀区",
+                "phone": "",
+                "type": "",
+                "typecode": "G11,G00",
+                "distance": "1060.3446",
+                "brand": "",
+                "tag": "",
+                "rinfo": "",
+                "extend": {
+                  "price": "15",
+                  "taste_rating": "",
+                  "service_rating": "",
+                  "environment_rating": "",
+                  "star_rating": "",
+                  "overall_rating": "",
+                  "reco": "",
+                  "stop_hours": "",
+                  "facility": "",
+                  "payment": "",
+                  "parking_lot": {
+                    "total": 0,
+                    "free": 0,
+                    "type": ""
+                  },
+                  "charging_station": {
+                    "total": 0,
+                    "ebnum": 0,
+                    "ptype": "",
+                    "parknum": ""
+                  }
+                }
+              }
+            ],
+            "pageIndex": 1,
+            "pageSize": 1,
+            "total": 1,
+            "ftype": "10"
+          },
+          "routeResults": {
+            "data": []
+          },
+          "searchData": {
+            "pois": [
+              {
+                "poi_index": 0,
+                "index": -1,
+                "pid": "MAPIJPHILWJRQVCNTRC",
+                "name": "四维图新大厦",
+                "location": "116.30614,40.05284",
+                "nlonlat": "116.30537,40.05356",
+                "address": "",
+                "pname": "",
+                "cityname": "北京市",
+                "adname": "海淀区",
+                "phone": "",
+                "type": "",
+                "typecode": "G11,G00",
+                "distance": "1900.5045",
+                "brand": "",
+                "tag": "",
+                "rinfo": "",
+                "extend": {
+                  "price": "16",
+                  "taste_rating": "",
+                  "service_rating": "",
+                  "environment_rating": "",
+                  "star_rating": "",
+                  "overall_rating": "",
+                  "reco": "",
+                  "stop_hours": "",
+                  "facility": "",
+                  "payment": "",
+                  "parking_lot": {
+                    "total": 0,
+                    "free": 0,
+                    "type": ""
+                  },
+                  "charging_station": {
+                    "total": 0,
+                    "ebnum": 0,
+                    "ptype": "",
+                    "parknum": ""
+                  }
+                }
+              },
+              {
+                "poi_index": 1,
+                "index": -1,
+                "pid": "MAPISPJIZWYRJMQACRTEC",
+                "name": "四维图新大厦C座",
+                "location": "116.35369,39.97632",
+                "nlonlat": "116.354351,39.97625",
+                "address": "",
+                "pname": "",
+                "cityname": "北京市",
+                "adname": "海淀区",
+                "phone": "",
+                "type": "",
+                "typecode": "G11,G00",
+                "distance": "1060.3446",
+                "brand": "",
+                "tag": "",
+                "rinfo": "",
+                "extend": {
+                  "price": "15",
+                  "taste_rating": "",
+                  "service_rating": "",
+                  "environment_rating": "",
+                  "star_rating": "",
+                  "overall_rating": "",
+                  "reco": "",
+                  "stop_hours": "",
+                  "facility": "",
+                  "payment": "",
+                  "parking_lot": {
+                    "total": 0,
+                    "free": 0,
+                    "type": ""
+                  },
+                  "charging_station": {
+                    "total": 0,
+                    "ebnum": 0,
+                    "ptype": "",
+                    "parknum": ""
+                  }
+                }
+              },
+              {
+                "poi_index": 2,
+                "index": -1,
+                "pid": "MAPIJPHILWJRQVCNTRC",
+                "name": "四维图新大厦A座",
+                "location": "116.30614,40.05284",
+                "nlonlat": "116.30537,40.05356",
+                "address": "",
+                "pname": "",
+                "cityname": "北京市",
+                "adname": "海淀区",
+                "phone": "",
+                "type": "",
+                "typecode": "G11,G00",
+                "distance": "1071.5045",
+                "brand": "",
+                "tag": "",
+                "rinfo": "",
+                "extend": {
+                  "price": "",
+                  "taste_rating": "",
+                  "service_rating": "",
+                  "environment_rating": "",
+                  "star_rating": "",
+                  "overall_rating": "",
+                  "reco": "",
+                  "stop_hours": "",
+                  "facility": "",
+                  "payment": "",
+                  "parking_lot": {
+                    "total": 0,
+                    "free": 0,
+                    "type": ""
+                  },
+                  "charging_station": {
+                    "total": 0,
+                    "ebnum": 0,
+                    "ptype": "",
+                    "parknum": ""
+                  }
+                }
+              },
+              {
+                "poi_index": 3,
+                "index": -1,
+                "pid": "MAPIJPHILWJRQVCNTRC",
+                "name": "五道口商场_3",
+                "location": "116.30614,40.05284",
+                "nlonlat": "116.30537,40.05356",
+                "address": "",
+                "pname": "",
+                "cityname": "北京市",
+                "adname": "海淀区",
+                "phone": "",
+                "type": "",
+                "typecode": "G11,G00",
+                "distance": "",
+                "brand": "",
+                "tag": "",
+                "rinfo": "",
+                "extend": {
+                  "price": "",
+                  "taste_rating": "",
+                  "service_rating": "",
+                  "environment_rating": "",
+                  "star_rating": "",
+                  "overall_rating": "",
+                  "reco": "",
+                  "stop_hours": "",
+                  "facility": "",
+                  "payment": "",
+                  "parking_lot": {
+                    "total": 0,
+                    "free": 0,
+                    "type": ""
+                  },
+                  "charging_station": {
+                    "total": 0,
+                    "ebnum": 0,
+                    "ptype": "",
+                    "parknum": ""
+                  }
+                }
+              }
+            ],
+            "updated": 0
+          },
+          "nluIntention": "keyword_search",
+          "nluSlots": {
+            "province": "",
+            "city": "",
+            "district": "",
+            "region": "",
+            "name": "中关村",
+            "routes": {
+              "count": "",
+              "datas": []
+            }
+          }
+        },
+        "id": 1400,
+        "_cp_required": 0,
+        "detail": {
+          "flag": 102,
+          "lastDialogState": ""
+        }
+      }
+    },
+    "text": ""
+  },
+  "conf": 1,
+  "parseScore": 1
+}

@@ -1,0 +1,687 @@
+{
+  "code": 0,
+  "message": "success",
+  "data": {
+    "requestId": "",
+    "dialogId": "",
+    "answer": {
+      "skill": "NAVI",
+      "intention": "go_history",
+      "slots": {
+        "originText": {
+          "value": ""
+        },
+        "keyword": {
+          "value": ""
+        },
+        "region": {
+          "value": ""
+        },
+        "destination": {
+          "value": ""
+        },
+        "distance": {
+          "value": "",
+          "type": ""
+        },
+        "route_title": {
+          "value": ""
+        },
+        "none_mark": {
+          "value": ""
+        },
+        "dest_raw_name": {
+          "value": ""
+        }
+      },
+      "tts": "找到3个历史目的地，共1页，去第几个？",
+      "ssml": "找到3个历史目的地，共1页，去第几个？",
+      "recommends": [
+        "第一个",
+        "取消"
+      ],
+      "content": {
+        "request": {
+          "domain": "",
+          "kw": "",
+          "type": "",
+          "city": "",
+          "province": "",
+          "area": "",
+          "sort": "default|ASC",
+          "psize": "30",
+          "pnum": "1",
+          "language": ""
+        },
+        "index": -1,
+        "icon": "",
+        "pageAction": "",
+        "numAction": -1,
+        "poiResults": {
+          "data": [
+            {
+              "poi_index": 0,
+              "index": 0,
+              "pid": "",
+              "name": "黄焖鸡米饭(四元桥购物中心店)",
+              "location": "116.46123,39.97874",
+              "nlonlat": "116.46123,39.97874",
+              "address": "朝阳区宜居南路2号楼",
+              "pname": "北京市",
+              "cityname": "北京市",
+              "adname": "朝阳区",
+              "phone": "13683371809",
+              "type": "快餐",
+              "typecode": "",
+              "distance": "1060.3446",
+              "brand": "",
+              "tag": "㩋禹s",
+              "rinfo": "",
+              "extend": {
+                "price": "",
+                "taste_rating": "",
+                "service_rating": "",
+                "environment_rating": "",
+                "star_rating": "",
+                "overall_rating": "",
+                "reco": "",
+                "stop_hours": "",
+                "facility": "",
+                "payment": "",
+                "parking_lot": {
+                  "total": 0,
+                  "free": 0,
+                  "type": ""
+                },
+                "charging_station": {
+                  "total": 0,
+                  "ebnum": 0,
+                  "ptype": "",
+                  "parknum": ""
+                }
+              }
+            },
+            {
+              "poi_index": 1,
+              "index": 0,
+              "pid": "",
+              "name": "中关村",
+              "location": "116.31932,39.98378",
+              "nlonlat": "116.31916,39.98378",
+              "address": "北京市海淀区",
+              "pname": "北京市",
+              "cityname": "北京市",
+              "adname": "海淀区",
+              "phone": "",
+              "type": "村级地名",
+              "typecode": "",
+              "distance": "",
+              "brand": "",
+              "tag": "",
+              "rinfo": "",
+              "extend": {
+                "price": "",
+                "taste_rating": "",
+                "service_rating": "",
+                "environment_rating": "",
+                "star_rating": "",
+                "overall_rating": "",
+                "reco": "",
+                "stop_hours": "",
+                "facility": "",
+                "payment": "",
+                "parking_lot": {
+                  "total": 0,
+                  "free": 0,
+                  "type": ""
+                },
+                "charging_station": {
+                  "total": 0,
+                  "ebnum": 0,
+                  "ptype": "",
+                  "parknum": ""
+                }
+              }
+            },
+            {
+              "poi_index": 2,
+              "index": 0,
+              "pid": "",
+              "name": "中关村2222",
+              "location": "116.31932,39.98378",
+              "nlonlat": "116.31916,39.98378",
+              "address": "北京市海淀区",
+              "pname": "北京市",
+              "cityname": "北京市",
+              "adname": "海淀区",
+              "phone": "",
+              "type": "村级地名",
+              "typecode": "",
+              "distance": "1050.3446",
+              "brand": "",
+              "tag": "",
+              "rinfo": "",
+              "extend": {
+                "price": "",
+                "taste_rating": "",
+                "service_rating": "",
+                "environment_rating": "",
+                "star_rating": "",
+                "overall_rating": "",
+                "reco": "",
+                "stop_hours": "",
+                "facility": "",
+                "payment": "",
+                "parking_lot": {
+                  "total": 0,
+                  "free": 0,
+                  "type": ""
+                },
+                "charging_station": {
+                  "total": 0,
+                  "ebnum": 0,
+                  "ptype": "",
+                  "parknum": ""
+                }
+              }
+            }
+          ],
+          "pageIndex": 1,
+          "pageSize": 1,
+          "total": 3
+        },
+        "routeResults": {
+          "data": []
+        },
+        "searchData": {
+          "pois": [
+            {
+              "poi_index": 0,
+              "index": 0,
+              "pid": "",
+              "name": "黄焖鸡米饭(四元桥购物中心店)",
+              "location": "116.46123,39.97874",
+              "nlonlat": "116.46123,39.97874",
+              "address": "朝阳区宜居南路2号楼",
+              "pname": "北京市",
+              "cityname": "北京市",
+              "adname": "朝阳区",
+              "phone": "13683371809",
+              "type": "快餐",
+              "typecode": "",
+              "distance": "1060.3446",
+              "brand": "",
+              "tag": "㩋禹s",
+              "rinfo": "",
+              "extend": {
+                "price": "",
+                "taste_rating": "",
+                "service_rating": "",
+                "environment_rating": "",
+                "star_rating": "",
+                "overall_rating": "",
+                "reco": "",
+                "stop_hours": "",
+                "facility": "",
+                "payment": "",
+                "parking_lot": {
+                  "total": 0,
+                  "free": 0,
+                  "type": ""
+                },
+                "charging_station": {
+                  "total": 0,
+                  "ebnum": 0,
+                  "ptype": "",
+                  "parknum": ""
+                }
+              }
+            },
+            {
+              "poi_index": 1,
+              "index": 0,
+              "pid": "",
+              "name": "中关村",
+              "location": "116.31932,39.98378",
+              "nlonlat": "116.31916,39.98378",
+              "address": "北京市海淀区",
+              "pname": "北京市",
+              "cityname": "北京市",
+              "adname": "海淀区",
+              "phone": "",
+              "type": "村级地名",
+              "typecode": "",
+              "distance": "",
+              "brand": "",
+              "tag": "",
+              "rinfo": "",
+              "extend": {
+                "price": "",
+                "taste_rating": "",
+                "service_rating": "",
+                "environment_rating": "",
+                "star_rating": "",
+                "overall_rating": "",
+                "reco": "",
+                "stop_hours": "",
+                "facility": "",
+                "payment": "",
+                "parking_lot": {
+                  "total": 0,
+                  "free": 0,
+                  "type": ""
+                },
+                "charging_station": {
+                  "total": 0,
+                  "ebnum": 0,
+                  "ptype": "",
+                  "parknum": ""
+                }
+              }
+            },
+            {
+              "poi_index": 2,
+              "index": 0,
+              "pid": "",
+              "name": "中关村2222",
+              "location": "116.31932,39.98378",
+              "nlonlat": "116.31916,39.98378",
+              "address": "北京市海淀区",
+              "pname": "北京市",
+              "cityname": "北京市",
+              "adname": "海淀区",
+              "phone": "",
+              "type": "村级地名",
+              "typecode": "",
+              "distance": "1050.3446",
+              "brand": "",
+              "tag": "",
+              "rinfo": "",
+              "extend": {
+                "price": "",
+                "taste_rating": "",
+                "service_rating": "",
+                "environment_rating": "",
+                "star_rating": "",
+                "overall_rating": "",
+                "reco": "",
+                "stop_hours": "",
+                "facility": "",
+                "payment": "",
+                "parking_lot": {
+                  "total": 0,
+                  "free": 0,
+                  "type": ""
+                },
+                "charging_station": {
+                  "total": 0,
+                  "ebnum": 0,
+                  "ptype": "",
+                  "parknum": ""
+                }
+              }
+            }
+          ],
+          "updated": 1
+        },
+        "nluIntention": "go_history",
+        "nluSlots": {
+          "province": "",
+          "city": "",
+          "district": "",
+          "region": "",
+          "name": "",
+          "routes": {
+            "count": "",
+            "datas": []
+          }
+        }
+      },
+      "_cp_required": 0,
+      "detail": {
+        "flag": 0,
+        "lastDialogState": "map_zero"
+      },
+      "_context": {
+        "skill": "NAVI",
+        "intention": "go_history",
+        "slots": {
+          "originText": {
+            "value": ""
+          },
+          "keyword": {
+            "value": ""
+          },
+          "region": {
+            "value": ""
+          },
+          "destination": {
+            "value": ""
+          },
+          "distance": {
+            "value": "",
+            "type": ""
+          },
+          "route_title": {
+            "value": ""
+          },
+          "none_mark": {
+            "value": ""
+          },
+          "dest_raw_name": {
+            "value": ""
+          }
+        },
+        "tts": "",
+        "ssml": "",
+        "recommends": [],
+        "content": {
+          "request": {
+            "domain": "",
+            "kw": "",
+            "type": "",
+            "city": "",
+            "province": "",
+            "area": "",
+            "sort": "default|ASC",
+            "psize": "30",
+            "pnum": "1",
+            "language": ""
+          },
+          "index": -1,
+          "icon": "",
+          "pageAction": "",
+          "numAction": -1,
+          "poiResults": {
+            "data": [
+              {
+                "poi_index": 0,
+                "index": 0,
+                "pid": "",
+                "name": "黄焖鸡米饭(四元桥购物中心店)",
+                "location": "116.46123,39.97874",
+                "nlonlat": "116.46123,39.97874",
+                "address": "朝阳区宜居南路2号楼",
+                "pname": "北京市",
+                "cityname": "北京市",
+                "adname": "朝阳区",
+                "phone": "13683371809",
+                "type": "快餐",
+                "typecode": "",
+                "distance": "1060.3446",
+                "brand": "",
+                "tag": "㩋禹s",
+                "rinfo": "",
+                "extend": {
+                  "price": "",
+                  "taste_rating": "",
+                  "service_rating": "",
+                  "environment_rating": "",
+                  "star_rating": "",
+                  "overall_rating": "",
+                  "reco": "",
+                  "stop_hours": "",
+                  "facility": "",
+                  "payment": "",
+                  "parking_lot": {
+                    "total": 0,
+                    "free": 0,
+                    "type": ""
+                  },
+                  "charging_station": {
+                    "total": 0,
+                    "ebnum": 0,
+                    "ptype": "",
+                    "parknum": ""
+                  }
+                }
+              },
+              {
+                "poi_index": 1,
+                "index": 0,
+                "pid": "",
+                "name": "中关村",
+                "location": "116.31932,39.98378",
+                "nlonlat": "116.31916,39.98378",
+                "address": "北京市海淀区",
+                "pname": "北京市",
+                "cityname": "北京市",
+                "adname": "海淀区",
+                "phone": "",
+                "type": "村级地名",
+                "typecode": "",
+                "distance": "",
+                "brand": "",
+                "tag": "",
+                "rinfo": "",
+                "extend": {
+                  "price": "",
+                  "taste_rating": "",
+                  "service_rating": "",
+                  "environment_rating": "",
+                  "star_rating": "",
+                  "overall_rating": "",
+                  "reco": "",
+                  "stop_hours": "",
+                  "facility": "",
+                  "payment": "",
+                  "parking_lot": {
+                    "total": 0,
+                    "free": 0,
+                    "type": ""
+                  },
+                  "charging_station": {
+                    "total": 0,
+                    "ebnum": 0,
+                    "ptype": "",
+                    "parknum": ""
+                  }
+                }
+              },
+              {
+                "poi_index": 2,
+                "index": 0,
+                "pid": "",
+                "name": "中关村2222",
+                "location": "116.31932,39.98378",
+                "nlonlat": "116.31916,39.98378",
+                "address": "北京市海淀区",
+                "pname": "北京市",
+                "cityname": "北京市",
+                "adname": "海淀区",
+                "phone": "",
+                "type": "村级地名",
+                "typecode": "",
+                "distance": "1050.3446",
+                "brand": "",
+                "tag": "",
+                "rinfo": "",
+                "extend": {
+                  "price": "",
+                  "taste_rating": "",
+                  "service_rating": "",
+                  "environment_rating": "",
+                  "star_rating": "",
+                  "overall_rating": "",
+                  "reco": "",
+                  "stop_hours": "",
+                  "facility": "",
+                  "payment": "",
+                  "parking_lot": {
+                    "total": 0,
+                    "free": 0,
+                    "type": ""
+                  },
+                  "charging_station": {
+                    "total": 0,
+                    "ebnum": 0,
+                    "ptype": "",
+                    "parknum": ""
+                  }
+                }
+              }
+            ],
+            "pageIndex": 1,
+            "pageSize": 1,
+            "total": 3
+          },
+          "routeResults": {
+            "data": []
+          },
+          "searchData": {
+            "pois": [
+              {
+                "poi_index": 0,
+                "index": 0,
+                "pid": "",
+                "name": "黄焖鸡米饭(四元桥购物中心店)",
+                "location": "116.46123,39.97874",
+                "nlonlat": "116.46123,39.97874",
+                "address": "朝阳区宜居南路2号楼",
+                "pname": "北京市",
+                "cityname": "北京市",
+                "adname": "朝阳区",
+                "phone": "13683371809",
+                "type": "快餐",
+                "typecode": "",
+                "distance": "1060.3446",
+                "brand": "",
+                "tag": "㩋禹s",
+                "rinfo": "",
+                "extend": {
+                  "price": "",
+                  "taste_rating": "",
+                  "service_rating": "",
+                  "environment_rating": "",
+                  "star_rating": "",
+                  "overall_rating": "",
+                  "reco": "",
+                  "stop_hours": "",
+                  "facility": "",
+                  "payment": "",
+                  "parking_lot": {
+                    "total": 0,
+                    "free": 0,
+                    "type": ""
+                  },
+                  "charging_station": {
+                    "total": 0,
+                    "ebnum": 0,
+                    "ptype": "",
+                    "parknum": ""
+                  }
+                }
+              },
+              {
+                "poi_index": 1,
+                "index": 0,
+                "pid": "",
+                "name": "中关村",
+                "location": "116.31932,39.98378",
+                "nlonlat": "116.31916,39.98378",
+                "address": "北京市海淀区",
+                "pname": "北京市",
+                "cityname": "北京市",
+                "adname": "海淀区",
+                "phone": "",
+                "type": "村级地名",
+                "typecode": "",
+                "distance": "",
+                "brand": "",
+                "tag": "",
+                "rinfo": "",
+                "extend": {
+                  "price": "",
+                  "taste_rating": "",
+                  "service_rating": "",
+                  "environment_rating": "",
+                  "star_rating": "",
+                  "overall_rating": "",
+                  "reco": "",
+                  "stop_hours": "",
+                  "facility": "",
+                  "payment": "",
+                  "parking_lot": {
+                    "total": 0,
+                    "free": 0,
+                    "type": ""
+                  },
+                  "charging_station": {
+                    "total": 0,
+                    "ebnum": 0,
+                    "ptype": "",
+                    "parknum": ""
+                  }
+                }
+              },
+              {
+                "poi_index": 2,
+                "index": 0,
+                "pid": "",
+                "name": "中关村2222",
+                "location": "116.31932,39.98378",
+                "nlonlat": "116.31916,39.98378",
+                "address": "北京市海淀区",
+                "pname": "北京市",
+                "cityname": "北京市",
+                "adname": "海淀区",
+                "phone": "",
+                "type": "村级地名",
+                "typecode": "",
+                "distance": "1050.3446",
+                "brand": "",
+                "tag": "",
+                "rinfo": "",
+                "extend": {
+                  "price": "",
+                  "taste_rating": "",
+                  "service_rating": "",
+                  "environment_rating": "",
+                  "star_rating": "",
+                  "overall_rating": "",
+                  "reco": "",
+                  "stop_hours": "",
+                  "facility": "",
+                  "payment": "",
+                  "parking_lot": {
+                    "total": 0,
+                    "free": 0,
+                    "type": ""
+                  },
+                  "charging_station": {
+                    "total": 0,
+                    "ebnum": 0,
+                    "ptype": "",
+                    "parknum": ""
+                  }
+                }
+              }
+            ],
+            "updated": 1
+          },
+          "nluIntention": "go_history",
+          "nluSlots": {
+            "province": "",
+            "city": "",
+            "district": "",
+            "region": "",
+            "name": "",
+            "routes": {
+              "count": "",
+              "datas": []
+            }
+          }
+        },
+        "id": 1284,
+        "_cp_required": 0,
+        "detail": {
+          "flag": 0,
+          "lastDialogState": "map_zero"
+        }
+      }
+    },
+    "text": ""
+  },
+  "conf": 1,
+  "parseScore": 1
+}

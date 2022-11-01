@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include "cJSON.h"
+
+int main(int argc, char **argv) {
+
+    const char *a = "{ \"test\": \"test1\"}";
+    cJSON *json = cJSON_Parse(a);
+    cJSON *test = cJSON_GetObjectItem(json, "test");
+    if (test->type == cJSON_String) {
+        printf("%s\n", test->valuestring);
+    }
+    cJSON_Delete(json);
+}

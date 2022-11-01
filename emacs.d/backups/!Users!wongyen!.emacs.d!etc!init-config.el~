@@ -1,0 +1,6 @@
+;;;;;;;;;;;;;
+;; 基础模块 ;;
+;;;;;;;;;;;;;
+(require '+autoload)
+(require '+config)
+(require 'init-package)

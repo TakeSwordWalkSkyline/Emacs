@@ -1,0 +1,16 @@
+;; Object semanticdb-project-database-file-43d2f94e
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-43d2f94e"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-b11fe868"
+      :major-mode json-mode
+      :tags nil
+      :file "answer-simplied.json"
+      :pointmax 380061
+      :fsize 395150
+      :lastmodtime '(24978 3948 0 0)
+      :unmatched-syntax nil))
+  :file "!scp:wangxin@192.168.128.70:!data1!wangxin!gitlab!21mml!answer!yue!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,48 @@
+{
+  "result": {
+    "skill": "CALL_PHONE",
+    "intention": "calling_in",
+    "_embedded": {
+      "nluResult": {
+        "intention": "ignore"
+      },
+      "embeddedContext": {
+        "skill": "CALL_PHONE",
+        "intention": "calling_in",
+        "slots": {
+        },
+        "tts": "",
+        "ssml": "",
+        "recommends": [],
+        "content": {
+        },
+        "id": 39,
+        "_cp_required": 0,
+        "detail": {
+          "flag": 0,
+          "lastDialogState": "calling_in",
+          "exclusive": true
+        }
+      }
+    },
+    "_context": {
+      "skill": "CALL_PHONE",
+      "intention": "calling_in",
+      "slots": {
+      },
+      "tts": "",
+      "ssml": "",
+      "recommends": [],
+      "content": {
+      },
+      "id": 39,
+      "_cp_required": 0,
+      "detail": {
+        "flag": 0,
+        "lastDialogState": "calling_in",
+        "exclusive": true
+      }
+    },
+    "exclusive": true
+  }
+}

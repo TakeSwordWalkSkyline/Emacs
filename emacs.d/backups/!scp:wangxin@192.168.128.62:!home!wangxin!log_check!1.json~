@@ -1,0 +1,632 @@
+{
+  "code": 0,
+  "message": "success",
+  "data": {
+    "requestId": "",
+    "dialogId": "",
+    "answer": {
+      "skill": "WAIMAI",
+      "intention": "query",
+      "slots": {
+        "address": {
+          "value": ""
+        },
+        "name": ""
+      },
+      "tts": "已返回。",
+      "ssml": "已返回。",
+      "recommends": [],
+      "content": {
+        "waimaiDesc": {
+          "wifi": "0",
+          "address": "西城区西单北大街120号西单商场南区B1层",
+          "avgprice": "29",
+          "phone": "15010407162/13811655632",
+          "frontimg": "http://p0.meituan.net/bbia/3e36af692ce40ea56575b7c19dc3581c464792.png",
+          "openstatus": "营业中",
+          "avgscore": "4.1",
+          "iurl": "https://runion.meituan.com/url?key=58677350c9704c823b81893a07bb41af454&url=https%3A%2F%2Fi.meituan.com%2Fshop%2Fencryptpoiid&encryptpoiid=r_vfct3zkt8mBW4pJ7CTtA",
+          "name": "吉野家（西单商场店）",
+          "distasnce": "2.08",
+          "openinfo": "周一至周日\n09:30-20:30"
+        },
+        "waimaiInfo": [
+          {
+            "avgprice": "29",
+            "frontimg": "http://p0.meituan.net/bbia/3e36af692ce40ea56575b7c19dc3581c464792.png",
+            "avgscore": "4.1",
+            "name": "吉野家（西单商场店）",
+            "distasnce": "2.08",
+            "sid": "r_vfct3zkt8mBW4pJ7CTtA"
+          },
+          {
+            "avgprice": "160",
+            "frontimg": "https://img.meituan.net/msmerchant/270a59f4fe8d5df61791aead417173fa255735.jpg",
+            "avgscore": "4.1",
+            "name": "丰泽园饭店",
+            "distasnce": "1.75",
+            "sid": "8tGI16v909xDo9i7TDmsnw"
+          },
+          {
+            "avgprice": "35",
+            "frontimg": "http://p0.meituan.net/biztone/569e41cb03776fae520fd7bf48de69211473921.jpg",
+            "avgscore": "4.4",
+            "name": "清真·海记德顺斋八大碗",
+            "distasnce": "2.77",
+            "sid": "iVwejnwm7zEIYviOdDufwQ"
+          }
+        ],
+        "searchData": {
+          "updated": 0,
+          "allWaimaiInfo": [
+            {
+              "avgprice": "105",
+              "frontimg": "https://img.meituan.net/msmerchant/59ea8d1ba1f99cf63ae573169e74c7e968465.jpg",
+              "avgscore": "4.4",
+              "name": "局气（前门店）",
+              "distasnce": "0.93",
+              "sid": "CCdN-7pff_KzuToF76ZHnA"
+            },
+            {
+              "avgprice": "80",
+              "frontimg": "https://img.meituan.net/msmerchant/e93287e612466b161963c27279e28c1e968356.jpg",
+              "avgscore": "4.9",
+              "name": "巴蜀王婆大虾（崇文门店）",
+              "distasnce": "1.73",
+              "sid": "3wDSkK-wx_eyacQPGJ3iAw"
+            },
+            {
+              "avgprice": "106",
+              "frontimg": "https://img.meituan.net/msmerchant/59ea8d1ba1f99cf63ae573169e74c7e968465.jpg",
+              "avgscore": "4.7",
+              "name": "局气（西单店）",
+              "distasnce": "1.64",
+              "sid": "b70RxFMfuTIC7k1XNJFZFA"
+            },
+            {
+              "avgprice": "29",
+              "frontimg": "http://p0.meituan.net/biztone/c23d1f150f634b0e3291ce77aa22a39e364747.jpg",
+              "avgscore": "4.2",
+              "name": "吉野家（珠市口店）",
+              "distasnce": "1.61",
+              "sid": "-2DOzZsROqzZ6a3fAKP3cA"
+            },
+            {
+              "avgprice": "111",
+              "frontimg": "https://img.meituan.net/msmerchant/ee8a6733091373e1d9e784f6c49ad2bb231945.jpg",
+              "avgscore": "3.9",
+              "name": "祖母的厨房美式西餐厅（北京坊店）",
+              "distasnce": "0.93",
+              "sid": "k46AJxGCWuxYHLOt4ZwLHw"
+            },
+            {
+              "avgprice": "68",
+              "frontimg": "https://img.meituan.net/msmerchant/da5b26ae6aadb40ded877f9c7889b48052108.jpg",
+              "avgscore": "4.4",
+              "name": "胖哥俩肉蟹煲（西单大悦城店）",
+              "distasnce": "2.18",
+              "sid": "_Fppa7iujfi7sRO0HjQ70g"
+            },
+            {
+              "avgprice": "45",
+              "frontimg": "https://img.meituan.net/msmerchant/bf85dbe137a9c06e104cfe62748f31fd161469.jpg",
+              "avgscore": "3.9",
+              "name": "北京炸酱面馆（前门总店）",
+              "distasnce": "1.26",
+              "sid": "A5l56TD50p96xnYA9_5VLw"
+            },
+            {
+              "avgprice": "85",
+              "frontimg": "http://p0.meituan.net/biztone/160730123_1629079128543.jpeg",
+              "avgscore": "4.6",
+              "name": "小吊梨汤（王府井银泰in88店）",
+              "distasnce": "1.62",
+              "sid": "BVugo39KXqqXoLUrO2O-Qg"
+            },
+            {
+              "avgprice": "32",
+              "frontimg": "http://p0.meituan.net/biztone/c6bf91553ec38f6cc7984a511e494b86154747.jpg",
+              "avgscore": "4.3",
+              "name": "京匠小馆老北京炸酱面",
+              "distasnce": "1.39",
+              "sid": "9H5_aJGoh1aOxazJ8nStJA"
+            },
+            {
+              "avgprice": "25",
+              "frontimg": "http://p0.meituan.net/merchant/54ea843914cae10075c67b7aa9abb16d296486.png",
+              "avgscore": "4.7",
+              "name": "阿婆牛杂•非遗小吃（前门店）",
+              "distasnce": "1.14",
+              "sid": "nd-Rfei_BkqC656RaWjkbA"
+            },
+            {
+              "avgprice": "53",
+              "frontimg": "http://p0.meituan.net/mogu/5ed2519c3b7e09e43c917a60c66d98be310254.jpg",
+              "avgscore": "4.1",
+              "name": "老北京炸酱面大王（崇文门店）",
+              "distasnce": "1.81",
+              "sid": "uYxuTWlM6R_L7AFa5zeeYA"
+            },
+            {
+              "avgprice": "232",
+              "frontimg": "http://p0.meituan.net/biztone/157733835_1623277857622.jpeg",
+              "avgscore": "4.5",
+              "name": "北平花园（天安门店）",
+              "distasnce": "0.92",
+              "sid": "fXwT3Yr_EhmQlBdQP6g9fA"
+            },
+            {
+              "avgprice": "48",
+              "frontimg": "http://p0.meituan.net/biztone/66b391284c0eaa24afb8d85cdd381622846293.jpg",
+              "avgscore": "5",
+              "name": "紫光园（美术馆店）",
+              "distasnce": "2.64",
+              "sid": "In88GVWjVMBA_X9-e-JCFg"
+            },
+            {
+              "avgprice": "92",
+              "frontimg": "http://p1.meituan.net/mogu/6cfc6abd1376863c9b1d91f07a3d0c35330923.jpg",
+              "avgscore": "4.1",
+              "name": "西来顺饭庄",
+              "distasnce": "1.25",
+              "sid": "2XOyF535847I0eAI5OfphA"
+            },
+            {
+              "avgprice": "73",
+              "frontimg": "http://p1.meituan.net/biztone/86591362_1624965354966.jpeg",
+              "avgscore": "4.2",
+              "name": "薄荷餐厅（西单大悦城店）",
+              "distasnce": "2.15",
+              "sid": "9S1tFKQZGJBVySZAEKNbJg"
+            },
+            {
+              "avgprice": "83",
+              "frontimg": "http://p0.meituan.net/bbia/bcdc4538155961d470960f6c76989e164186126.jpg",
+              "avgscore": "4.4",
+              "name": "西单小院",
+              "distasnce": "1.97",
+              "sid": "r81XHMMLitwXPF-HQbkcoQ"
+            },
+            {
+              "avgprice": "103",
+              "frontimg": "https://img.meituan.net/msmerchant/59ea8d1ba1f99cf63ae573169e74c7e968465.jpg",
+              "avgscore": "4.5",
+              "name": "局气（王府井apm店）",
+              "distasnce": "1.50",
+              "sid": "TGpwSCJ4sUor-iqoaeQf5g"
+            },
+            {
+              "avgprice": "99",
+              "frontimg": "http://p0.meituan.net/merchant/25d6986c53c22ed3e90d3fd73c86e0741747812.png",
+              "avgscore": "4",
+              "name": "便宜坊烤鸭（鲜鱼口店）",
+              "distasnce": "1.16",
+              "sid": "FyP7hny32bYJ2r8yWCazOw"
+            },
+            {
+              "avgprice": "86",
+              "frontimg": "http://p0.meituan.net/biztone/160730123_1629079128543.jpeg",
+              "avgscore": "4.6",
+              "name": "小吊梨汤（西单店）",
+              "distasnce": "2.28",
+              "sid": "9dJPGjWrh8jwhgO8lr_1ig"
+            },
+            {
+              "avgprice": "60",
+              "frontimg": "https://img.meituan.net/msmerchant/66a95b06067d6f7861b66cd90793649437821.jpg",
+              "avgscore": "4.2",
+              "name": "那年约火锅·烤场",
+              "distasnce": "2.47",
+              "sid": "XY-OGCLTT8mmvFAJZmuvVA"
+            },
+            {
+              "avgprice": "58",
+              "frontimg": "https://img.meituan.net/msmerchant/8f1d0f0499ea81d0c7a01a58b16a668c1194154.jpg",
+              "avgscore": "4.3",
+              "name": "绿茶餐厅（西单老佛爷店）",
+              "distasnce": "2.14",
+              "sid": "mKoyvNOvwHkFh8yfmgMIZw"
+            },
+            {
+              "avgprice": "60",
+              "frontimg": "http://p0.meituan.net/apiback/0184ea795defb08f98e08ce268a2d06798815.jpg",
+              "avgscore": "3.6",
+              "name": "便宜坊御膳饭庄（崇文门店）",
+              "distasnce": "2.26",
+              "sid": "_8erPqlPStUGamhrPqNYNg"
+            },
+            {
+              "avgprice": "49",
+              "frontimg": "http://p0.meituan.net/biztone/66b391284c0eaa24afb8d85cdd381622846293.jpg",
+              "avgscore": "4.9",
+              "name": "紫光园（西四店）",
+              "distasnce": "2.60",
+              "sid": "CN77QIihlC2Vtw_zUQ2NcA"
+            },
+            {
+              "avgprice": "60",
+              "frontimg": "https://img.meituan.net/msmerchant/8f1d0f0499ea81d0c7a01a58b16a668c1194154.jpg",
+              "avgscore": "4.2",
+              "name": "绿茶餐厅（崇文门新世界店）",
+              "distasnce": "1.93",
+              "sid": "IODY1bnoo2AcUVd4ZJwXuw"
+            },
+            {
+              "avgprice": "29",
+              "frontimg": "http://p0.meituan.net/bbia/3e36af692ce40ea56575b7c19dc3581c464792.png",
+              "avgscore": "4.1",
+              "name": "吉野家（西单商场店）",
+              "distasnce": "2.08",
+              "sid": "r_vfct3zkt8mBW4pJ7CTtA"
+            },
+            {
+              "avgprice": "160",
+              "frontimg": "https://img.meituan.net/msmerchant/270a59f4fe8d5df61791aead417173fa255735.jpg",
+              "avgscore": "4.1",
+              "name": "丰泽园饭店",
+              "distasnce": "1.75",
+              "sid": "8tGI16v909xDo9i7TDmsnw"
+            },
+            {
+              "avgprice": "35",
+              "frontimg": "http://p0.meituan.net/biztone/569e41cb03776fae520fd7bf48de69211473921.jpg",
+              "avgscore": "4.4",
+              "name": "清真·海记德顺斋八大碗",
+              "distasnce": "2.77",
+              "sid": "iVwejnwm7zEIYviOdDufwQ"
+            },
+            {
+              "avgprice": "74",
+              "frontimg": "https://img.meituan.net/msmerchant/1ca38da36c1ad9c137ca989e9a7d52042586589.jpg",
+              "avgscore": "4.7",
+              "name": "京城第一羯（前门总店）",
+              "distasnce": "0.87",
+              "sid": "AvKMj3Cvi-znkFpg-bJQjA"
+            },
+            {
+              "avgprice": "72",
+              "frontimg": "http://p0.meituan.net/bbia/ca65af16b23c2eb487671a7767b3fb7e100191.jpg",
+              "avgscore": "4.6",
+              "name": "蝎王府羊蝎子（虎坊桥店）",
+              "distasnce": "2.25",
+              "sid": "RF4WBFiusOP5lYhHXuoE7w"
+            },
+            {
+              "avgprice": "82",
+              "frontimg": "http://p0.meituan.net/bbia/b446baf08b5e82f5d60ee90f49eb13c8476050.jpg",
+              "avgscore": "4.2",
+              "name": "火炉火自助餐（新世界百货崇文店）",
+              "distasnce": "1.95",
+              "sid": "mnjyA5DTOqZ_osliJmVOWQ"
+            }
+          ]
+        },
+        "pageAction": "",
+        "numAction": -1,
+        "total": 30,
+        "pageIndex": 9,
+        "pageSize": 10,
+        "code": 0
+      },
+      "_cp_required": 0,
+      "detail": {
+        "flag": 0,
+        "lastDialogState": "waimai_display_multiple_page"
+      },
+      "_context": {
+        "skill": "WAIMAI",
+        "intention": "query",
+        "slots": {
+          "address": {
+            "value": ""
+          },
+          "name": ""
+        },
+        "tts": "",
+        "ssml": "",
+        "recommends": [],
+        "content": {
+          "waimaiDesc": {
+            "wifi": "0",
+            "address": "西城区西单北大街120号西单商场南区B1层",
+            "avgprice": "29",
+            "phone": "15010407162/13811655632",
+            "frontimg": "http://p0.meituan.net/bbia/3e36af692ce40ea56575b7c19dc3581c464792.png",
+            "openstatus": "营业中",
+            "avgscore": "4.1",
+            "iurl": "https://runion.meituan.com/url?key=58677350c9704c823b81893a07bb41af454&url=https%3A%2F%2Fi.meituan.com%2Fshop%2Fencryptpoiid&encryptpoiid=r_vfct3zkt8mBW4pJ7CTtA",
+            "name": "吉野家（西单商场店）",
+            "distasnce": "2.08",
+            "openinfo": "周一至周日\n09:30-20:30"
+          },
+          "waimaiInfo": [
+            {
+              "avgprice": "29",
+              "frontimg": "http://p0.meituan.net/bbia/3e36af692ce40ea56575b7c19dc3581c464792.png",
+              "avgscore": "4.1",
+              "name": "吉野家（西单商场店）",
+              "distasnce": "2.08",
+              "sid": "r_vfct3zkt8mBW4pJ7CTtA"
+            },
+            {
+              "avgprice": "160",
+              "frontimg": "https://img.meituan.net/msmerchant/270a59f4fe8d5df61791aead417173fa255735.jpg",
+              "avgscore": "4.1",
+              "name": "丰泽园饭店",
+              "distasnce": "1.75",
+              "sid": "8tGI16v909xDo9i7TDmsnw"
+            },
+            {
+              "avgprice": "35",
+              "frontimg": "http://p0.meituan.net/biztone/569e41cb03776fae520fd7bf48de69211473921.jpg",
+              "avgscore": "4.4",
+              "name": "清真·海记德顺斋八大碗",
+              "distasnce": "2.77",
+              "sid": "iVwejnwm7zEIYviOdDufwQ"
+            }
+          ],
+          "searchData": {
+            "updated": 0,
+            "allWaimaiInfo": [
+              {
+                "avgprice": "105",
+                "frontimg": "https://img.meituan.net/msmerchant/59ea8d1ba1f99cf63ae573169e74c7e968465.jpg",
+                "avgscore": "4.4",
+                "name": "局气（前门店）",
+                "distasnce": "0.93",
+                "sid": "CCdN-7pff_KzuToF76ZHnA"
+              },
+              {
+                "avgprice": "80",
+                "frontimg": "https://img.meituan.net/msmerchant/e93287e612466b161963c27279e28c1e968356.jpg",
+                "avgscore": "4.9",
+                "name": "巴蜀王婆大虾（崇文门店）",
+                "distasnce": "1.73",
+                "sid": "3wDSkK-wx_eyacQPGJ3iAw"
+              },
+              {
+                "avgprice": "106",
+                "frontimg": "https://img.meituan.net/msmerchant/59ea8d1ba1f99cf63ae573169e74c7e968465.jpg",
+                "avgscore": "4.7",
+                "name": "局气（西单店）",
+                "distasnce": "1.64",
+                "sid": "b70RxFMfuTIC7k1XNJFZFA"
+              },
+              {
+                "avgprice": "29",
+                "frontimg": "http://p0.meituan.net/biztone/c23d1f150f634b0e3291ce77aa22a39e364747.jpg",
+                "avgscore": "4.2",
+                "name": "吉野家（珠市口店）",
+                "distasnce": "1.61",
+                "sid": "-2DOzZsROqzZ6a3fAKP3cA"
+              },
+              {
+                "avgprice": "111",
+                "frontimg": "https://img.meituan.net/msmerchant/ee8a6733091373e1d9e784f6c49ad2bb231945.jpg",
+                "avgscore": "3.9",
+                "name": "祖母的厨房美式西餐厅（北京坊店）",
+                "distasnce": "0.93",
+                "sid": "k46AJxGCWuxYHLOt4ZwLHw"
+              },
+              {
+                "avgprice": "68",
+                "frontimg": "https://img.meituan.net/msmerchant/da5b26ae6aadb40ded877f9c7889b48052108.jpg",
+                "avgscore": "4.4",
+                "name": "胖哥俩肉蟹煲（西单大悦城店）",
+                "distasnce": "2.18",
+                "sid": "_Fppa7iujfi7sRO0HjQ70g"
+              },
+              {
+                "avgprice": "45",
+                "frontimg": "https://img.meituan.net/msmerchant/bf85dbe137a9c06e104cfe62748f31fd161469.jpg",
+                "avgscore": "3.9",
+                "name": "北京炸酱面馆（前门总店）",
+                "distasnce": "1.26",
+                "sid": "A5l56TD50p96xnYA9_5VLw"
+              },
+              {
+                "avgprice": "85",
+                "frontimg": "http://p0.meituan.net/biztone/160730123_1629079128543.jpeg",
+                "avgscore": "4.6",
+                "name": "小吊梨汤（王府井银泰in88店）",
+                "distasnce": "1.62",
+                "sid": "BVugo39KXqqXoLUrO2O-Qg"
+              },
+              {
+                "avgprice": "32",
+                "frontimg": "http://p0.meituan.net/biztone/c6bf91553ec38f6cc7984a511e494b86154747.jpg",
+                "avgscore": "4.3",
+                "name": "京匠小馆老北京炸酱面",
+                "distasnce": "1.39",
+                "sid": "9H5_aJGoh1aOxazJ8nStJA"
+              },
+              {
+                "avgprice": "25",
+                "frontimg": "http://p0.meituan.net/merchant/54ea843914cae10075c67b7aa9abb16d296486.png",
+                "avgscore": "4.7",
+                "name": "阿婆牛杂•非遗小吃（前门店）",
+                "distasnce": "1.14",
+                "sid": "nd-Rfei_BkqC656RaWjkbA"
+              },
+              {
+                "avgprice": "53",
+                "frontimg": "http://p0.meituan.net/mogu/5ed2519c3b7e09e43c917a60c66d98be310254.jpg",
+                "avgscore": "4.1",
+                "name": "老北京炸酱面大王（崇文门店）",
+                "distasnce": "1.81",
+                "sid": "uYxuTWlM6R_L7AFa5zeeYA"
+              },
+              {
+                "avgprice": "232",
+                "frontimg": "http://p0.meituan.net/biztone/157733835_1623277857622.jpeg",
+                "avgscore": "4.5",
+                "name": "北平花园（天安门店）",
+                "distasnce": "0.92",
+                "sid": "fXwT3Yr_EhmQlBdQP6g9fA"
+              },
+              {
+                "avgprice": "48",
+                "frontimg": "http://p0.meituan.net/biztone/66b391284c0eaa24afb8d85cdd381622846293.jpg",
+                "avgscore": "5",
+                "name": "紫光园（美术馆店）",
+                "distasnce": "2.64",
+                "sid": "In88GVWjVMBA_X9-e-JCFg"
+              },
+              {
+                "avgprice": "92",
+                "frontimg": "http://p1.meituan.net/mogu/6cfc6abd1376863c9b1d91f07a3d0c35330923.jpg",
+                "avgscore": "4.1",
+                "name": "西来顺饭庄",
+                "distasnce": "1.25",
+                "sid": "2XOyF535847I0eAI5OfphA"
+              },
+              {
+                "avgprice": "73",
+                "frontimg": "http://p1.meituan.net/biztone/86591362_1624965354966.jpeg",
+                "avgscore": "4.2",
+                "name": "薄荷餐厅（西单大悦城店）",
+                "distasnce": "2.15",
+                "sid": "9S1tFKQZGJBVySZAEKNbJg"
+              },
+              {
+                "avgprice": "83",
+                "frontimg": "http://p0.meituan.net/bbia/bcdc4538155961d470960f6c76989e164186126.jpg",
+                "avgscore": "4.4",
+                "name": "西单小院",
+                "distasnce": "1.97",
+                "sid": "r81XHMMLitwXPF-HQbkcoQ"
+              },
+              {
+                "avgprice": "103",
+                "frontimg": "https://img.meituan.net/msmerchant/59ea8d1ba1f99cf63ae573169e74c7e968465.jpg",
+                "avgscore": "4.5",
+                "name": "局气（王府井apm店）",
+                "distasnce": "1.50",
+                "sid": "TGpwSCJ4sUor-iqoaeQf5g"
+              },
+              {
+                "avgprice": "99",
+                "frontimg": "http://p0.meituan.net/merchant/25d6986c53c22ed3e90d3fd73c86e0741747812.png",
+                "avgscore": "4",
+                "name": "便宜坊烤鸭（鲜鱼口店）",
+                "distasnce": "1.16",
+                "sid": "FyP7hny32bYJ2r8yWCazOw"
+              },
+              {
+                "avgprice": "86",
+                "frontimg": "http://p0.meituan.net/biztone/160730123_1629079128543.jpeg",
+                "avgscore": "4.6",
+                "name": "小吊梨汤（西单店）",
+                "distasnce": "2.28",
+                "sid": "9dJPGjWrh8jwhgO8lr_1ig"
+              },
+              {
+                "avgprice": "60",
+                "frontimg": "https://img.meituan.net/msmerchant/66a95b06067d6f7861b66cd90793649437821.jpg",
+                "avgscore": "4.2",
+                "name": "那年约火锅·烤场",
+                "distasnce": "2.47",
+                "sid": "XY-OGCLTT8mmvFAJZmuvVA"
+              },
+              {
+                "avgprice": "58",
+                "frontimg": "https://img.meituan.net/msmerchant/8f1d0f0499ea81d0c7a01a58b16a668c1194154.jpg",
+                "avgscore": "4.3",
+                "name": "绿茶餐厅（西单老佛爷店）",
+                "distasnce": "2.14",
+                "sid": "mKoyvNOvwHkFh8yfmgMIZw"
+              },
+              {
+                "avgprice": "60",
+                "frontimg": "http://p0.meituan.net/apiback/0184ea795defb08f98e08ce268a2d06798815.jpg",
+                "avgscore": "3.6",
+                "name": "便宜坊御膳饭庄（崇文门店）",
+                "distasnce": "2.26",
+                "sid": "_8erPqlPStUGamhrPqNYNg"
+              },
+              {
+                "avgprice": "49",
+                "frontimg": "http://p0.meituan.net/biztone/66b391284c0eaa24afb8d85cdd381622846293.jpg",
+                "avgscore": "4.9",
+                "name": "紫光园（西四店）",
+                "distasnce": "2.60",
+                "sid": "CN77QIihlC2Vtw_zUQ2NcA"
+              },
+              {
+                "avgprice": "60",
+                "frontimg": "https://img.meituan.net/msmerchant/8f1d0f0499ea81d0c7a01a58b16a668c1194154.jpg",
+                "avgscore": "4.2",
+                "name": "绿茶餐厅（崇文门新世界店）",
+                "distasnce": "1.93",
+                "sid": "IODY1bnoo2AcUVd4ZJwXuw"
+              },
+              {
+                "avgprice": "29",
+                "frontimg": "http://p0.meituan.net/bbia/3e36af692ce40ea56575b7c19dc3581c464792.png",
+                "avgscore": "4.1",
+                "name": "吉野家（西单商场店）",
+                "distasnce": "2.08",
+                "sid": "r_vfct3zkt8mBW4pJ7CTtA"
+              },
+              {
+                "avgprice": "160",
+                "frontimg": "https://img.meituan.net/msmerchant/270a59f4fe8d5df61791aead417173fa255735.jpg",
+                "avgscore": "4.1",
+                "name": "丰泽园饭店",
+                "distasnce": "1.75",
+                "sid": "8tGI16v909xDo9i7TDmsnw"
+              },
+              {
+                "avgprice": "35",
+                "frontimg": "http://p0.meituan.net/biztone/569e41cb03776fae520fd7bf48de69211473921.jpg",
+                "avgscore": "4.4",
+                "name": "清真·海记德顺斋八大碗",
+                "distasnce": "2.77",
+                "sid": "iVwejnwm7zEIYviOdDufwQ"
+              },
+              {
+                "avgprice": "74",
+                "frontimg": "https://img.meituan.net/msmerchant/1ca38da36c1ad9c137ca989e9a7d52042586589.jpg",
+                "avgscore": "4.7",
+                "name": "京城第一羯（前门总店）",
+                "distasnce": "0.87",
+                "sid": "AvKMj3Cvi-znkFpg-bJQjA"
+              },
+              {
+                "avgprice": "72",
+                "frontimg": "http://p0.meituan.net/bbia/ca65af16b23c2eb487671a7767b3fb7e100191.jpg",
+                "avgscore": "4.6",
+                "name": "蝎王府羊蝎子（虎坊桥店）",
+                "distasnce": "2.25",
+                "sid": "RF4WBFiusOP5lYhHXuoE7w"
+              },
+              {
+                "avgprice": "82",
+                "frontimg": "http://p0.meituan.net/bbia/b446baf08b5e82f5d60ee90f49eb13c8476050.jpg",
+                "avgscore": "4.2",
+                "name": "火炉火自助餐（新世界百货崇文店）",
+                "distasnce": "1.95",
+                "sid": "mnjyA5DTOqZ_osliJmVOWQ"
+              }
+            ]
+          },
+          "pageAction": "",
+          "numAction": -1,
+          "total": 30,
+          "pageIndex": 9,
+          "pageSize": 10,
+          "code": 0
+        },
+        "id": 4885,
+        "_cp_required": 0,
+        "detail": {
+          "flag": 0,
+          "lastDialogState": "waimai_display_multiple_page"
+        }
+      }
+    },
+    "text": "返回"
+  },
+  "conf": 1,
+  "parseScore": 1
+}
