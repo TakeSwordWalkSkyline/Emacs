@@ -34,7 +34,7 @@
   :group 'company)
 
 (defcustom company-clang-executable
-  (executable-find "clang")
+  (executable-find "clang++")
   "Location of clang executable."
   :type 'file)
 
